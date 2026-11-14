@@ -1,0 +1,91 @@
+GAME
+{
+    "CampaignName" "Alien Swarm Sigma"
+    "CampaignDescription" ""
+    "CampaignTextureLayer1" "swarm/Campaign/CampaignMap_EmptyLayer"
+    "CampaignTextureLayer2" "swarm/Campaign/CampaignMap_EmptyLayer"
+    "CampaignTextureLayer3" "swarm/Campaign/CampaignMap_EmptyLayer"
+    "GalaxyX" "1024"
+    "GalaxyY" "1024"
+    "MISSION"
+    {
+        "MissionName" "Reactor Core"
+        "MapName" "AO-ReactorCore"
+        "LocationX" "64"
+        "LocationY" "512"
+        "Links" "AO-Rescue"
+        "AlwaysVisible" "1"
+    }
+    "MISSION"
+    {
+        "MissionName" "Rescue"
+        "MapName" "AO-Rescue"
+        "LocationX" "176"
+        "LocationY" "512"
+        "Links" "AO-ReactorCore AO-Salvage"
+        "AlwaysVisible" "1"
+    }
+    "MISSION"
+    {
+        "MissionName" "Salvage"
+        "MapName" "AO-Salvage"
+        "LocationX" "288"
+        "LocationY" "512"
+        "Links" "AO-Rescue AO-Barracks"
+        "AlwaysVisible" "1"
+    }
+    "MISSION"
+    {
+        "MissionName" "Barracks"
+        "MapName" "AO-Barracks"
+        "LocationX" "400"
+        "LocationY" "512"
+        "Links" "AO-Salvage AO-Research"
+        "AlwaysVisible" "1"
+    }
+    "MISSION"
+    {
+        "MissionName" "AO-Research"
+        "MapName" "AO-Research"
+        "LocationX" "512"
+        "LocationY" "512"
+        "Links" "AO-Barracks AO-Observation"
+        "AlwaysVisible" "1"
+    }
+    "MISSION"
+    {
+        "MissionName" "AO-Observation"
+        "MapName" "AO-Observation"
+        "LocationX" "624"
+        "LocationY" "512"
+        "Links" "AO-Research AO-Uplink"
+        "AlwaysVisible" "1"
+    }
+    "MISSION"
+    {
+        "MissionName" "Uplink"
+        "MapName" "AO-Uplink"
+        "LocationX" "736"
+        "LocationY" "512"
+        "Links" "AO-Observation AO-BioLabFacility"
+        "AlwaysVisible" "1"
+    }
+    "MISSION"
+    {
+        "MissionName" "Syntek BioLab Facility"
+        "MapName" "AO-BioLabFacility"
+        "LocationX" "848"
+        "LocationY" "512"
+        "Links" "AO-Uplink AO-Aspirant"
+        "AlwaysVisible" "1"
+    }
+    "MISSION"
+    {
+        "MissionName" "Aspirant"
+        "MapName" "AO-Aspirant"
+        "LocationX" "960"
+        "LocationY" "512"
+        "Links" "AO-BioLabFacility"
+        "AlwaysVisible" "1"
+    }
+}

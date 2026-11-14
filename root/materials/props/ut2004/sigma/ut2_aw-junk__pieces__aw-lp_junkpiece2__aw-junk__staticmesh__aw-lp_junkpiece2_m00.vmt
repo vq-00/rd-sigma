@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/ut2_AW-Junk__Pieces__AW-LP_JunkPiece2__AW-Junk__StaticMesh__AW-LP_JunkPiece2_m00"
+    "$surfaceprop" "metal"
+    "$model" "1"
+}

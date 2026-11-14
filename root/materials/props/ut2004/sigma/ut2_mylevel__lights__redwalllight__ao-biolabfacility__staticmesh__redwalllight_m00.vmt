@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/ut2_myLevel__Lights__RedWallLight__AO-BioLabFacility__StaticMesh__RedWallLight_m00"
+    "$surfaceprop" "metal"
+    "$model" "1"
+}

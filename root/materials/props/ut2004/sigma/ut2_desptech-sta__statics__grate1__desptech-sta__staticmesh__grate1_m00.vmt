@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/ut2_DespTech-STA__Statics__Grate1__DespTech-STA__StaticMesh__Grate1_m00"
+    "$surfaceprop" "metal"
+    "$model" "1"
+}

@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/ut2_skyline-meshes-epic__structural__skyline-pillarbroken-filled__skyline-meshes-epic__StaticMesh__skyline-pillarbroken-filled_m00"
+    "$surfaceprop" "metal"
+    "$model" "1"
+}

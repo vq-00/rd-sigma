@@ -1,0 +1,5 @@
+"LightmappedGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/brush/X_SG_Special_Decos__Mech__sg_Mechdecobody_diff"
+    "$surfaceprop" "concrete"
+}

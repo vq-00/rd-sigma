@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/ut2_XGame_StaticMeshes__GameObjects__MonitorC__XGame_StaticMeshes__StaticMesh__MonitorC_m01"
+    "$surfaceprop" "metal"
+    "$model" "1"
+}

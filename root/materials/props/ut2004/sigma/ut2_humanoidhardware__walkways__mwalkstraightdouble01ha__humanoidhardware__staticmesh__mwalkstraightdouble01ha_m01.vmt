@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/ut2_HumanoidHardware__Walkways__MWalkStraightDouble01HA__HumanoidHardware__StaticMesh__MWalkStraightDouble01HA_m01"
+    "$surfaceprop" "metal"
+    "$model" "1"
+}

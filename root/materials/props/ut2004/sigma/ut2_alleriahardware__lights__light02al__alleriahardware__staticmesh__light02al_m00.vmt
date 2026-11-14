@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/ut2_AlleriaHardware__Lights__light02AL__AlleriaHardware__StaticMesh__light02AL_m00"
+    "$surfaceprop" "metal"
+    "$model" "1"
+}

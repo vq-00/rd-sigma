@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/ut2_X_SC-NewMech1__Deco__SC-WalkwayX__X_SC-NewMech1__StaticMesh__SC-WalkwayX_m02"
+    "$surfaceprop" "metal"
+    "$model" "1"
+}

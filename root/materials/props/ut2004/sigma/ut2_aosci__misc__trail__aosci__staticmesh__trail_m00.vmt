@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/ut2_AOSci__Misc__Trail__AOSci__StaticMesh__Trail_m00"
+    "$surfaceprop" "metal"
+    "$model" "1"
+}

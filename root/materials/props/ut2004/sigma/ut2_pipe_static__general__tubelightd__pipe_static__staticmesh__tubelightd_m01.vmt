@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/ut2_Pipe_Static__General__tubelightd__Pipe_Static__StaticMesh__tubelightd_m01"
+    "$surfaceprop" "metal"
+    "$model" "1"
+}

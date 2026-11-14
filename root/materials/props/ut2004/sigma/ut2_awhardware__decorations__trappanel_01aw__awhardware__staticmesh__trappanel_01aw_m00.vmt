@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/ut2_AWHardware__Decorations__TrapPanel_01aw__AWHardware__StaticMesh__TrapPanel_01aw_m00"
+    "$surfaceprop" "metal"
+    "$model" "1"
+}

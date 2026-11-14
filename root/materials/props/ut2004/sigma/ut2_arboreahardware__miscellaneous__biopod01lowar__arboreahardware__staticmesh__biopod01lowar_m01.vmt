@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/ut2_ArboreaHardware__Miscellaneous__BioPod01LowAR__ArboreaHardware__StaticMesh__BioPod01LowAR_m01"
+    "$surfaceprop" "metal"
+    "$model" "1"
+}

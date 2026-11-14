@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/ut2_AWHardware__Rails__MeatRail90_01aw__AWHardware__StaticMesh__MeatRail90_01aw_m00"
+    "$surfaceprop" "metal"
+    "$model" "1"
+}

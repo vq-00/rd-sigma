@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/ut2_AODeco__Architecture__ConcreteRoof__AODeco__StaticMesh__ConcreteRoof_m01"
+    "$surfaceprop" "metal"
+    "$model" "1"
+}

@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/ut2_AlleriaHardware__Miscellaneous__jcabinetchromeAL__AlleriaHardware__StaticMesh__jcabinetchromeAL_m00"
+    "$surfaceprop" "metal"
+    "$model" "1"
+    // Unreal TexEnvMap reflection omitted
+    // Unreal SpecularityMask not reproduced
+    // No speculative Source phong parameters added
+}

@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/ut2_ShiptechHardware__Pillars__Apillar01CS__ShiptechHardware__StaticMesh__Apillar01CS_m03"
+    "$surfaceprop" "metal"
+    "$model" "1"
+}

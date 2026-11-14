@@ -1,0 +1,1154 @@
+// Sigma campaign sounds - generated from UT2004 source references
+
+Sigma.AOMusicEventsSolly.Atmosphere1
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/AOMusicEventsSolly/Atmosphere1.wav
+}
+
+Sigma.AOMusicEventsSolly.CrescBigHit
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/AOMusicEventsSolly/CrescBigHit.wav
+}
+
+Sigma.AOMusicEventsSolly.Crescendo
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/AOMusicEventsSolly/Crescendo.wav
+}
+
+Sigma.AOMusicEventsSolly.ShortSwell
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/AOMusicEventsSolly/ShortSwell.wav
+}
+
+Sigma.AOWelcome.AWarmWelcome
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/AOWelcome/AWarmWelcome.wav
+}
+
+Sigma.AoEquipSounds.Flares.FlareLight
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/AoEquipSounds/Flares.FlareLight.wav
+}
+
+Sigma.AoEventsSolly.CarBreaks
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/AoEventsSolly/CarBreaks.wav
+}
+
+Sigma.AoEventsSolly.DoorBanging
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/AoEventsSolly/DoorBanging.wav
+}
+
+Sigma.AoEventsSolly.DoorBanging2
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/AoEventsSolly/DoorBanging2.wav
+}
+
+Sigma.AoEventsSolly.Evac
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/AoEventsSolly/Evac.wav
+}
+
+Sigma.AoEventsSolly.FireAlarm
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/AoEventsSolly/FireAlarm.wav
+}
+
+Sigma.AoEventsSolly.TrainHorn
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/AoEventsSolly/TrainHorn.wav
+}
+
+Sigma.AoEventsSolly.crash2
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/AoEventsSolly/crash2.wav
+}
+
+Sigma.AoFather.CommunicationDishAligned
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/AoFather/CommunicationDishAligned.wav
+}
+
+Sigma.AoFather.DatabaseMalfunction
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/AoFather/DatabaseMalfunction.wav
+}
+
+Sigma.AoFather.ErrorDoor
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/AoFather/ErrorDoor.wav
+}
+
+Sigma.AoFather.FilesRetrieved
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/AoFather/FilesRetrieved.wav
+}
+
+Sigma.AoFather.SubDoorOpened
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/AoFather/SubDoorOpened.wav
+}
+
+Sigma.AoFather.WarningPlatformA
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/AoFather/WarningPlatformA.wav
+}
+
+Sigma.AoMiscSounds.GlassBreaking
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/AoMiscSounds/GlassBreaking.wav
+}
+
+Sigma.AoMonster.MonsterIdle3
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/AoMonster/MonsterIdle3.wav
+}
+
+Sigma.AoMonster.MonsterIdle4
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/AoMonster/MonsterIdle4.wav
+}
+
+Sigma.AoMonster.MonsterSpot1
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/AoMonster/MonsterSpot1.wav
+}
+
+Sigma.AoMonster.MonsterThreat1
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/AoMonster/MonsterThreat1.wav
+}
+
+Sigma.AoMonster.Monsterdeath1
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/AoMonster/Monsterdeath1.wav
+}
+
+Sigma.AoParasiteSounds.ParasiteEggBurst
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/AoParasiteSounds/ParasiteEggBurst.wav
+}
+
+Sigma.AoParasiteSounds.ParasiteIdle2
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/AoParasiteSounds/ParasiteIdle2.wav
+}
+
+Sigma.AoQueenSounds.Rar.QueenDeath
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/AoQueenSounds/Rar.QueenDeath.wav
+}
+
+Sigma.AoScreams.screams.scream2
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/AoScreams/screams.scream2.wav
+}
+
+Sigma.AoScreams.screams.scream3
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/AoScreams/screams.scream3.wav
+}
+
+Sigma.AoScreams.screams.scream4
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/AoScreams/screams.scream4.wav
+}
+
+Sigma.AoScreams.screams.scream6
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/AoScreams/screams.scream6.wav
+}
+
+Sigma.AoWeapons.NewPistol.PistolShot
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/AoWeapons/NewPistol.PistolShot.wav
+}
+
+Sigma.GeneralAmbience.Texture3
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/GeneralAmbience/Texture3.wav
+}
+
+Sigma.GeneralAmbience.beep1
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/GeneralAmbience/beep1.wav
+}
+
+Sigma.GeneralAmbience.beep7
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/GeneralAmbience/beep7.wav
+}
+
+Sigma.GeneralAmbience.electricalfx15
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/GeneralAmbience/electricalfx15.wav
+}
+
+Sigma.GeneralAmbience.electricalfx16
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/GeneralAmbience/electricalfx16.wav
+}
+
+Sigma.GeneralAmbience.electricalfx18
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/GeneralAmbience/electricalfx18.wav
+}
+
+Sigma.GeneralAmbience.metalfx13
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/GeneralAmbience/metalfx13.wav
+}
+
+Sigma.GeneralAmbience.metalfx14
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/GeneralAmbience/metalfx14.wav
+}
+
+Sigma.GeneralAmbience.metalfx15
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/GeneralAmbience/metalfx15.wav
+}
+
+Sigma.GeneralAmbience.metalfx17
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/GeneralAmbience/metalfx17.wav
+}
+
+Sigma.GeneralAmbience.metalfx4
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/GeneralAmbience/metalfx4.wav
+}
+
+Sigma.GeneralAmbience.metalfx5
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/GeneralAmbience/metalfx5.wav
+}
+
+Sigma.GeneralAmbience.metalfx6
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/GeneralAmbience/metalfx6.wav
+}
+
+Sigma.GeneralAmbience.metalfx8
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/GeneralAmbience/metalfx8.wav
+}
+
+Sigma.GeneralAmbience.metalfx9
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/GeneralAmbience/metalfx9.wav
+}
+
+Sigma.GeneralAmbience.steamfx3
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/GeneralAmbience/steamfx3.wav
+}
+
+Sigma.IndoorAmbience.buzz3
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/IndoorAmbience/buzz3.wav
+}
+
+Sigma.IndoorAmbience.clank1
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/IndoorAmbience/clank1.wav
+}
+
+Sigma.IndoorAmbience.clank2
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/IndoorAmbience/clank2.wav
+}
+
+Sigma.IndoorAmbience.clank3
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/IndoorAmbience/clank3.wav
+}
+
+Sigma.IndoorAmbience.door12
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/IndoorAmbience/door12.wav
+}
+
+Sigma.IndoorAmbience.door6
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/IndoorAmbience/door6.wav
+}
+
+Sigma.IndoorAmbience.fan9
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/IndoorAmbience/fan9.wav
+}
+
+Sigma.IndoorAmbience.interior24
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/IndoorAmbience/interior24.wav
+}
+
+Sigma.IndoorAmbience.interior31
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/IndoorAmbience/interior31.wav
+}
+
+Sigma.IndoorAmbience.machinery19
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/IndoorAmbience/machinery19.wav
+}
+
+Sigma.IntroSounds.fX.HitButton1
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/IntroSounds/fX.HitButton1.wav
+}
+
+Sigma.ONSVehicleSounds-S.AttackCraft.AttackCraftShutDown
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/ONSVehicleSounds-S/AttackCraft.AttackCraftShutDown.wav
+}
+
+Sigma.OutdoorAmbience.BThunder.BThunder2
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/OutdoorAmbience/BThunder.BThunder2.wav
+}
+
+Sigma.PlayerSounds.Final.Giblets1
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/PlayerSounds/Final.Giblets1.wav
+}
+
+Sigma.PlayerSounds.Final.Giblets2
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/PlayerSounds/Final.Giblets2.wav
+}
+
+Sigma.PlayerSounds.Final.Giblets3
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/PlayerSounds/Final.Giblets3.wav
+}
+
+Sigma.PlayerSounds.NewGibs.NewGib3
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/PlayerSounds/NewGibs.NewGib3.wav
+}
+
+Sigma.PlayerSounds.NewGibs.NewGib4
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/PlayerSounds/NewGibs.NewGib4.wav
+}
+
+Sigma.WeaponSounds.BaseImpactAndExplosions.BExplosion1
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/WeaponSounds/BaseImpactAndExplosions.BExplosion1.wav
+}
+
+Sigma.WeaponSounds.BaseImpactAndExplosions.BExplosion3
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/WeaponSounds/BaseImpactAndExplosions.BExplosion3.wav
+}
+
+Sigma.myLevel.AirlockAlarm
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/myLevel/AirlockAlarm.wav
+}
+
+Sigma.myLevel.UThiss2
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/myLevel/UThiss2.wav
+}
+
+Sigma.myLevel.doorneg
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/myLevel/doorneg.wav
+}
+
+
+Sigma.GeneralImpacts.Water.WaterExit
+{
+	channel	CHAN_STATIC
+	volume	1.0
+	pitch	PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave	sigma/ut2004/GeneralImpacts/Water.WaterExit.wav
+}
+
+Sigma.AOMusicEventsSolly.Atmosphere2
+{
+	channel	CHAN_STATIC
+	volume	1.0
+	pitch	PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave	sigma/ut2004/AOMusicEventsSolly/Atmosphere2.wav
+}
+
+Sigma.AoMonster.MonsterDeath4
+{
+	channel	CHAN_STATIC
+	volume	1.0
+	pitch	PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave	sigma/ut2004/AoMonster/MonsterDeath4.wav
+}
+
+Sigma.AoFather.CargoLiftAscending
+{
+	channel	CHAN_STATIC
+	volume	1.0
+	pitch	PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave	sigma/ut2004/AoFather/CargoLiftAscending.wav
+}
+
+Sigma.AoFather.StorageRoom5Open
+{
+	channel	CHAN_STATIC
+	volume	1.0
+	pitch	PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave	sigma/ut2004/AoFather/StorageRoom5Open.wav
+}
+
+Sigma.AoFather.StorageRoom5Secure
+{
+	channel	CHAN_STATIC
+	volume	1.0
+	pitch	PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave	sigma/ut2004/AoFather/StorageRoom5Secure.wav
+}
+
+Sigma.AoFather.StorageRoom5Sealed
+{
+	channel	CHAN_STATIC
+	volume	1.0
+	pitch	PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave	sigma/ut2004/AoFather/StorageRoom5Sealed.wav
+}
+
+Sigma.AoAlarm.WilliamsRescue
+{
+	channel	CHAN_STATIC
+	volume	1.0
+	pitch	PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave	sigma/ut2004/AoAlarm/WilliamsRescue.wav
+}
+
+Sigma.AoEquipSounds.Scanner.HeatScannerWarning
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/AoEquipSounds/Scanner.HeatScannerWarning.wav
+}
+
+Sigma.AoEquipSounds.geiger
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/AoEquipSounds/geiger.wav
+}
+
+Sigma.GeneralAmbience.aliendrone3
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/GeneralAmbience/aliendrone3.wav
+}
+
+Sigma.GeneralAmbience.computerfx14
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/GeneralAmbience/computerfx14.wav
+}
+
+Sigma.GeneralAmbience.computerfx15
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/GeneralAmbience/computerfx15.wav
+}
+
+Sigma.GeneralAmbience.computerfx29
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/GeneralAmbience/computerfx29.wav
+}
+
+Sigma.GeneralAmbience.electricalfx10
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/GeneralAmbience/electricalfx10.wav
+}
+
+Sigma.GeneralAmbience.firefx11
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/GeneralAmbience/firefx11.wav
+}
+
+Sigma.GeneralAmbience.firefx2
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/GeneralAmbience/firefx2.wav
+}
+
+Sigma.GeneralAmbience.firefx5
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/GeneralAmbience/firefx5.wav
+}
+
+Sigma.GeneralAmbience.steamfx2
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/GeneralAmbience/steamfx2.wav
+}
+
+Sigma.GeneralAmbience.texture13
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/GeneralAmbience/texture13.wav
+}
+
+Sigma.GeneralAmbience.texture28
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/GeneralAmbience/texture28.wav
+}
+
+Sigma.GeneralAmbience.texture30
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/GeneralAmbience/texture30.wav
+}
+
+Sigma.GeneralAmbience.texture31
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/GeneralAmbience/texture31.wav
+}
+
+Sigma.GeneralAmbience.texture4
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/GeneralAmbience/texture4.wav
+}
+
+Sigma.GeneralAmbience.texture42
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/GeneralAmbience/texture42.wav
+}
+
+Sigma.GeneralAmbience.texture8
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/GeneralAmbience/texture8.wav
+}
+
+Sigma.GeneralAmbience.waterfx3
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/GeneralAmbience/waterfx3.wav
+}
+
+Sigma.IndoorAmbience.fan10
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/IndoorAmbience/fan10.wav
+}
+
+Sigma.IndoorAmbience.hiss1
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/IndoorAmbience/hiss1.wav
+}
+
+Sigma.IndoorAmbience.interior1
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/IndoorAmbience/interior1.wav
+}
+
+Sigma.IndoorAmbience.interior10
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/IndoorAmbience/interior10.wav
+}
+
+Sigma.IndoorAmbience.interior11
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/IndoorAmbience/interior11.wav
+}
+
+Sigma.IndoorAmbience.interior14
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/IndoorAmbience/interior14.wav
+}
+
+Sigma.IndoorAmbience.interior16
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/IndoorAmbience/interior16.wav
+}
+
+Sigma.IndoorAmbience.interior18
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/IndoorAmbience/interior18.wav
+}
+
+Sigma.IndoorAmbience.interior2
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/IndoorAmbience/interior2.wav
+}
+
+Sigma.IndoorAmbience.interior30
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/IndoorAmbience/interior30.wav
+}
+
+Sigma.IndoorAmbience.interior33
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/IndoorAmbience/interior33.wav
+}
+
+Sigma.IndoorAmbience.interior39
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/IndoorAmbience/interior39.wav
+}
+
+Sigma.IndoorAmbience.interior41
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/IndoorAmbience/interior41.wav
+}
+
+Sigma.IndoorAmbience.interior5
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/IndoorAmbience/interior5.wav
+}
+
+Sigma.IndoorAmbience.interior6
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/IndoorAmbience/interior6.wav
+}
+
+Sigma.IndoorAmbience.interior8
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/IndoorAmbience/interior8.wav
+}
+
+Sigma.IndoorAmbience.machinery13
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/IndoorAmbience/machinery13.wav
+}
+
+Sigma.IndoorAmbience.machinery38
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/IndoorAmbience/machinery38.wav
+}
+
+Sigma.IndoorAmbience.machinery6
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/IndoorAmbience/machinery6.wav
+}
+
+Sigma.IndoorAmbience.rattlingmetal5
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/IndoorAmbience/rattlingmetal5.wav
+}
+
+Sigma.IndoorAmbience.watertank
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/IndoorAmbience/watertank.wav
+}
+
+Sigma.ONSVehicleSounds-S.AttackCraft.AttackCraftIdle
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/ONSVehicleSounds-S/AttackCraft.AttackCraftIdle.wav
+}
+
+Sigma.OutdoorAmbience.BThunder.rain7
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/OutdoorAmbience/BThunder.rain7.wav
+}
+
+Sigma.OutdoorAmbience.BThunder.underwater1
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/OutdoorAmbience/BThunder.underwater1.wav
+}
+
+Sigma.OutdoorAmbience.BThunder.underwater3
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/OutdoorAmbience/BThunder.underwater3.wav
+}
+
+Sigma.OutdoorAmbience.BThunder.wind1
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/OutdoorAmbience/BThunder.wind1.wav
+}
+
+Sigma.OutdoorAmbience.BThunder.wind3
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/OutdoorAmbience/BThunder.wind3.wav
+}
+
+Sigma.OutdoorAmbience.rain9
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/OutdoorAmbience/rain9.wav
+}
+
+Sigma.OutdoorAmbience.wind6
+{
+	channel		CHAN_STATIC
+	volume		1.0
+	pitch		PITCH_NORM
+	soundlevel	SNDLVL_NORM
+	wave		sigma/ut2004/OutdoorAmbience/wind6.wav
+}

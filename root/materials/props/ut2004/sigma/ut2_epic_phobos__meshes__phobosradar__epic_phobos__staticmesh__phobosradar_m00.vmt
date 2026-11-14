@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/ut2_epic_phobos__Meshes__phobosradar__epic_phobos__StaticMesh__phobosradar_m00"
+    "$surfaceprop" "metal"
+    "$model" "1"
+}

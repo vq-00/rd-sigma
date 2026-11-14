@@ -1,0 +1,5 @@
+"LightmappedGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/brush/AoVentFloorTextures__Floors__AoBurntFloor"
+    "$surfaceprop" "concrete"
+}

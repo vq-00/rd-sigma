@@ -1,0 +1,8 @@
+"AddonInfo"
+{
+     addonSteamAppID         563560
+     addontitle              "Alien Swarm Sigma"
+     addonversion            1.0
+     addonContent_Campaign   1
+     addonDescription        "Alien Swarm Sigma campaign"
+}

@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/brush/AlleriaArchitecture__Grates__grt01AL"
+    "$surfaceprop" "concrete"
+    "$translucent" "1"
+    "$nocull" "1"
+}

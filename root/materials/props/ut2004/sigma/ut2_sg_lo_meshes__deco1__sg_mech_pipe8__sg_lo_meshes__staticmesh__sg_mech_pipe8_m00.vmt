@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/ut2_SG_LO_meshes__Deco1__sg_Mech_pipe8__SG_LO_meshes__StaticMesh__sg_Mech_pipe8_m00"
+    "$surfaceprop" "metal"
+    "$model" "1"
+}

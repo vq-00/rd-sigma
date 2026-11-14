@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/ut2_ShiptechHardware__Lights__halflight02CS__ShiptechHardware__StaticMesh__halflight02CS_m01"
+    "$surfaceprop" "metal"
+    "$model" "1"
+}

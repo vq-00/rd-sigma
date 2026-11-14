@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/ut2_AWPipes__Edging__CeilingBracket01aw__AWPipes__StaticMesh__CeilingBracket01aw_m01"
+    "$surfaceprop" "metal"
+    "$model" "1"
+}

@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/ut2_myLevel__BulkHeadSheet__AO-Aspirant__StaticMesh__BulkHeadSheet_m00"
+    "$surfaceprop" "metal"
+    "$model" "1"
+}

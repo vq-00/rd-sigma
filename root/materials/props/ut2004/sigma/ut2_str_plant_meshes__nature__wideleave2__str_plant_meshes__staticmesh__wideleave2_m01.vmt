@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/ut2_str_plant_meshes__nature__wideleave2__str_plant_meshes__StaticMesh__wideleave2_m01"
+    "$surfaceprop" "metal"
+    "$model" "1"
+}

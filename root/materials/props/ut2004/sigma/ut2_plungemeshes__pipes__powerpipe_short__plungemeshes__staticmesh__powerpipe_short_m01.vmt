@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/ut2_PlungeMeshes__Pipes__PowerPipe_Short__PlungeMeshes__StaticMesh__PowerPipe_Short_m01"
+    "$surfaceprop" "metal"
+    "$model" "1"
+}

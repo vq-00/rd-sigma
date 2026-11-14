@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/ut2_BastienHardware_02__Lights__Light_01__BastienHardware_02__StaticMesh__Light_01_m00"
+    "$surfaceprop" "metal"
+    "$model" "1"
+}

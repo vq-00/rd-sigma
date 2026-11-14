@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/ut2_myLevel__Bloodhound_lights__AO-Barracks__StaticMesh__Bloodhound_lights_m04"
+    "$translucent" "1"
+    "$selfillum" "1"
+    "$surfaceprop" "glass"
+    "$model" "1"
+}

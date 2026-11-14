@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/ut2_CP_Nightmare1_Epic__Arches__cp_walltech1_epic__CP_Nightmare1_Epic__StaticMesh__cp_walltech1_epic_m00"
+    "$surfaceprop" "metal"
+    "$model" "1"
+}

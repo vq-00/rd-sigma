@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/ut2_AoSurvival__Architecture__SwitchBuilding2__AoSurvival__StaticMesh__SwitchBuilding2_m00"
+    "$surfaceprop" "metal"
+    "$model" "1"
+}

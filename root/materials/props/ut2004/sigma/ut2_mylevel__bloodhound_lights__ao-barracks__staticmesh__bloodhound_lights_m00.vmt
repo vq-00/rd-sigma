@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/ut2_myLevel__Bloodhound_lights__AO-Barracks__StaticMesh__Bloodhound_lights_m00"
+    "$surfaceprop" "metal"
+    "$model" "1"
+}

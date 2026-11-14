@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/ut2_AbaddonHardware__Miscellaneous__InsetTank02AB__AbaddonHardware__StaticMesh__InsetTank02AB_m00"
+    "$translucent" "1"
+    "$surfaceprop" "glass"
+    "$model" "1"
+    // Unreal OB_Translucent approximated with Source $translucent
+}

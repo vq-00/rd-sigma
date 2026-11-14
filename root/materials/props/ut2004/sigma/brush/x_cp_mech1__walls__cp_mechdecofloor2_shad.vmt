@@ -1,0 +1,5 @@
+"LightmappedGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/brush/cp_Mech1__sg_Mechdecfloor2_spec1"
+    "$surfaceprop" "concrete"
+}

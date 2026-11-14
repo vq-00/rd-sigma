@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/ut2_AOLocker__Misc__Locker__AOLocker__StaticMesh__Locker_m00"
+    "$surfaceprop" "metal"
+    "$model" "1"
+}

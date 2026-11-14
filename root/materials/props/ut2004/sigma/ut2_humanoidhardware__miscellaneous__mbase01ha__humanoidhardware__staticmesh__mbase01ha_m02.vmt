@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/ut2_HumanoidHardware__Miscellaneous__MBase01HA__HumanoidHardware__StaticMesh__MBase01HA_m02"
+    "$surfaceprop" "metal"
+    "$model" "1"
+}

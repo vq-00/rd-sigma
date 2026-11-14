@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/ut2_X_SC-NewMech1__Wires__SC-Wire1x__X_SC-NewMech1__StaticMesh__SC-Wire1x_m00"
+    "$surfaceprop" "metal"
+    "$model" "1"
+}

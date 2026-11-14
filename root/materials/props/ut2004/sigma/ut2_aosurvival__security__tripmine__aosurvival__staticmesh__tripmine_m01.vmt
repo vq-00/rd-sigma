@@ -1,0 +1,11 @@
+"UnlitGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/ut2_AoSurvival__Security__TripMine__AoSurvival__StaticMesh__TripMine_m01"
+    "$additive" "1"
+    "$nocull" "1"
+    "$surfaceprop" "metal"
+    "$model" "1"
+    // Unreal OB_Brighten approximated with Source $additive
+    // Unreal TexPanner animation not reproduced
+    // Laser texture is static
+}

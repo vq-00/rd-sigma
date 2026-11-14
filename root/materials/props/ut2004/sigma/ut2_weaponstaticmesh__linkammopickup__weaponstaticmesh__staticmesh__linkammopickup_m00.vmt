@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/ut2_WeaponStaticMesh__LinkAmmoPickup__WeaponStaticMesh__StaticMesh__LinkAmmoPickup_m00"
+    "$surfaceprop" "metal"
+    "$model" "1"
+}

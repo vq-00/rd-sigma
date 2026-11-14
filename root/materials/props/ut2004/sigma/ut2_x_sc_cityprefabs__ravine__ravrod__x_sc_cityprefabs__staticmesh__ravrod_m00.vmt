@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/ut2_X_SC_CityPrefabs__Ravine__RavRod__X_SC_CityPrefabs__StaticMesh__RavRod_m00"
+    "$surfaceprop" "metal"
+    "$model" "1"
+}

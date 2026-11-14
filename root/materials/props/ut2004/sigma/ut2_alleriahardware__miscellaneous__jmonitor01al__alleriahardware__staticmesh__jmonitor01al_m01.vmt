@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/ut2_AlleriaHardware__Miscellaneous__jMonitor01AL__AlleriaHardware__StaticMesh__jMonitor01AL_m01"
+    "$surfaceprop" "metal"
+    "$model" "1"
+}

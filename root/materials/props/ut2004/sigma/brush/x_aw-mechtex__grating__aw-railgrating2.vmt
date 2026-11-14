@@ -1,0 +1,5 @@
+"LightmappedGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/brush/X_AW-MechTex__Grating__AW-RailGrating2"
+    "$surfaceprop" "concrete"
+}

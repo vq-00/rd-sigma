@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/ut2_X_AW-MechMeshes__Floor__AW-MechFloorRails4__X_AW-MechMeshes__StaticMesh__AW-MechFloorRails4_m02"
+    "$surfaceprop" "metal"
+    "$model" "1"
+}

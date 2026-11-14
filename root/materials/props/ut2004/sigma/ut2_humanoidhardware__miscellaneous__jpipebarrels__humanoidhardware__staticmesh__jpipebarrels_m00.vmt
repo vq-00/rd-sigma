@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/ut2_HumanoidHardware__Miscellaneous__Jpipebarrels__HumanoidHardware__StaticMesh__Jpipebarrels_m00"
+    "$surfaceprop" "metal"
+    "$model" "1"
+}

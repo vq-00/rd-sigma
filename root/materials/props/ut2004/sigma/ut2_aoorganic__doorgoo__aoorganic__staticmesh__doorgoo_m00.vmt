@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/ut2_AOOrganic__DoorGoo__AOOrganic__StaticMesh__DoorGoo_m00"
+    "$surfaceprop" "metal"
+    "$model" "1"
+}

@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/ut2_myLevel__General__Corpse__AO-Rescue__StaticMesh__Corpse_m00"
+    "$surfaceprop" "metal"
+    "$model" "1"
+}

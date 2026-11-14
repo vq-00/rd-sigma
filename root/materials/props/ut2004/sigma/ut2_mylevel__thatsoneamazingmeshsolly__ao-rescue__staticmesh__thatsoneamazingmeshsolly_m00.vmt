@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/ut2_myLevel__ThatsOneAmazingMeshSolly__AO-Rescue__StaticMesh__ThatsOneAmazingMeshSolly_m00"
+    "$surfaceprop" "metal"
+    "$model" "1"
+}

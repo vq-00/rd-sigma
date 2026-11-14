@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/ut2_AOSci__MedSciStuff__CargoCart__AOSci__StaticMesh__CargoCart_m01"
+    "$surfaceprop" "metal"
+    "$model" "1"
+}

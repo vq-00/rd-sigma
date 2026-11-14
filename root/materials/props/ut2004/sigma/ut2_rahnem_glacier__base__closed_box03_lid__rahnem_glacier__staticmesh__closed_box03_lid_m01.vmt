@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/ut2_Rahnem_Glacier__Base__closed_box03_lid__Rahnem_Glacier__StaticMesh__closed_box03_lid_m01"
+    "$surfaceprop" "metal"
+    "$model" "1"
+}

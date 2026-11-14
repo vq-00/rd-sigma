@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/ut2_ShiptechHardware__Ceilings__Acel01CS__ShiptechHardware__StaticMesh__Acel01CS_m01"
+    "$surfaceprop" "metal"
+    "$model" "1"
+}

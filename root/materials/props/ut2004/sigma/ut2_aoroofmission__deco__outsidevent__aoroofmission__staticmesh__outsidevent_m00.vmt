@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/ut2_AORoofMission__Deco__OutsideVent__AORoofMission__StaticMesh__OutsideVent_m00"
+    "$surfaceprop" "metal"
+    "$model" "1"
+}

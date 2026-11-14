@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/ut2_myLevel__Furniture__SynTekSofa__AO-BioLabFacility__StaticMesh__SynTekSofa_m00"
+    "$surfaceprop" "metal"
+    "$model" "1"
+}

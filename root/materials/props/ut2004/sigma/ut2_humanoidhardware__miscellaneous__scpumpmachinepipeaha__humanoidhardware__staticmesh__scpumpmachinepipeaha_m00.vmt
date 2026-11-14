@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/ut2_HumanoidHardware__Miscellaneous__SCpumpmachinepipeAHA__HumanoidHardware__StaticMesh__SCpumpmachinepipeAHA_m00"
+    "$surfaceprop" "metal"
+    "$model" "1"
+}

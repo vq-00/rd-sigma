@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/ut2_cp_Mechstaticpack1__Decos__sg_c_longlightube__cp_Mechstaticpack1__StaticMesh__sg_c_longlightube_m01"
+    "$surfaceprop" "metal"
+    "$model" "1"
+}

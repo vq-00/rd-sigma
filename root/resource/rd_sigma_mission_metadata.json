@@ -1,0 +1,912 @@
+{
+  "campaign": {
+    "name": "Alien Swarm Sigma",
+    "mission_order": [
+      "AO-ReactorCore",
+      "AO-Rescue",
+      "AO-Salvage",
+      "AO-Barracks",
+      "AO-Research",
+      "AO-Observation",
+      "AO-Uplink",
+      "AO-BioLabFacility",
+      "AO-Aspirant"
+    ],
+    "mission_order_source": "User-provided order",
+    "notes": "Source T3Ds do not define a campaign-wide sequence. ASRD runtime campaign configuration is in resource/campaigns/rd-sigma.txt."
+  },
+  "missions": [
+    {
+      "map": "AO-ReactorCore",
+      "level_info": {
+        "TimeSeconds": "1185.062256",
+        "Title": "Reactor Core",
+        "Author": "Black Cat Games",
+        "IdealPlayerCountMin": "4",
+        "IdealPlayerCountMax": "8",
+        "Summary": "LevelSummary'myLevel.LevelSummary'",
+        "bPathsRebuilt": "True",
+        "bHasPathNodes": "True",
+        "CameraLocationDynamic": "(X=-9548.694336,Y=4242.026367,Z=835.049255)",
+        "CameraLocationTop": "(X=-9125.097656,Y=3645.893555,Z=59597.988281)",
+        "CameraLocationFront": "(X=-6813.979980,Y=-871.575867,Z=988.703491)",
+        "CameraLocationSide": "(X=-1613.162354,Y=-957.774597,Z=29792.562500)",
+        "CameraRotationDynamic": "(Pitch=55340,Yaw=119632)",
+        "DefaultGameType": "aoprototype.aogameinfo",
+        "NavigationPointList": "InventorySpot'myLevel.InventorySpot17'",
+        "Level": "LevelInfo'myLevel.LevelInfo0'",
+        "Region": "(Zone=LevelInfo'myLevel.LevelInfo0',iLeaf=-1)",
+        "Tag": "LevelInfo",
+        "PhysicsVolume": "DefaultPhysicsVolume'myLevel.DefaultPhysicsVolume14'"
+      },
+      "mission_actors": [
+        {
+          "source_class": "KillXEggsObjective",
+          "source_name": "KillXEggsObjective0",
+          "properties": {
+            "NumberOfEggsToDestroy": "20",
+            "ShowEggCount": "60",
+            "ShortName": "2. Destroy at least %n Eggs",
+            "Description": "Make all efforts to cripple the Swarm presence in this area. You must destroy 20 Swarm eggs to prevent further infestation.",
+            "Level": "LevelInfo'myLevel.LevelInfo0'",
+            "Region": "(Zone=LevelInfo'myLevel.LevelInfo0',iLeaf=-1)",
+            "Tag": "KillXEggsObjective",
+            "PhysicsVolume": "DefaultPhysicsVolume'myLevel.DefaultPhysicsVolume14'",
+            "Location": "(X=-7412.298828,Y=1124.994873,Z=-842.000000)"
+          }
+        },
+        {
+          "source_class": "EscapeObjective",
+          "source_name": "EscapeObjective0",
+          "properties": {
+            "ShortName": "3. Escape",
+            "Description": "Dropship Bloodhound will remain on station for extraction once all objectives have been achieved.",
+            "ObjectivePic": "Texture'AoObjectivePics.ObjectiveEscapeLandingPadPic'",
+            "Level": "LevelInfo'myLevel.LevelInfo0'",
+            "Region": "(Zone=LevelInfo'myLevel.LevelInfo0',iLeaf=-1)",
+            "Tag": "EscapeObjective",
+            "PhysicsVolume": "DefaultPhysicsVolume'myLevel.DefaultPhysicsVolume14'",
+            "Location": "(X=-7409.628906,Y=1159.437866,Z=-842.000000)"
+          }
+        },
+        {
+          "source_class": "AoMissionInfo",
+          "source_name": "AoMissionInfo1",
+          "properties": {
+            "MiniMap": "Texture'AoMiscIcons.Overlord.ReactorCoreMinimap'",
+            "MiniMapTopLeft": "(X=-10357.479492,Y=-4000.000000)",
+            "MiniMapBottomRight": "(X=-280.230011,Y=6000.000000)",
+            "UnLockTime": "180",
+            "UnlockKills": "200",
+            "Level": "LevelInfo'myLevel.LevelInfo0'",
+            "Region": "(Zone=LevelInfo'myLevel.LevelInfo0',iLeaf=-1)",
+            "Tag": "AoMissionInfo",
+            "PhysicsVolume": "DefaultPhysicsVolume'myLevel.DefaultPhysicsVolume14'",
+            "Location": "(X=-7411.185547,Y=1092.657227,Z=-842.000000)"
+          }
+        },
+        {
+          "source_class": "AoEmergencyCountdownObjective",
+          "source_name": "AoEmergencyCountdownObjective0",
+          "properties": {
+            "InitialEmergencyTimeSeconds": "150",
+            "ShortName": "1. Activate the two coolant release valves",
+            "Description": "Enable the emergency cooling systems in the main reactor chamber. Both coolant valves must be turned to stabilise the reactor core.",
+            "DebriefText": "Nice work marines.  The reactor meltdown was averted and the core has been stabilised.  In addition, significant damage has been dealt to the Swarm forces in the area.  It will now be possible for Command to assign tech teams to this site should further repairs be deemed necessary.",
+            "PointsAwarded": "3000",
+            "ObjectivePic": "Texture'AoObjectivePics.EmergencyObjectivePic'",
+            "Level": "LevelInfo'myLevel.LevelInfo0'",
+            "Region": "(Zone=LevelInfo'myLevel.LevelInfo0',iLeaf=-1)",
+            "Tag": "anemergencycaptain",
+            "PhysicsVolume": "DefaultPhysicsVolume'myLevel.DefaultPhysicsVolume14'",
+            "Location": "(X=-7412.009766,Y=1090.142578)"
+          }
+        },
+        {
+          "source_class": "AoDummyObjective",
+          "source_name": "AoDummyObjective0",
+          "properties": {
+            "Description": "The primary reactor that supplies both the main compound and surrounding facilities has been severely damaged.  Local sensors indicate an 85% chance of critical failure, leading to meltdown, occurring within the hour.",
+            "Level": "LevelInfo'myLevel.LevelInfo0'",
+            "Region": "(Zone=LevelInfo'myLevel.LevelInfo0',iLeaf=-1)",
+            "Tag": "AoDummyObjective",
+            "PhysicsVolume": "DefaultPhysicsVolume'myLevel.DefaultPhysicsVolume14'",
+            "Location": "(X=-7415.477051,Y=1051.872559)"
+          }
+        }
+      ]
+    },
+    {
+      "map": "AO-Rescue",
+      "level_info": {
+        "TimeSeconds": "871.869446",
+        "Title": "Rescue",
+        "Author": "Black Cat Games",
+        "IdealPlayerCountMin": "4",
+        "IdealPlayerCountMax": "8",
+        "Summary": "LevelSummary'myLevel.LevelSummary'",
+        "VisibleGroups": "None,lavavolumes",
+        "bHasPathNodes": "True",
+        "CameraLocationDynamic": "(X=137.292053,Y=-7364.552246,Z=-1494.563599)",
+        "CameraLocationTop": "(X=433.224731,Y=-1450.187134,Z=68266.007813)",
+        "CameraLocationFront": "(X=433.224731,Y=115.000000,Z=26290.173828)",
+        "CameraLocationSide": "(X=-1450.187134,Y=115.000000,Z=88050.828125)",
+        "CameraRotationDynamic": "(Pitch=59008,Yaw=59376)",
+        "DefaultGameType": "aoprototype.aogameinfo",
+        "NavigationPointList": "InventorySpot'myLevel.InventorySpot7'",
+        "Level": "LevelInfo'myLevel.LevelInfo0'",
+        "Region": "(Zone=LevelInfo'myLevel.LevelInfo0',iLeaf=-1)",
+        "Tag": "LevelInfo",
+        "PhysicsVolume": "DefaultPhysicsVolume'myLevel.DefaultPhysicsVolume13'"
+      },
+      "mission_actors": [
+        {
+          "source_class": "AoMissionInfo",
+          "source_name": "AoMissionInfo1",
+          "properties": {
+            "bAllowHelmetCam": "True",
+            "UnLockTime": "290",
+            "UnlockKills": "200",
+            "Level": "LevelInfo'myLevel.LevelInfo0'",
+            "Region": "(Zone=LevelInfo'myLevel.LevelInfo0',iLeaf=-1)",
+            "Tag": "AoMissionInfo",
+            "PhysicsVolume": "DefaultPhysicsVolume'myLevel.DefaultPhysicsVolume13'",
+            "Location": "(X=-5251.187500,Y=1998.955200,Z=243.264130)",
+            "DrawScale": "5.000000"
+          }
+        },
+        {
+          "source_class": "ExploreLocationObjective",
+          "source_name": "ExploreLocationObjective0",
+          "properties": {
+            "NumAreasToExplore": "1",
+            "ShortName": "1. Find Lt. Williams",
+            "Description": "Before contact was lost, we were able to discover that Williams has barricaded himself into a local storage facility.  Expect Williams to have marked his position with signal beacons, follow these and you should find him without problems.  Bio readouts suggest that there is a large concentration of swarm parasites in the area, so be careful.",
+            "DebriefText": "Outstanding work, marines.  Rescuing Williams has provided us with the precise location of one of our primary targets.  The location has been marked on your tactical map.  Williams has also revealed information regarding SynTek's medical research and facilities, as well as the location of the compound's main warehouses.",
+            "ObjectivePic": "Texture'AoObjectivePics.LtWilliams'",
+            "Level": "LevelInfo'myLevel.LevelInfo0'",
+            "Region": "(Zone=LevelInfo'myLevel.LevelInfo0',iLeaf=-1)",
+            "Tag": "FoundWilliams",
+            "PhysicsVolume": "DefaultPhysicsVolume'myLevel.DefaultPhysicsVolume13'",
+            "Location": "(X=-5253.896484,Y=2097.215820)",
+            "DrawScale": "5.000000"
+          }
+        },
+        {
+          "source_class": "EscapeObjective",
+          "source_name": "EscapeObjective0",
+          "properties": {
+            "ShortName": "2. Leave Storage facility via north cargo lift",
+            "Description": "Once you have made contact with Williams, proceed north to the main cargo lift.  The APC will then extract you from the lower level.",
+            "ObjectivePic": "Texture'AoObjectivePics.CargoLift'",
+            "Level": "LevelInfo'myLevel.LevelInfo0'",
+            "Region": "(Zone=LevelInfo'myLevel.LevelInfo0',iLeaf=-1)",
+            "Tag": "EscapeObjective",
+            "PhysicsVolume": "DefaultPhysicsVolume'myLevel.DefaultPhysicsVolume13'",
+            "Location": "(X=-5262.787598,Y=2309.845215)",
+            "DrawScale": "5.000000"
+          }
+        },
+        {
+          "source_class": "AoDummyObjective",
+          "source_name": "AoDummyObjective0",
+          "properties": {
+            "Description": "We have received a distress signal from Lt Williams, a commanding officer attached to a forward scout unit.  It is imperative that Williams is recovered, he holds vital information regarding the campaign area and Swarm movements.  More than that, he's a marine and he needs our help.",
+            "Level": "LevelInfo'myLevel.LevelInfo0'",
+            "Region": "(Zone=LevelInfo'myLevel.LevelInfo0',iLeaf=-1)",
+            "Tag": "AoDummyObjective",
+            "PhysicsVolume": "DefaultPhysicsVolume'myLevel.DefaultPhysicsVolume13'",
+            "Location": "(X=-5260.886719,Y=1802.098877)",
+            "DrawScale": "4.000000"
+          }
+        }
+      ]
+    },
+    {
+      "map": "AO-Salvage",
+      "level_info": {
+        "TimeSeconds": "1.063300",
+        "Title": "Salvage",
+        "Author": "Black Cat Games",
+        "Summary": "LevelSummary'myLevel.LevelSummary'",
+        "VisibleGroups": "None,bighallwaypart1",
+        "bHasPathNodes": "True",
+        "CameraLocationDynamic": "(X=-25441.453125,Y=883.944092,Z=720.673340)",
+        "CameraLocationTop": "(X=-39980.507813,Y=-2064.432129,Z=10212.602539)",
+        "CameraLocationFront": "(X=-39191.339844,Y=4.169205,Z=8580.760742)",
+        "CameraLocationSide": "(X=-2336.975098,Y=4.169205,Z=7087.759766)",
+        "CameraRotationDynamic": "(Pitch=55696,Yaw=-18464)",
+        "DefaultGameType": "aoprototype.aogameinfo",
+        "NavigationPointList": "InventorySpot'myLevel.InventorySpot56'",
+        "AmbientVector": "(X=0.016806,Y=0.029787,Z=0.053980)",
+        "AmbientBrightness": "2",
+        "AmbientHue": "148",
+        "AmbientSaturation": "64",
+        "Level": "LevelInfo'myLevel.LevelInfo0'",
+        "Region": "(Zone=LevelInfo'myLevel.LevelInfo0',iLeaf=-1)",
+        "Tag": "LevelInfo",
+        "PhysicsVolume": "DefaultPhysicsVolume'myLevel.DefaultPhysicsVolume0'"
+      },
+      "mission_actors": [
+        {
+          "source_class": "AoMissionInfo",
+          "source_name": "AoMissionInfo0",
+          "properties": {
+            "UnLockTime": "360",
+            "UnlockKills": "200",
+            "Level": "LevelInfo'myLevel.LevelInfo0'",
+            "Region": "(Zone=LevelInfo'myLevel.LevelInfo0',iLeaf=148,ZoneNumber=1)",
+            "Tag": "AoMissionInfo",
+            "PhysicsVolume": "DefaultPhysicsVolume'myLevel.DefaultPhysicsVolume0'",
+            "Location": "(X=-27895.177734,Y=-1544.830566,Z=150.000000)",
+            "DrawScale": "2.000000"
+          }
+        },
+        {
+          "source_class": "EscapeObjective",
+          "source_name": "EscapeObjective0",
+          "properties": {
+            "ShortName": "4. Escape",
+            "Description": "Once the dropship is in place, board it for evac.  The evac zone is marked with a red smoke signal flare.",
+            "bHiddenObjective": "True",
+            "Level": "LevelInfo'myLevel.LevelInfo0'",
+            "Region": "(Zone=LevelInfo'myLevel.LevelInfo0',iLeaf=-1)",
+            "Tag": "EscapeObjective",
+            "PhysicsVolume": "DefaultPhysicsVolume'myLevel.DefaultPhysicsVolume0'",
+            "Location": "(X=-27892.671875,Y=-1352.784546)",
+            "DrawScale": "2.000000"
+          }
+        },
+        {
+          "source_class": "AoTriggeredObjective",
+          "source_name": "AoTriggeredObjective0",
+          "properties": {
+            "ShortName": "1. Open connecting door to Cargo Bay C.",
+            "Description": "Williams' information regarding the main warehouses could allow us to establish an important forward base and re-supply point for the campaign.  Proceed to the warehouse compound and assess the value of the facility.   Williams reports that the facility's laser mine defences have been activated, so be careful.",
+            "DebriefText": "The main warehouses have been completely overrun.  All supplies have been contaminated; all munitions are unrecoverable.  You did well to get out of there alive, marines.",
+            "ObjectivePic": "Texture'myLevel.Objectives.PowerShot'",
+            "Level": "LevelInfo'myLevel.LevelInfo0'",
+            "Region": "(Zone=LevelInfo'myLevel.LevelInfo0',iLeaf=-1)",
+            "Tag": "TrainDoor1",
+            "PhysicsVolume": "DefaultPhysicsVolume'myLevel.DefaultPhysicsVolume0'",
+            "Location": "(X=-27892.203125,Y=-1617.743408)",
+            "DrawScale": "2.000000"
+          }
+        },
+        {
+          "source_class": "AoCountdownObjective",
+          "source_name": "AoCountdownObjective0",
+          "properties": {
+            "ShortName": "3. Call Dropship Bloodhound",
+            "Description": "The warehouse is overrun.  Internal sensors are picking up large numbers of incoming Swarm.  Recommend immediate extraction.  Proceed east to the main landing bay, fire the distress flare and await evac.",
+            "ObjectivePic": "Texture'myLevel.SurvivalLandingSpot'",
+            "bHiddenObjective": "True",
+            "Level": "LevelInfo'myLevel.LevelInfo0'",
+            "Region": "(Zone=LevelInfo'myLevel.LevelInfo0',iLeaf=-1)",
+            "Tag": "StartDropshipCountdown",
+            "Event": "DropshipArrivedYes",
+            "PhysicsVolume": "DefaultPhysicsVolume'myLevel.DefaultPhysicsVolume0'",
+            "Location": "(X=-27894.691406,Y=-1448.020386)",
+            "DrawScale": "2.000000"
+          }
+        },
+        {
+          "source_class": "AccessComputerFilesObjective",
+          "source_name": "AccessComputerFilesObjective0",
+          "properties": {
+            "ShortName": "2. Download inventory and damage report",
+            "Description": "The facility schematics show an unsecure terminal halfway along the main cargo tracks. Get to this and download a complete inventory and damage report for the facility.  Once you have obtained this report, secure the area and await further orders.",
+            "DebriefText": "The location has been marked for an orbital strike as soon as we are clear.",
+            "bRequiresTechMarine": "False",
+            "Level": "LevelInfo'myLevel.LevelInfo0'",
+            "Region": "(Zone=LevelInfo'myLevel.LevelInfo0',iLeaf=-1)",
+            "Tag": "downloadinventory",
+            "Event": "RevealObjects",
+            "PhysicsVolume": "DefaultPhysicsVolume'myLevel.DefaultPhysicsVolume0'",
+            "Location": "(X=-27893.066406,Y=-1532.746582)",
+            "DrawScale": "2.000000"
+          }
+        },
+        {
+          "source_class": "AoRevealObjectiveTrigger",
+          "source_name": "AoRevealObjectiveTrigger0",
+          "properties": {
+            "Level": "LevelInfo'myLevel.LevelInfo0'",
+            "Region": "(Zone=LevelInfo'myLevel.LevelInfo0',iLeaf=-1)",
+            "Tag": "RevealObjects",
+            "Event": "StartDropshipCountdown",
+            "PhysicsVolume": "DefaultPhysicsVolume'myLevel.DefaultPhysicsVolume0'",
+            "Location": "(X=-28169.212891,Y=-1598.401978)",
+            "ColLocation": "(X=-28169.212891,Y=-1598.401978)"
+          }
+        },
+        {
+          "source_class": "AoRevealObjectiveTrigger",
+          "source_name": "AoRevealObjectiveTrigger1",
+          "properties": {
+            "Level": "LevelInfo'myLevel.LevelInfo0'",
+            "Region": "(Zone=LevelInfo'myLevel.LevelInfo0',iLeaf=-1)",
+            "Tag": "RevealObjects",
+            "Event": "EscapeObjective",
+            "PhysicsVolume": "DefaultPhysicsVolume'myLevel.DefaultPhysicsVolume0'",
+            "Location": "(X=-28168.078125,Y=-1549.478149)",
+            "ColLocation": "(X=-28168.078125,Y=-1549.478149)"
+          }
+        }
+      ]
+    },
+    {
+      "map": "AO-Barracks",
+      "level_info": {
+        "TimeSeconds": "0.770700",
+        "Title": "Barracks",
+        "Author": "Black Cat Games",
+        "Summary": "LevelSummary'myLevel.LevelSummary'",
+        "bHasPathNodes": "True",
+        "CameraLocationDynamic": "(X=5394.849609,Y=-816.228638,Z=598.618835)",
+        "CameraLocationTop": "(X=5309.562012,Y=-989.384338,Z=25055.787109)",
+        "CameraLocationFront": "(X=5389.451660,Y=343.970306,Z=15350.082031)",
+        "CameraLocationSide": "(X=-18.069635,Y=124.141945,Z=10471.442383)",
+        "CameraRotationDynamic": "(Pitch=57684,Yaw=-15688)",
+        "DefaultGameType": "aoprototype.aogameinfo",
+        "NavigationPointList": "InventorySpot'myLevel.InventorySpot11'",
+        "bLightChanged": "True",
+        "Level": "LevelInfo'myLevel.LevelInfo0'",
+        "Region": "(Zone=LevelInfo'myLevel.LevelInfo0',iLeaf=-1)",
+        "Tag": "LevelInfo",
+        "PhysicsVolume": "DefaultPhysicsVolume'myLevel.DefaultPhysicsVolume11'"
+      },
+      "mission_actors": [
+        {
+          "source_class": "AoMissionInfo",
+          "source_name": "AoMissionInfo0",
+          "properties": {
+            "bAllowHelmetCam": "True",
+            "UnLockTime": "150",
+            "UnlockKills": "200",
+            "Level": "LevelInfo'myLevel.LevelInfo0'",
+            "Region": "(Zone=LevelInfo'myLevel.LevelInfo0',iLeaf=-1)",
+            "Tag": "AoMissionInfo",
+            "PhysicsVolume": "DefaultPhysicsVolume'myLevel.DefaultPhysicsVolume11'",
+            "Location": "(X=5280.397949,Y=5793.281250,Z=32.000000)"
+          }
+        },
+        {
+          "source_class": "ExploreLocationObjective",
+          "source_name": "ExploreLocationObjective0",
+          "properties": {
+            "NumAreasToExplore": "1",
+            "ShortName": "1. Regroup and gain access to Barracks.",
+            "Description": "Security lockdowns will be in effect throughout the barracks.  A tech marine will be required to bypass any security doors you encounter.",
+            "DebriefText": "Outstanding work, the tactical data is intact and comprehensive.  These records contain detailed information on swarm tactics and capabilities, as well as the effectiveness of standard Planetary Defence Force procedures.",
+            "DebriefText2": "The area has been marked for an orbital strike as soon as we are clear.  This should protect our flank as we stage our final operation.",
+            "ObjectivePic": "Texture'AoObjectivePics.WPowerObjective'",
+            "Level": "LevelInfo'myLevel.LevelInfo0'",
+            "Region": "(Zone=LevelInfo'myLevel.LevelInfo0',iLeaf=-1)",
+            "Tag": "ExploreLocationObjective",
+            "PhysicsVolume": "DefaultPhysicsVolume'myLevel.DefaultPhysicsVolume11'",
+            "Location": "(X=5280.533691,Y=5788.908203,Z=32.000000)"
+          }
+        },
+        {
+          "source_class": "AccessComputerFilesObjective",
+          "source_name": "AccessComputerFilesObjective0",
+          "properties": {
+            "ShortName": "2. Retrieve Tactical data from systems.",
+            "Description": "Once inside the barracks, locate an active computer station.  A tech marine should be able to retrieve the tactical database from there.",
+            "ObjectivePic": "Texture'AoObjectivePics.WHackObjective'",
+            "Level": "LevelInfo'myLevel.LevelInfo0'",
+            "Region": "(Zone=LevelInfo'myLevel.LevelInfo0',iLeaf=-1)",
+            "Tag": "AccessComputerFilesObjective",
+            "PhysicsVolume": "DefaultPhysicsVolume'myLevel.DefaultPhysicsVolume11'",
+            "Location": "(X=5281.666504,Y=5827.018066,Z=32.000000)"
+          }
+        },
+        {
+          "source_class": "EscapeObjective",
+          "source_name": "EscapeObjective0",
+          "properties": {
+            "ShortName": "3. Proceed to North courtyard for extraction.",
+            "Description": "Dropship Bloodhound will pick you up form the north courtyard.  Swarm presence is highly concentrated in this area; you will have to clear the LZ.",
+            "ObjectivePic": "Texture'AoObjectivePics.WLandingObjective'",
+            "Level": "LevelInfo'myLevel.LevelInfo0'",
+            "Region": "(Zone=LevelInfo'myLevel.LevelInfo0',iLeaf=-1)",
+            "Tag": "EscapeObjective",
+            "PhysicsVolume": "DefaultPhysicsVolume'myLevel.DefaultPhysicsVolume11'",
+            "Location": "(X=5280.249023,Y=5872.578613,Z=32.000000)"
+          }
+        },
+        {
+          "source_class": "AoDummyObjective",
+          "source_name": "AoDummyObjective0",
+          "properties": {
+            "Description": "The first of our primary targets, the Planetary Defence Force (PDF) barracks.  Command needs a full copy of the data stored in their tactical systems.  This data chronicles the Swarm attacks and PDF defence procedures, in full.",
+            "Description2": "The main entrance to the barracks has been overrun.  Blueprints show another entrance, but due to extensive damage sustained during Swarm attacks, several connecting corridors and facilities have become inaccessible.  Your squad will be deployed in two teams, south of the main building.  You are to sweep north and locate this alternative entrance.",
+            "Level": "LevelInfo'myLevel.LevelInfo0'",
+            "Region": "(Zone=LevelInfo'myLevel.LevelInfo0',iLeaf=-1)",
+            "Tag": "AoDummyObjective",
+            "PhysicsVolume": "DefaultPhysicsVolume'myLevel.DefaultPhysicsVolume11'",
+            "Location": "(X=5281.011719,Y=5750.168457)"
+          }
+        }
+      ]
+    },
+    {
+      "map": "AO-Research",
+      "level_info": {
+        "TimeSeconds": "0.846600",
+        "Summary": "LevelSummary'myLevel.LevelSummary'",
+        "VisibleGroups": "None,KERONAZ1",
+        "bHasPathNodes": "True",
+        "CameraLocationDynamic": "(X=-7778.136230,Y=-3659.648926,Z=623.139526)",
+        "CameraLocationTop": "(X=-7667.925293,Y=-3916.207764,Z=25921.302734)",
+        "CameraLocationFront": "(X=-6773.000000,Y=-348.000000,Z=15536.925781)",
+        "CameraLocationSide": "(X=-4198.113281,Y=-11.000000,Z=609.382935)",
+        "CameraRotationDynamic": "(Pitch=52780,Yaw=52544)",
+        "DefaultGameType": "aoprototype.aogameinfo",
+        "NavigationPointList": "InventorySpot'myLevel.InventorySpot5'",
+        "Level": "LevelInfo'myLevel.LevelInfo0'",
+        "Region": "(Zone=LevelInfo'myLevel.LevelInfo0',iLeaf=-1)",
+        "Tag": "LevelInfo",
+        "PhysicsVolume": "DefaultPhysicsVolume'myLevel.DefaultPhysicsVolume0'"
+      },
+      "mission_actors": [
+        {
+          "source_class": "KillXEggsObjective",
+          "source_name": "KillXEggsObjective0",
+          "properties": {
+            "NumberOfEggsToDestroy": "30",
+            "ShowEggCount": "100",
+            "ShortName": "1. Destroy %n Eggs",
+            "Description": "Containment in the facility has been lost.  Live specimens are loose throughout the research labs.  Destroy %n Swarm eggs to prevent further infestation.",
+            "DebriefText": "Good work, marines.  The Swarm presence has been all but neutralised in this area.  The packaged eggs, ready for transportation, hint at a much larger conspiracy than Command had realised.  Looks like this won't be the end of our dealings with SynTek.",
+            "ObjectivePic": "None",
+            "ObjectivePicSizeX": "150.000000",
+            "Level": "LevelInfo'myLevel.LevelInfo0'",
+            "Region": "(Zone=LevelInfo'myLevel.LevelInfo0',iLeaf=-1)",
+            "Tag": "KillXEggsObjective",
+            "PhysicsVolume": "DefaultPhysicsVolume'myLevel.DefaultPhysicsVolume0'",
+            "Location": "(X=-4840.239746,Y=-3311.354736,Z=-810.000000)"
+          }
+        },
+        {
+          "source_class": "EscapeObjective",
+          "source_name": "EscapeObjective0",
+          "properties": {
+            "ShortName": "3. Escape",
+            "Description": "Once all other objectives are complete, the surviving squad members must proceed to the emergency exit.",
+            "ObjectivePic": "Texture'AoObjectivePics.MedExitObjective'",
+            "ObjectivePicSizeX": "224.000000",
+            "ObjectivePicSizeY": "224.000000",
+            "Level": "LevelInfo'myLevel.LevelInfo0'",
+            "Region": "(Zone=LevelInfo'myLevel.LevelInfo0',iLeaf=-1)",
+            "Tag": "EscapeObjective",
+            "PhysicsVolume": "DefaultPhysicsVolume'myLevel.DefaultPhysicsVolume0'",
+            "Location": "(X=-4842.074219,Y=-3221.052002,Z=-810.000000)"
+          }
+        },
+        {
+          "source_class": "AoMissionInfo",
+          "source_name": "AoMissionInfo1",
+          "properties": {
+            "bRequiresTechMarine": "True",
+            "bAllowHelmetCam": "True",
+            "UnLockTime": "150",
+            "UnlockKills": "200",
+            "Level": "LevelInfo'myLevel.LevelInfo0'",
+            "Region": "(Zone=LevelInfo'myLevel.LevelInfo0',iLeaf=-1)",
+            "Tag": "AoMissionInfo",
+            "PhysicsVolume": "DefaultPhysicsVolume'myLevel.DefaultPhysicsVolume0'",
+            "Location": "(X=-4843.406738,Y=-3303.791260,Z=-810.000000)"
+          }
+        },
+        {
+          "source_class": "AoDummyObjective",
+          "source_name": "AoDummyObjective0",
+          "properties": {
+            "Description": "Command has interest in the nature of SynTek's research on Sigma 612.  Using the information supplied by Lt Williams, we have located the corporation's main medical facilities.",
+            "Level": "LevelInfo'myLevel.LevelInfo0'",
+            "Region": "(Zone=LevelInfo'myLevel.LevelInfo0',iLeaf=-1)",
+            "Tag": "AoDummyObjective",
+            "PhysicsVolume": "DefaultPhysicsVolume'myLevel.DefaultPhysicsVolume0'",
+            "Location": "(X=-4844.053223,Y=-3346.332520)"
+          }
+        }
+      ]
+    },
+    {
+      "map": "AO-Observation",
+      "level_info": {
+        "TimeSeconds": "1.141400",
+        "Summary": "LevelSummary'myLevel.LevelSummary'",
+        "VisibleGroups": "None,rainnoise",
+        "bPathsRebuilt": "True",
+        "bHasPathNodes": "True",
+        "CameraLocationDynamic": "(X=335.570831,Y=-5296.027832,Z=18.799582)",
+        "CameraLocationTop": "(X=-193.161194,Y=-657.944519,Z=27661.314453)",
+        "CameraLocationFront": "(X=288.000000,Y=-17.000004,Z=459.760315)",
+        "CameraLocationSide": "(X=-5328.000000,Y=-17.000004,Z=90291.304688)",
+        "DefaultGameType": "aoprototype.aogameinfo",
+        "NavigationPointList": "InventorySpot'myLevel.InventorySpot10'",
+        "Level": "LevelInfo'myLevel.LevelInfo0'",
+        "Region": "(Zone=LevelInfo'myLevel.LevelInfo0',iLeaf=-1)",
+        "Tag": "LevelInfo",
+        "PhysicsVolume": "DefaultPhysicsVolume'myLevel.DefaultPhysicsVolume0'"
+      },
+      "mission_actors": [
+        {
+          "source_class": "AoMissionInfo",
+          "source_name": "AoMissionInfo0",
+          "properties": {
+            "bAllowHelmetCam": "True",
+            "UnLockTime": "330",
+            "UnlockKills": "5",
+            "Level": "LevelInfo'myLevel.LevelInfo0'",
+            "Region": "(Zone=LevelInfo'myLevel.LevelInfo0',iLeaf=-1)",
+            "Tag": "AoMissionInfo",
+            "PhysicsVolume": "DefaultPhysicsVolume'myLevel.DefaultPhysicsVolume0'",
+            "Location": "(X=4656.000000,Y=-784.000000)"
+          }
+        },
+        {
+          "source_class": "AccessComputerFilesObjective",
+          "source_name": "AccessComputerFilesObjective0",
+          "properties": {
+            "ShortName": "2. Download the mission critical data",
+            "Description": "Once the gate has been opened, proceed west and down to sub-processing.  There should be some service corridors that will lead you directly to the main archives.",
+            "Level": "LevelInfo'myLevel.LevelInfo0'",
+            "Region": "(Zone=LevelInfo'myLevel.LevelInfo0',iLeaf=-1)",
+            "Tag": "AccessComputerFilesObjective",
+            "PhysicsVolume": "DefaultPhysicsVolume'myLevel.DefaultPhysicsVolume0'",
+            "Location": "(X=4657.968750,Y=-735.607483)"
+          }
+        },
+        {
+          "source_class": "EscapeObjective",
+          "source_name": "EscapeObjective0",
+          "properties": {
+            "ShortName": "3. Return to APC for extraction",
+            "Description": "Once the data has been downloaded, return to the APC for extraction.",
+            "Description2": "Bio sensors are off the scale.  Expect heavy resistance.",
+            "Level": "LevelInfo'myLevel.LevelInfo0'",
+            "Region": "(Zone=LevelInfo'myLevel.LevelInfo0',iLeaf=-1)",
+            "Tag": "EscapeObjective",
+            "PhysicsVolume": "DefaultPhysicsVolume'myLevel.DefaultPhysicsVolume0'",
+            "Location": "(X=4656.083496,Y=-690.916626)"
+          }
+        },
+        {
+          "source_class": "AoDummyObjective",
+          "source_name": "AoDummyObjective0",
+          "properties": {
+            "Description": "Sigma 612's Deep Space Observatory is our final target.  Command requires a complete copy of the facility's data archives.  Security lockdowns have disabled all remote access; your team must enter the archives and download the files manually.  The data has been classified Top Secret, you don't need to know what it contains, just bring it back here.",
+            "Level": "LevelInfo'myLevel.LevelInfo0'",
+            "Region": "(Zone=LevelInfo'myLevel.LevelInfo0',iLeaf=-1)",
+            "Tag": "AoDummyObjective",
+            "PhysicsVolume": "DefaultPhysicsVolume'myLevel.DefaultPhysicsVolume0'",
+            "Location": "(X=4659.720215,Y=-825.457764)"
+          }
+        },
+        {
+          "source_class": "AoTriggeredObjective",
+          "source_name": "AoTriggeredObjective0",
+          "properties": {
+            "ShortName": "1. Unlock the Archive gate",
+            "Description": "The archive entrance will have been sealed during the swarm attack.  To override this lockdown, locate the security control room, north of your insertion point.",
+            "DebriefText": "The data appears intact; I hope it's worth the price we paid.  This campaign is over and your time on Sigma 612 has been served.  I have commended all members of the unit to Central Command, in recognition of your outstanding service.",
+            "DebriefText2": "Fleet and Infantry will be here within the week to cleanse and reclaim this rock.  As for you, Bloodhound is leaving for the Actaeon in 1 hour; be on it.",
+            "Level": "LevelInfo'myLevel.LevelInfo0'",
+            "Region": "(Zone=LevelInfo'myLevel.LevelInfo0',iLeaf=-1)",
+            "Tag": "ThirdDoorA",
+            "PhysicsVolume": "DefaultPhysicsVolume'myLevel.DefaultPhysicsVolume0'",
+            "Location": "(X=4661.027832,Y=-783.154236)"
+          }
+        }
+      ]
+    },
+    {
+      "map": "AO-Uplink",
+      "level_info": {
+        "TimeSeconds": "0.584800",
+        "Title": "Uplink",
+        "Summary": "LevelSummary'myLevel.LevelSummary'",
+        "bPathsRebuilt": "True",
+        "bHasPathNodes": "True",
+        "CameraLocationDynamic": "(X=838.301514,Y=-1977.245361,Z=14809.631836)",
+        "CameraLocationTop": "(X=580.293152,Y=-1898.090332,Z=14948.125000)",
+        "CameraLocationFront": "(X=4153.689453,Y=14871.171875,Z=7431.313965)",
+        "CameraLocationSide": "(X=2002.038208,Y=14871.171875,Z=13876.663086)",
+        "CameraRotationDynamic": "(Pitch=58812,Yaw=103480)",
+        "DefaultGameType": "aoprototype.aogameinfo",
+        "StallZ": "16000.000000",
+        "NavigationPointList": "InventorySpot'myLevel.InventorySpot3'",
+        "Level": "LevelInfo'myLevel.LevelInfo0'",
+        "Region": "(Zone=LevelInfo'myLevel.LevelInfo0',iLeaf=-1)",
+        "Tag": "LevelInfo",
+        "PhysicsVolume": "DefaultPhysicsVolume'myLevel.DefaultPhysicsVolume0'"
+      },
+      "mission_actors": [
+        {
+          "source_class": "AoTriggeredObjective",
+          "source_name": "AoTriggeredObjective1",
+          "properties": {
+            "ShortName": "1. Bring rooftop uplink station back online",
+            "Description": "Command must be made aware of the information recovered from SynTek's medical facilities.  Sweep north and east towards the uplink.  A Tech marine will be required to align the dish.",
+            "DebriefText": "Good work, marines.  The Actaeon is now transmitting the data through sub space to Central Command.",
+            "ObjectivePic": "Texture'AoObjectivePics.RadarObjective'",
+            "bRequiresTechMarine": "True",
+            "Level": "LevelInfo'myLevel.LevelInfo0'",
+            "Region": "(Zone=ZoneInfo'myLevel.ZoneInfo0',iLeaf=70,ZoneNumber=2)",
+            "Tag": "DoorToQueen",
+            "PhysicsVolume": "DefaultPhysicsVolume'myLevel.DefaultPhysicsVolume0'",
+            "Location": "(X=-178.435806,Y=-1898.057861,Z=14742.000000)",
+            "DrawScale": "2.000000"
+          }
+        },
+        {
+          "source_class": "EscapeObjective",
+          "source_name": "EscapeObjective0",
+          "properties": {
+            "ShortName": "3. Escape",
+            "Description": "Once the dish has been aligned, proceed into the main building, where an APC will extract the squad.",
+            "ObjectivePic": "Texture'AoObjectivePics.RoofEscape'",
+            "Level": "LevelInfo'myLevel.LevelInfo0'",
+            "Region": "(Zone=ZoneInfo'myLevel.ZoneInfo0',iLeaf=20,ZoneNumber=2)",
+            "Tag": "EscapeObjective",
+            "PhysicsVolume": "DefaultPhysicsVolume'myLevel.DefaultPhysicsVolume0'",
+            "Location": "(X=-181.996490,Y=-1735.750244,Z=14742.000000)",
+            "DrawScale": "2.000000"
+          }
+        },
+        {
+          "source_class": "AoTriggeredObjective",
+          "source_name": "AoTriggeredObjective0",
+          "properties": {
+            "ShortName": "2. Locate source of unusual readings",
+            "Description": "Bio-sensors are picking up some unusual readings in the area; stay sharp out there, marines.",
+            "DebriefText": "The large beast you encountered must be the Hive Bug that SynTek brought to Sigma 612.  Excellent work in defeating this monster, your combat experience will be vital in the ongoing war against the Swarm.",
+            "ObjectivePic": "Texture'AoObjectivePics.QueenObjective'",
+            "Level": "LevelInfo'myLevel.LevelInfo0'",
+            "Region": "(Zone=ZoneInfo'myLevel.ZoneInfo0',iLeaf=70,ZoneNumber=2)",
+            "Tag": "QueenWasKilled",
+            "PhysicsVolume": "DefaultPhysicsVolume'myLevel.DefaultPhysicsVolume0'",
+            "Location": "(X=-181.732819,Y=-1821.323486,Z=14742.000000)",
+            "DrawScale": "2.000000"
+          }
+        },
+        {
+          "source_class": "AoMissionInfo",
+          "source_name": "AoMissionInfo0",
+          "properties": {
+            "bRequiresTechMarine": "True",
+            "UnLockTime": "320",
+            "UnlockKills": "200",
+            "Level": "LevelInfo'myLevel.LevelInfo0'",
+            "Region": "(Zone=ZoneInfo'myLevel.ZoneInfo0',iLeaf=70,ZoneNumber=2)",
+            "Tag": "AoMissionInfo",
+            "PhysicsVolume": "DefaultPhysicsVolume'myLevel.DefaultPhysicsVolume0'",
+            "Location": "(X=-177.584839,Y=-1821.895752,Z=14749.624023)",
+            "DrawScale": "2.000000"
+          }
+        }
+      ]
+    },
+    {
+      "map": "AO-BioLabFacility",
+      "level_info": {
+        "TimeSeconds": "918.102234",
+        "Title": "Syntek BioLab Facility",
+        "Author": "Ulukai",
+        "Summary": "LevelSummary'myLevel.LevelSummary'",
+        "bPathsRebuilt": "True",
+        "bHasPathNodes": "True",
+        "CameraLocationDynamic": "(X=2534.463623,Y=1329.226196,Z=1105.200439)",
+        "CameraLocationTop": "(X=781.937561,Y=455.852966,Z=101747.593750)",
+        "CameraLocationFront": "(X=-1072.000000,Y=-77.000000,Z=1419.664673)",
+        "CameraLocationSide": "(X=128.000000,Y=-77.000000,Z=19457.708984)",
+        "CameraRotationDynamic": "(Pitch=49152,Yaw=-81788)",
+        "DefaultGameType": "AoPrototype.AoGameInfo",
+        "NavigationPointList": "InventorySpot'myLevel.InventorySpot2'",
+        "Level": "LevelInfo'myLevel.LevelInfo0'",
+        "Region": "(Zone=LevelInfo'myLevel.LevelInfo0',iLeaf=-1)",
+        "Tag": "LevelInfo",
+        "PhysicsVolume": "DefaultPhysicsVolume'myLevel.DefaultPhysicsVolume0'"
+      },
+      "mission_actors": [
+        {
+          "source_class": "AoMissionInfo",
+          "source_name": "AoMissionInfo0",
+          "properties": {
+            "bRequiresTechMarine": "True",
+            "UnLockTime": "240",
+            "Level": "LevelInfo'myLevel.LevelInfo0'",
+            "Region": "(Zone=LevelInfo'myLevel.LevelInfo0',iLeaf=89,ZoneNumber=1)",
+            "Tag": "AoMissionInfo",
+            "PhysicsVolume": "DefaultPhysicsVolume'myLevel.DefaultPhysicsVolume0'",
+            "Location": "(X=-1914.474854,Y=-2332.181641,Z=255.393860)",
+            "DrawScale3D": "(X=2.000000,Y=2.000000,Z=2.000000)"
+          }
+        },
+        {
+          "source_class": "AccessComputerFilesObjective",
+          "source_name": "AccessComputerFilesObjective0",
+          "properties": {
+            "ShortName": "Access Security Control",
+            "Description": "Reach security control and hack the computer to release the door mechanism securing the bio laboratory. A marine with technical skills is required to do this.",
+            "IncompleteDebriefText": "Failed to gain access.",
+            "PointsAwarded": "1000",
+            "ObjectivePic": "Texture'myLevel.objective_security'",
+            "Level": "LevelInfo'myLevel.LevelInfo0'",
+            "Region": "(Zone=LevelInfo'myLevel.LevelInfo0',iLeaf=89,ZoneNumber=1)",
+            "Tag": "BioAccess",
+            "PhysicsVolume": "DefaultPhysicsVolume'myLevel.DefaultPhysicsVolume0'",
+            "Location": "(X=-1915.375244,Y=-2332.783691,Z=329.481201)",
+            "DrawScale3D": "(X=2.000000,Y=2.000000,Z=2.000000)"
+          }
+        },
+        {
+          "source_class": "KillXEggsObjective",
+          "source_name": "KillXEggsObjective0",
+          "properties": {
+            "NumberOfEggsToDestroy": "18",
+            "ShowEggCount": "18",
+            "Description": "The bio laboratory must be completely rid of non contained alien eggs. Security footage suggests at least %n eggs are in imminent danger of hatching.",
+            "IncompleteDebriefText": "Specimens not destroyed.",
+            "ObjectivePic": "Texture'myLevel.objective_eggs'",
+            "Level": "LevelInfo'myLevel.LevelInfo0'",
+            "Region": "(Zone=LevelInfo'myLevel.LevelInfo0',iLeaf=-1)",
+            "Tag": "KillXEggsObjective",
+            "PhysicsVolume": "DefaultPhysicsVolume'myLevel.DefaultPhysicsVolume0'",
+            "Location": "(X=-1915.175903,Y=-2260.437744)",
+            "DrawScale3D": "(X=2.000000,Y=2.000000,Z=2.000000)"
+          }
+        },
+        {
+          "source_class": "EscapeObjective",
+          "source_name": "EscapeObjective0",
+          "properties": {
+            "ShortName": "Evacuate",
+            "Description": "Alright sweethearts, once you've finished your mission evacuate the squad to the road tunnel just behind the APC and we'll count heads.",
+            "IncompleteDebriefText": "Failed to escape.",
+            "ObjectivePic": "Texture'myLevel.objective_escape'",
+            "Level": "LevelInfo'myLevel.LevelInfo0'",
+            "Region": "(Zone=LevelInfo'myLevel.LevelInfo0',iLeaf=-1)",
+            "Tag": "EscapeObjective",
+            "PhysicsVolume": "DefaultPhysicsVolume'myLevel.DefaultPhysicsVolume0'",
+            "Location": "(X=-1917.926514,Y=-2178.104492)",
+            "DrawScale3D": "(X=2.000000,Y=2.000000,Z=2.000000)"
+          }
+        },
+        {
+          "source_class": "AoDummyObjective",
+          "source_name": "AoDummyObjective0",
+          "properties": {
+            "Description": "One of Syntek's ground based bio laboratories has issued a priority one call for immediate military assistance. This is a known installation for swarm based study and vivisection.",
+            "Description2": "Reports indicate a number of live swarm specimens have escaped the confines of the lab and are multiplying at an unknown rate. Our job, marines, is to clean this mess up.",
+            "Level": "LevelInfo'myLevel.LevelInfo0'",
+            "Region": "(Zone=LevelInfo'myLevel.LevelInfo0',iLeaf=-1)",
+            "Tag": "AoDummyObjective",
+            "PhysicsVolume": "DefaultPhysicsVolume'myLevel.DefaultPhysicsVolume0'",
+            "Location": "(X=-1916.537598,Y=-2411.036377)",
+            "DrawScale3D": "(X=2.000000,Y=2.000000,Z=2.000000)"
+          }
+        }
+      ]
+    },
+    {
+      "map": "AO-Aspirant",
+      "level_info": {
+        "TimeSeconds": "1.518700",
+        "Title": "Aspirant",
+        "Author": "David 'Nachimir' Hayward",
+        "IdealPlayerCountMin": "4",
+        "IdealPlayerCountMax": "8",
+        "Summary": "LevelSummary'myLevel.LevelSummary'",
+        "VisibleGroups": "AmbientLights,Blah,CargoHold,CargoHoldCageLights,CrewSection,CWalks,Doors,DoorSpots,FloorLights,FreightCorridor,None,NooNoo,Objectives,PlantLights,Rails,SecAmbientLights,SideLights,TENTACLERAPE,TopofLevel,Vents,WLM",
+        "DetailMode": "DM_High",
+        "bHasPathNodes": "True",
+        "CameraLocationDynamic": "(X=-8.108836,Y=281.563019,Z=820.118896)",
+        "CameraLocationTop": "(X=-136.900848,Y=-1447.260864,Z=6649.260254)",
+        "CameraLocationFront": "(X=1408.495605,Y=-81.000000,Z=14225.965820)",
+        "CameraLocationSide": "(X=2221.670410,Y=-80.656616,Z=2146.190918)",
+        "CameraRotationDynamic": "(Pitch=53248,Yaw=-16992)",
+        "DefaultGameType": "aoprototype.aogameinfo",
+        "NavigationPointList": "InventorySpot'myLevel.InventorySpot1'",
+        "Level": "LevelInfo'myLevel.LevelInfo0'",
+        "Region": "(Zone=LevelInfo'myLevel.LevelInfo0',iLeaf=-1)",
+        "Tag": "LevelInfo",
+        "PhysicsVolume": "DefaultPhysicsVolume'myLevel.DefaultPhysicsVolume6'",
+        "Location": "(X=1056.000000,Y=32.000000,Z=384.000000)"
+      },
+      "mission_actors": [
+        {
+          "source_class": "AoMissionInfo",
+          "source_name": "AoMissionInfo2",
+          "properties": {
+            "CustomStimTheme": "Sound'myLevel.StimThemeInfiltrateNoSlow'",
+            "UnLockTime": "150",
+            "Level": "LevelInfo'myLevel.LevelInfo0'",
+            "Region": "(Zone=LevelInfo'myLevel.LevelInfo0',iLeaf=-1)",
+            "Tag": "AoMissionInfo",
+            "Group": "Objectives",
+            "PhysicsVolume": "DefaultPhysicsVolume'myLevel.DefaultPhysicsVolume6'",
+            "Location": "(X=-3454.522461,Y=-1335.178833,Z=434.564850)",
+            "Rotation": "(Yaw=32904)",
+            "DrawScale": "3.000000"
+          }
+        },
+        {
+          "source_class": "EscapeObjective",
+          "source_name": "EscapeObjective2",
+          "properties": {
+            "ShortName": "Evacuate",
+            "Description": "Once all objectives are complete, return to the crew airlock for evac.",
+            "Level": "LevelInfo'myLevel.LevelInfo0'",
+            "Region": "(Zone=LevelInfo'myLevel.LevelInfo0',iLeaf=-1)",
+            "Tag": "Exit",
+            "Group": "Objectives",
+            "PhysicsVolume": "DefaultPhysicsVolume'myLevel.DefaultPhysicsVolume6'",
+            "Location": "(X=-3449.884521,Y=-1078.157593,Z=166.808182)",
+            "Rotation": "(Yaw=32904)",
+            "DrawScale": "3.000000"
+          }
+        },
+        {
+          "source_class": "AoTriggeredObjective",
+          "source_name": "AoTriggeredObjective0",
+          "properties": {
+            "ShortName": "Prep. freight airlock.",
+            "Description": "Enter the crew airlock from the shuttle, make your way to the freight control room, and then open the inner bulkhead of the freight airlock in preparation for explosive decompression. The cargo itself is secured by transit frames, so will remain onboard during the procedure.",
+            "PointsAwarded": "2000",
+            "ObjectivePic": "Texture'myLevel.ObjectiveShots.shot-bulkhead'",
+            "bRequiresTechMarine": "True",
+            "Level": "LevelInfo'myLevel.LevelInfo0'",
+            "Region": "(Zone=LevelInfo'myLevel.LevelInfo0',iLeaf=-1)",
+            "Tag": "AirlockObj",
+            "Group": "Objectives",
+            "PhysicsVolume": "DefaultPhysicsVolume'myLevel.DefaultPhysicsVolume6'",
+            "Location": "(X=-3446.545898,Y=-1310.056274,Z=416.784424)",
+            "Rotation": "(Yaw=32904)",
+            "DrawScale": "3.000000"
+          }
+        },
+        {
+          "source_class": "AoDummyObjective",
+          "source_name": "AoDummyObjective0",
+          "properties": {
+            "Description": "A distress call from the deep space freighter Aspirant was received twelve standard days ago. Swarm presence has been confirmed; this outbreak may have emerged from cargo onboard belonging to the Syntek Corporation. Survival probability for the crew of 16 is 0%. Your mission is to significantly reduce threat levels ahead of tech and xenobiology teams.",
+            "Description2": "Surveillance footage yielded by preliminary hacks shows that the environmental systems servicing the freight decks are heavily infested, with many vents blocked by hive secretions. Manual clearance is therefore not feasible, and the objective is to be achieved by decompressing the freight decks instead.",
+            "Level": "LevelInfo'myLevel.LevelInfo0'",
+            "Region": "(Zone=LevelInfo'myLevel.LevelInfo0',iLeaf=-1)",
+            "Tag": "AoDummyObjective",
+            "Group": "Objectives",
+            "PhysicsVolume": "DefaultPhysicsVolume'myLevel.DefaultPhysicsVolume6'",
+            "Location": "(X=-3450.224121,Y=-1426.564087,Z=548.807617)",
+            "Rotation": "(Yaw=32904)",
+            "DrawScale": "3.000000"
+          }
+        },
+        {
+          "source_class": "AoTriggeredObjective",
+          "source_name": "AoTriggeredObjective2",
+          "properties": {
+            "ShortName": "Decompress freight decks.",
+            "Description": "Proceed back through the forward bulkhead to the bridge in order to seal off the crew section and initiate decompression of the freight decks.",
+            "Description2": "The freight decks are served by separate environmental systems, so the crew section will retain pressure throughout the operation.",
+            "PointsAwarded": "2000",
+            "ObjectivePic": "Texture'myLevel.ObjectiveShots.shot-bridge'",
+            "bRequiresTechMarine": "True",
+            "Level": "LevelInfo'myLevel.LevelInfo0'",
+            "Region": "(Zone=LevelInfo'myLevel.LevelInfo0',iLeaf=-1)",
+            "Tag": "WHOOSH",
+            "Group": "Objectives",
+            "PhysicsVolume": "DefaultPhysicsVolume'myLevel.DefaultPhysicsVolume6'",
+            "Location": "(X=-3450.622559,Y=-1194.513306,Z=290.899414)",
+            "Rotation": "(Yaw=32904)",
+            "DrawScale": "3.000000"
+          }
+        }
+      ]
+    }
+  ]
+}

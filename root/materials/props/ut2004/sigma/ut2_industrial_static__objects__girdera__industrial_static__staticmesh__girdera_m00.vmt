@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/ut2_Industrial_Static__Objects__girdera__Industrial_Static__StaticMesh__girdera_m00"
+    "$surfaceprop" "metal"
+    "$model" "1"
+}

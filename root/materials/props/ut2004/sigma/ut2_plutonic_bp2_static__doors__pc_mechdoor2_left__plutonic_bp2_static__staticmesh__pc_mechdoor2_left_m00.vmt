@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/ut2_Plutonic_BP2_static__Doors__PC_mechdoor2_left__Plutonic_BP2_static__StaticMesh__PC_mechdoor2_left_m00"
+    "$surfaceprop" "metal"
+    "$model" "1"
+}

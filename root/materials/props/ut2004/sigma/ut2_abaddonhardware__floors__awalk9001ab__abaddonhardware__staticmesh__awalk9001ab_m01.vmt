@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/ut2_AbaddonHardware__Floors__AWalk9001AB__AbaddonHardware__StaticMesh__AWalk9001AB_m01"
+    "$alphatest" "1"
+    "$nocull" "1"
+    "$surfaceprop" "metal"
+    "$model" "1"
+    // Unreal OB_Masked approximated with Source $alphatest
+    // Unreal AlphaRef is zero; Source alpha-test threshold may differ
+}

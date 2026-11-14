@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/ut2_X_LP_Evil1__Braces__lpg1_bracerB_2__X_LP_Evil1__StaticMesh__lpg1_bracerB_2_m01"
+    "$surfaceprop" "metal"
+    "$model" "1"
+}

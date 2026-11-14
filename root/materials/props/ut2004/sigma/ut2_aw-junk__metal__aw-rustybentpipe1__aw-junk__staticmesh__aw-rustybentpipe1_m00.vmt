@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/ut2_AW-Junk__Metal__AW-RustyBentPipe1__AW-Junk__StaticMesh__AW-RustyBentPipe1_m00"
+    "$surfaceprop" "metal"
+    "$model" "1"
+}

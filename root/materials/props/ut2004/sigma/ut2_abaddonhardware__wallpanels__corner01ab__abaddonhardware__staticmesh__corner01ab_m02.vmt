@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/ut2_AbaddonHardware__WallPanels__Corner01AB__AbaddonHardware__StaticMesh__Corner01AB_m02"
+    "$nocull" "1"
+    "$surfaceprop" "metal"
+    "$model" "1"
+    // UModel reports OB_Normal and AlphaTest=false
+    // Shader dump references REDUCED.grt02goTILE for diffuse and opacity
+    // Mesh material export references grt02GOred; texture identity needs verification
+    // No Source alpha-test behavior added
+}

@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/ut2_StreamlineTakeOff1__Trim45-01__StreamlineTakeOff1__StaticMesh__Trim45-01_m00"
+    "$surfaceprop" "metal"
+    "$model" "1"
+}

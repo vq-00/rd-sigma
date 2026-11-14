@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/ut2_AOSci__MedSciStuff__RailMover__AOSci__StaticMesh__RailMover_m00"
+    "$surfaceprop" "metal"
+    "$model" "1"
+}

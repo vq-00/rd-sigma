@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/ut2_AoUseComputers__Use__ServerTower__AoUseComputers__StaticMesh__ServerTower_m00"
+    "$surfaceprop" "metal"
+    "$model" "1"
+}

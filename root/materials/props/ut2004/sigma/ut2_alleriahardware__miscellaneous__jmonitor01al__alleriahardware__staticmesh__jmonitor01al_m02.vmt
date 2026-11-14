@@ -1,0 +1,9 @@
+"UnlitGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/ut2_AlleriaHardware__Miscellaneous__jMonitor01AL__AlleriaHardware__StaticMesh__jMonitor01AL_m02"
+    "$surfaceprop" "metal"
+    "$model" "1"
+    // Unreal diffuse and self-illumination use Lightmaps.AlMonitorC combiner
+    // Original combiner is not reproduced
+    // Unreal TexEnvMap and specularity mask are omitted
+}

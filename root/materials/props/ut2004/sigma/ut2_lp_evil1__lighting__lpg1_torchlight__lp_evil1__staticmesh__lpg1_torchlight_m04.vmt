@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/ut2_LP_Evil1__Lighting__lpg1_torchlight__LP_Evil1__StaticMesh__lpg1_torchlight_m04"
+    "$nocull" "1"
+    "$surfaceprop" "metal"
+    "$model" "1"
+}

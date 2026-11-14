@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/ut2_PC_ConvoyStatics__PC_ConDoor1__PC_ConvoyStatics__StaticMesh__PC_ConDoor1_m00"
+    "$surfaceprop" "metal"
+    "$model" "1"
+}

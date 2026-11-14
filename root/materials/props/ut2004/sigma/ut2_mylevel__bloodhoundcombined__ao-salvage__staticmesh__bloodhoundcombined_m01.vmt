@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/ut2_myLevel__BloodhoundCombined__AO-Salvage__StaticMesh__BloodhoundCombined_m01"
+    "$surfaceprop" "metal"
+    "$model" "1"
+}

@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/ut2_AoUseComputers__Use__WallPanelButton__AoUseComputers__StaticMesh__WallPanelButton_m02"
+    "$surfaceprop" "metal"
+    "$model" "1"
+}

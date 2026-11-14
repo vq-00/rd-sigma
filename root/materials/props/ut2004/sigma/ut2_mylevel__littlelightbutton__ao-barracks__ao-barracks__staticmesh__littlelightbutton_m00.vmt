@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/ut2_myLevel__LittleLightButton__AO-Barracks__AO-Barracks__StaticMesh__LittleLightButton_m00"
+    "$surfaceprop" "metal"
+    "$model" "1"
+}

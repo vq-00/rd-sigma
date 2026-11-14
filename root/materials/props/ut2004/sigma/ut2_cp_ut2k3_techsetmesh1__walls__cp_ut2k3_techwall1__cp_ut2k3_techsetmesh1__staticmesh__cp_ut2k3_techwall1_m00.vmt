@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/ut2_CP_UT2K3_TechSetMesh1__Walls__cp_ut2k3_techwall1__CP_UT2K3_TechSetMesh1__StaticMesh__cp_ut2k3_techwall1_m00"
+    "$surfaceprop" "metal"
+    "$model" "1"
+}

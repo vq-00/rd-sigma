@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/ut2_AoSurvival__Security__RadioactiveLiquid__AoSurvival__StaticMesh__RadioactiveLiquid_m00"
+    "$translucent" "1"
+    "$surfaceprop" "water"
+    "$model" "1"
+    // Unreal watertrans approximated using its opacity texture
+    // Black opacity produces a fully transparent material
+}

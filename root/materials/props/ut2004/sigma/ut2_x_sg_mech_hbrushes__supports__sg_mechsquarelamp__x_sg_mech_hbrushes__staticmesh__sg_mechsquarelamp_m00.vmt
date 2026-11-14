@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/ut2_X_sg_Mech_hbrushes__Supports__sg_Mechsquarelamp__X_sg_Mech_hbrushes__StaticMesh__sg_Mechsquarelamp_m00"
+    "$surfaceprop" "metal"
+    "$model" "1"
+}

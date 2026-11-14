@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/ut2_AlleriaHardware__Miscellaneous__ASmlTank01AL__AlleriaHardware__StaticMesh__ASmlTank01AL_m00"
+    "$surfaceprop" "metal"
+    "$model" "1"
+}

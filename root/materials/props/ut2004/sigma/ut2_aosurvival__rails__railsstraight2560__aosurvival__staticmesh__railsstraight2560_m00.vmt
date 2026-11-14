@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/ut2_AoSurvival__Rails__RailsStraight2560__AoSurvival__StaticMesh__RailsStraight2560_m00"
+    "$surfaceprop" "metal"
+    "$model" "1"
+}

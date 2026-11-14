@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/ut2_AORoofMission__Deco__RedLight__AORoofMission__StaticMesh__RedLight_m01"
+    "$surfaceprop" "metal"
+    "$model" "1"
+}

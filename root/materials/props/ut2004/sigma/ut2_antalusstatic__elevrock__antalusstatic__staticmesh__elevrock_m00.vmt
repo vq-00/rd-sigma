@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/ut2_AntalusStatic__elevRock__AntalusStatic__StaticMesh__elevRock_m00"
+    "$surfaceprop" "metal"
+    "$model" "1"
+}

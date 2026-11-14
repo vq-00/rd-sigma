@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/ut2_AbaddonHardware__Beams__Sup2Beam25601AB__AbaddonHardware__StaticMesh__Sup2Beam25601AB_m00"
+    "$surfaceprop" "metal"
+    "$model" "1"
+}

@@ -1,0 +1,5 @@
+"LightmappedGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/brush/X_Mech_decayed__Lights__sg_Mechlightrim3"
+    "$surfaceprop" "concrete"
+}

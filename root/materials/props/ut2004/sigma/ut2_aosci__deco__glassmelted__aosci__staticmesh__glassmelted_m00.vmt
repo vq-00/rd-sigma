@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/ut2_AOSci__Deco__GlassMelted__AOSci__StaticMesh__GlassMelted_m00"
+    "$translucent" "1"
+    "$surfaceprop" "glass"
+    "$model" "1"
+    // Unreal OB_Translucent approximated with Source $translucent
+    // Unreal TexEnvMap reflection omitted
+    // Unreal shader is one-sided
+    // Source model material does not reproduce the original environment-map specular
+}

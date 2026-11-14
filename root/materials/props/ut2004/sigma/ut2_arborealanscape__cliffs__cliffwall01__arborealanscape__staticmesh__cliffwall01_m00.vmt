@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/ut2_ArboreaLanscape__Cliffs__cliffwall01__ArboreaLanscape__StaticMesh__cliffwall01_m00"
+    "$surfaceprop" "metal"
+    "$model" "1"
+}

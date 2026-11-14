@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/ut2_X_cp_Evil__cp_Evilpipe1__X_cp_Evil__StaticMesh__cp_Evilpipe1_m00"
+    "$surfaceprop" "metal"
+    "$model" "1"
+}

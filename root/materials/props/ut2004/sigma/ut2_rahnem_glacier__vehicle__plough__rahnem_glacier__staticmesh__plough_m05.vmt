@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/ut2_Rahnem_Glacier__Vehicle__plough__Rahnem_Glacier__StaticMesh__plough_m05"
+    "$surfaceprop" "metal"
+    "$model" "1"
+}

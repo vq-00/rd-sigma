@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/ut2_myLevel__DoorEntry__AO-Salvage__AO-Salvage__StaticMesh__DoorEntry_m00"
+    "$surfaceprop" "metal"
+    "$model" "1"
+}

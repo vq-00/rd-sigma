@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/ut2_Plutonic_BP2_static__Factory__crate1__Plutonic_BP2_static__StaticMesh__crate1_m00"
+    "$surfaceprop" "metal"
+    "$model" "1"
+}

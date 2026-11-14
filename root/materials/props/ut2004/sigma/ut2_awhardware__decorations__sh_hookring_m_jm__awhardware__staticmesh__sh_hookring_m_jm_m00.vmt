@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/ut2_AWHardware__Decorations__sh_hookring_M_jm__AWHardware__StaticMesh__sh_hookring_M_jm_m00"
+    "$surfaceprop" "metal"
+    "$model" "1"
+}

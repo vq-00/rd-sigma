@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/ut2_SC-Intro_Meshes__LightBoxRed__SC-Intro_Meshes__StaticMesh__LightBoxRed_m00"
+    "$surfaceprop" "metal"
+    "$model" "1"
+}

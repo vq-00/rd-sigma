@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/ut2_Pipe_Static__General__tubecanister__Pipe_Static__StaticMesh__tubecanister_m00"
+    "$surfaceprop" "metal"
+    "$model" "1"
+}

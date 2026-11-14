@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/ut2_wm_meshes__wm_BestMeshEver__wm_meshes__StaticMesh__wm_BestMeshEver_m00"
+    "$surfaceprop" "metal"
+    "$model" "1"
+}

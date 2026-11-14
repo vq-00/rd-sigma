@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/ut2_myLevel__ParasiteCageDoor__AO-ReactorCore__AO-ReactorCore__StaticMesh__ParasiteCageDoor_m01"
+    "$surfaceprop" "metal"
+    "$model" "1"
+}

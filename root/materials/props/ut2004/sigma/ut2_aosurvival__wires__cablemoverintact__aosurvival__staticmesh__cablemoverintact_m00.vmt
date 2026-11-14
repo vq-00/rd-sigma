@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/ut2_AoSurvival__Wires__CableMoverIntact__AoSurvival__StaticMesh__CableMoverIntact_m00"
+    "$surfaceprop" "metal"
+    "$model" "1"
+}

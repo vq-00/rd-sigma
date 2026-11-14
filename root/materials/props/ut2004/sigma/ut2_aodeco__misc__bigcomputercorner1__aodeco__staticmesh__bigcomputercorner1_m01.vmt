@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/ut2_AODeco__Misc__BigComputerCorner1__AODeco__StaticMesh__BigComputerCorner1_m01"
+    "$surfaceprop" "metal"
+    "$model" "1"
+}

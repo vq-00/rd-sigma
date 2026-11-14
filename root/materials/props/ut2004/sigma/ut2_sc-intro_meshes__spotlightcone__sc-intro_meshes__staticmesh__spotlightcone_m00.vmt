@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/ut2_SC-Intro_Meshes__SpotLightCone__SC-Intro_Meshes__StaticMesh__SpotLightCone_m00"
+    "$translucent" "1"
+    "$selfillum" "1"
+    "$surfaceprop" "glass"
+    "$model" "1"
+}

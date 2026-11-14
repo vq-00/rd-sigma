@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/ut2_AlleriaHardware__Pipes__algpipe04alLow__AlleriaHardware__StaticMesh__algpipe04alLow_m00"
+    "$surfaceprop" "metal"
+    "$model" "1"
+}

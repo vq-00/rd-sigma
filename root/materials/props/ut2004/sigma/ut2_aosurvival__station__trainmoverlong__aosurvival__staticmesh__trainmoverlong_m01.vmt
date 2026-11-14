@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/ut2_AoSurvival__Station__TrainMoverLong__AoSurvival__StaticMesh__TrainMoverLong_m01"
+    "$surfaceprop" "metal"
+    "$model" "1"
+}

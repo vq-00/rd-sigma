@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/ut2_X_sg_Evilstatpak1__Walls__sg_lp_giestwall2__X_sg_Evilstatpak1__StaticMesh__sg_lp_giestwall2_m00"
+    "$surfaceprop" "metal"
+    "$model" "1"
+}

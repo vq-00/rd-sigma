@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/ut2_AS_Decos__ExplodingBarrel__AS_Decos__StaticMesh__ExplodingBarrel_m00"
+    "$surfaceprop" "metal"
+    "$model" "1"
+}

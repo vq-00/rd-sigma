@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/ut2_WeaponStaticMesh__SniperRiflePickup__WeaponStaticMesh__StaticMesh__SniperRiflePickup_m00"
+    "$surfaceprop" "metal"
+    "$model" "1"
+}

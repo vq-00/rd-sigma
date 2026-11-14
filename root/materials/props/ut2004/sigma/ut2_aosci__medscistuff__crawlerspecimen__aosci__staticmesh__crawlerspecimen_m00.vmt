@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/ut2_AOSci__MedSciStuff__CrawlerSpecimen__AOSci__StaticMesh__CrawlerSpecimen_m00"
+    "$surfaceprop" "metal"
+    "$model" "1"
+}

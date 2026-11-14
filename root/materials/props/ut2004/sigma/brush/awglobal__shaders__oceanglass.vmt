@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/brush/UCGeneric__glass01"
+    "$surfaceprop" "concrete"
+    "$translucent" "1"
+    "$nocull" "1"
+}

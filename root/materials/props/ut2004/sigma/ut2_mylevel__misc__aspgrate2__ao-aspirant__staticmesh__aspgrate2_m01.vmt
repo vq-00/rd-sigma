@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/ut2_myLevel__Misc__AspGrate2__AO-Aspirant__StaticMesh__AspGrate2_m01"
+    "$surfaceprop" "metal"
+    "$model" "1"
+}

@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/ut2_AlienTech__CatwalkSegments__Reactor2WithFuelRodOut__AlienTech__StaticMesh__Reactor2WithFuelRodOut_m02"
+    "$surfaceprop" "metal"
+    "$model" "1"
+}

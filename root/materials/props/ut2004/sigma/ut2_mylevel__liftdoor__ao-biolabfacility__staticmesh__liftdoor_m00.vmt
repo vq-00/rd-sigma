@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/ut2_myLevel__LiftDoor__AO-BioLabFacility__StaticMesh__LiftDoor_m00"
+    "$surfaceprop" "metal"
+    "$model" "1"
+}

@@ -1,0 +1,10 @@
+"UnlitGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/ut2_BastienHardware_02__Lights__Light_01__BastienHardware_02__StaticMesh__Light_01_m01"
+    "$translucent" "1"
+    "$surfaceprop" "glass"
+    "$model" "1"
+    // Unreal OB_Translucent approximated with Source $translucent
+    // Unreal TexEnvMap reflection omitted
+    // Cubemap faces preserved separately but not assigned to VMT
+}

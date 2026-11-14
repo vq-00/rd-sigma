@@ -1,0 +1,5 @@
+"LightmappedGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/brush/UCGeneric__SolidColours__Black"
+    "$surfaceprop" "concrete"
+}

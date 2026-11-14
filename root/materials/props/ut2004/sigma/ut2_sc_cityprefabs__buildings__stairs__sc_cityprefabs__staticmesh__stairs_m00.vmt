@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/ut2_SC_CityPrefabs__Buildings__stairs__SC_CityPrefabs__StaticMesh__stairs_m00"
+    "$surfaceprop" "metal"
+    "$model" "1"
+}

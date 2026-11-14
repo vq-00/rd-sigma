@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/ut2_AOVehicles__Air__Actaeon__AOVehicles__StaticMesh__Actaeon_m02"
+    "$surfaceprop" "metal"
+    "$model" "1"
+}

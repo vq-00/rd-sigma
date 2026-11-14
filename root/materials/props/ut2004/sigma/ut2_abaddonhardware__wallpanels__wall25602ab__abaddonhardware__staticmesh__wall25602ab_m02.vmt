@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/ut2_AbaddonHardware__WallPanels__Wall25602AB__AbaddonHardware__StaticMesh__Wall25602AB_m02"
+    "$surfaceprop" "metal"
+    "$model" "1"
+}

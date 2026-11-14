@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/ut2_AS_Decos__MetalShelves__AS_Decos__StaticMesh__MetalShelves_m00"
+    "$surfaceprop" "metal"
+    "$model" "1"
+}

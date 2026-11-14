@@ -1,0 +1,5 @@
+"LightmappedGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/brush/Shiptech__Bases__bas02CS"
+    "$surfaceprop" "concrete"
+}

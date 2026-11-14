@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/ut2_ArboreaHardware__Organics__AbFernA__ArboreaHardware__StaticMesh__AbFernA_m00"
+    "$surfaceprop" "metal"
+    "$model" "1"
+}

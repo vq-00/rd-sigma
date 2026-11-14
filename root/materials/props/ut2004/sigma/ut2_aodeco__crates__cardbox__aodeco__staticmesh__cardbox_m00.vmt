@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/ut2_AODeco__Crates__Cardbox__AODeco__StaticMesh__Cardbox_m00"
+    "$surfaceprop" "metal"
+    "$model" "1"
+}

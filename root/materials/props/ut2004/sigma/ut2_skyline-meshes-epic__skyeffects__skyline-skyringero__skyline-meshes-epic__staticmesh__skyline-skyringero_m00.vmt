@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "props/ut2004/sigma/ut2_skyline-meshes-epic__skyeffects__Skyline-skyringero__skyline-meshes-epic__StaticMesh__Skyline-skyringero_m00"
+    "$surfaceprop" "metal"
+    "$model" "1"
+}
