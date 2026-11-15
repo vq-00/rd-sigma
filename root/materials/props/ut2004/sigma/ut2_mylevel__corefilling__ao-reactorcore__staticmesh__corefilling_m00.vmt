@@ -3,4 +3,69 @@
     "$basetexture" "props/ut2004/sigma/ut2_myLevel__CoreFilling__AO-ReactorCore__StaticMesh__CoreFilling_m00"
     "$surfaceprop" "metal"
     "$model" "1"
+
+    // Makes the reactor liquid glow even in dark rooms
+    "$selfillum" "1"
+    "$selfillumtint" "[1.2 1.2 1.2]"
+
+    // Adds glossy liquid sheen and warps the surface using a normal map
+    // (You can use any tiling water normal map from your game's materials/dev or materials/liquids folder)
+    "$bumpmap" "dev/water_normal"
+    "$envmap" "env_cubemap"
+    "$normalmapalphaenvmapmask" "1"
+    "$envmaptint" "[0.4 0.4 0.4]"
+
+    // Subtle rim light to give the bubbling surface extra depth
+    "$phong" "1"
+    "$phongexponent" "35"
+    "$phongboost" "1.5"
+    "$phongfresnelranges" "[0.2 0.6 1.0]"
+
+    // Variables driven by the proxies below
+    "$scrollrate" "0.15"
+    "$warpangle" "0"
+    "$scale_x" "1"
+    "$scale_y" "1"
+
+    "Proxies"
+    {
+        // 1. Continuously scrolls the texture upward/diagonally like rising convection currents
+        "TextureScroll"
+        {
+            "texturescrollvar" "$basetexturetransform"
+            "texturescrollrate" "0.12"
+            "texturescrollangle" "85"
+        }
+
+        // 2. Scrolls the normal map at a different angle and speed so the ripples clash and bubble
+        "TextureScroll"
+        {
+            "texturescrollvar" "$bumptransform"
+            "texturescrollrate" "0.22"
+            "texturescrollangle" "25"
+        }
+
+        // 3. Makes the glow intensity throb like an active boiling reaction
+        "Sine"
+        {
+            "resultVar" "$selfillumtint[0]"
+            "sineperiod" "1.4"
+            "sinemin" "0.85"
+            "sinemax" "1.45"
+        }
+        "Sine"
+        {
+            "resultVar" "$selfillumtint[1]"
+            "sineperiod" "1.4"
+            "sinemin" "0.85"
+            "sinemax" "1.45"
+        }
+        "Sine"
+        {
+            "resultVar" "$selfillumtint[2]"
+            "sineperiod" "1.4"
+            "sinemin" "0.85"
+            "sinemax" "1.45"
+        }
+    }
 }

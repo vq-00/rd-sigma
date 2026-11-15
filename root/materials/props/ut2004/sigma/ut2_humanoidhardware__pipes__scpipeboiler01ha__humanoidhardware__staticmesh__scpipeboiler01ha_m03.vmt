@@ -3,4 +3,5 @@
     "$basetexture" "props/ut2004/sigma/ut2_HumanoidHardware__Pipes__SCpipeboiler01HA__HumanoidHardware__StaticMesh__SCpipeboiler01HA_m03"
     "$surfaceprop" "metal"
     "$model" "1"
+    "$translucent" "1"
 }
