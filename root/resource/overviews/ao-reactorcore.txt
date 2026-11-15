@@ -1,0 +1,17 @@
+GAME
+{
+	"pos_x"	"-12980"
+	"pos_y"	"5289"
+	"scale"	"12"
+	"material" "vgui/swarm/overviews/ao-reactorcoreoverview"
+	"briefingmaterial" "vgui/swarm/overviews/ao-reactorcoreoverview"
+	"mapyoffset" "0"
+	"missiontitle"		"Reactor Core"
+	"description"	"The primary reactor that supplies both the main compound and surrounding facilities has been severely damaged.  Local sensors indicate an 85% chance of critical failure, leading to meltdown, occurring within the hour."
+	"image"		""
+	"version"		"1"
+	"author"		"vq"
+	"builtin"		"0"
+	"regional_material"	"retrieved_documents"
+	"website"		""
+}

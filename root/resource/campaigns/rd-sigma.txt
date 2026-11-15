@@ -1,6 +1,6 @@
 GAME
 {
-    "CampaignName" "Alien Swarm Sigma"
+    "CampaignName" "Sigma"
     "CampaignDescription" ""
     "CampaignTextureLayer1" "swarm/Campaign/CampaignMap_EmptyLayer"
     "CampaignTextureLayer2" "swarm/Campaign/CampaignMap_EmptyLayer"
@@ -9,11 +9,22 @@ GAME
     "GalaxyY" "1024"
     "MISSION"
     {
+        "MissionName"       "Bogo Desert"
+        "MapName"       "dropzone"
+        "LocationX"     "1000"
+        "LocationY"     "880"
+        "DifficultyModifier"    "-2"
+        "Links"         "AO-ReactorCore" 
+        "LocationDescription"   ""
+        "ShortBriefing"     ""
+    }
+    "MISSION"
+    {
         "MissionName" "Reactor Core"
         "MapName" "AO-ReactorCore"
         "LocationX" "64"
         "LocationY" "512"
-        "Links" "AO-Rescue"
+        "Links" "dropzone AO-Rescue"
         "AlwaysVisible" "1"
     }
     "MISSION"
