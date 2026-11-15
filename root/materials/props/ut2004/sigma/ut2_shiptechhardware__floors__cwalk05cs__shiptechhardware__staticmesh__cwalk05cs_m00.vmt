@@ -1,7 +1,8 @@
 "VertexLitGeneric"
 {
     "$basetexture" "props/ut2004/sigma/ut2_ShiptechHardware__Floors__CWalk05CS__ShiptechHardware__StaticMesh__CWalk05CS_m00"
-    "$surfaceprop" "metal"
-    "$model" "1"
-    "$translucent" "1"
+    //"$surfaceprop" "metal"
+    //"$model" "1"
+    //"$translucent" "1"
+    "$alphatest" "1"
 }

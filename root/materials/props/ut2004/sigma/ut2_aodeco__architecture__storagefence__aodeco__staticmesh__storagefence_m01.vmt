@@ -3,4 +3,5 @@
     "$basetexture" "props/ut2004/sigma/ut2_AODeco__Architecture__StorageFence__AODeco__StaticMesh__StorageFence_m01"
     "$surfaceprop" "metal"
     "$model" "1"
+    "$translucent" "1"
 }

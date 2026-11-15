@@ -1,7 +1,8 @@
 "LightmappedGeneric"
 {
     "$basetexture" "props/ut2004/sigma/brush/Shiptech__Grates__grt01ST_AlphaTwoSided"
-    "$translucent" "1"
-    "$nocull" "1"
-    "$surfaceprop" "metal"
+    //"$translucent" "1"
+    //"$nocull" "1"
+    //"$surfaceprop" "metal"
+    "$alphatest" "1"
 }
