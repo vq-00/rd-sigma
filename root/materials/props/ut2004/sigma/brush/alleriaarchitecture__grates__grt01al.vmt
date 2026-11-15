@@ -1,5 +1,6 @@
 "LightmappedGeneric"
 {
     "$basetexture" "props/ut2004/sigma/brush/AlleriaArchitecture__Grates__grt01AL"
-    "$surfaceprop" "concrete"
+    //"$surfaceprop" "concrete"
+    "$alphatest" "1"
 }
