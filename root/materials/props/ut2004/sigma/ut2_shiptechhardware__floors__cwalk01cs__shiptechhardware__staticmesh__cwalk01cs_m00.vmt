@@ -3,4 +3,5 @@
     "$basetexture" "props/ut2004/sigma/ut2_ShiptechHardware__Floors__CWalk01CS__ShiptechHardware__StaticMesh__CWalk01CS_m00"
     "$surfaceprop" "metal"
     "$model" "1"
+    "$translucent" "1"
 }
