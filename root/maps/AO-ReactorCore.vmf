@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7397"
-	"mapversion" "241"
+	"mapversion" "246"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "241"
+	"mapversion" "246"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -6095,6 +6095,234 @@ world
 		editor
 		{
 			"color" "0 202 191"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "250023"
+		side
+		{
+			"id" "14277"
+			"plane" "(-6388 1119 -742.825) (-6388 1151 -742.825) (-6356 1151 -742.825)"
+			"material" "TOOLS/TOOLSBLOCKBULLETS"
+			"uaxis" "[1 0 0 -32] 0.25"
+			"vaxis" "[0 -1 0 -52] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "14276"
+			"plane" "(-6388 1151 -867.825) (-6388 1119 -867.825) (-6356 1119 -867.825)"
+			"material" "TOOLS/TOOLSBLOCKBULLETS"
+			"uaxis" "[1 0 0 -32] 0.25"
+			"vaxis" "[0 -1 0 -52] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "14275"
+			"plane" "(-6388 1119 -867.825) (-6388 1151 -867.825) (-6388 1151 -742.826)"
+			"material" "TOOLS/TOOLSBLOCKBULLETS"
+			"uaxis" "[0 1 0 52] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "14274"
+			"plane" "(-6356 1151 -867.825) (-6356 1119 -867.825) (-6356 1119 -742.826)"
+			"material" "TOOLS/TOOLSBLOCKBULLETS"
+			"uaxis" "[0 1 0 52] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "14273"
+			"plane" "(-6388 1151 -867.825) (-6356 1151 -867.825) (-6356 1151 -742.826)"
+			"material" "TOOLS/TOOLSBLOCKBULLETS"
+			"uaxis" "[1 0 0 -32] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "14272"
+			"plane" "(-6356 1119 -867.825) (-6388 1119 -867.825) (-6388 1119 -742.826)"
+			"material" "TOOLS/TOOLSBLOCKBULLETS"
+			"uaxis" "[1 0 0 -32] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 178 135"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "250026"
+		side
+		{
+			"id" "14289"
+			"plane" "(-6432 1120 -774) (-6432 1152 -774) (-6400 1152 -774)"
+			"material" "TOOLS/TOOLSBLOCKBULLETS"
+			"uaxis" "[1 0 0 16] 0.25"
+			"vaxis" "[0 -1 0 -48] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "14288"
+			"plane" "(-6432 1152 -867.825) (-6432 1120 -867.825) (-6400 1120 -867.825)"
+			"material" "TOOLS/TOOLSBLOCKBULLETS"
+			"uaxis" "[1 0 0 16] 0.25"
+			"vaxis" "[0 -1 0 -48] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "14287"
+			"plane" "(-6432 1120 -867.825) (-6432 1152 -867.825) (-6432 1152 -774.001)"
+			"material" "TOOLS/TOOLSBLOCKBULLETS"
+			"uaxis" "[0 1 0 48] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "14286"
+			"plane" "(-6400 1152 -867.825) (-6400 1120 -867.825) (-6400 1120 -774.001)"
+			"material" "TOOLS/TOOLSBLOCKBULLETS"
+			"uaxis" "[0 1 0 48] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "14285"
+			"plane" "(-6432 1152 -867.825) (-6400 1152 -867.825) (-6400 1152 -774.001)"
+			"material" "TOOLS/TOOLSBLOCKBULLETS"
+			"uaxis" "[1 0 0 16] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "14284"
+			"plane" "(-6400 1120 -867.825) (-6432 1120 -867.825) (-6432 1120 -774.001)"
+			"material" "TOOLS/TOOLSBLOCKBULLETS"
+			"uaxis" "[1 0 0 16] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 178 135"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "250224"
+		side
+		{
+			"id" "14290"
+			"plane" "(-5752 -2472 -1244) (-5560 -2472 -1244) (-5560 -2694 -1244)"
+			"material" "TOOLS/TOOLSCLIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "14291"
+			"plane" "(-5752 -2694 -1285) (-5560 -2694 -1285) (-5560 -2472 -1285)"
+			"material" "TOOLS/TOOLSCLIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "14292"
+			"plane" "(-5752 -2472 -1244) (-5752 -2694 -1244) (-5752 -2694 -1285)"
+			"material" "TOOLS/TOOLSCLIP"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "14293"
+			"plane" "(-5560 -2472 -1285) (-5560 -2694 -1285) (-5560 -2694 -1244)"
+			"material" "TOOLS/TOOLSCLIP"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "14294"
+			"plane" "(-5560 -2472 -1244) (-5752 -2472 -1244) (-5752 -2472 -1285)"
+			"material" "TOOLS/TOOLSCLIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "14295"
+			"plane" "(-5560 -2694 -1285) (-5752 -2694 -1285) (-5752 -2694 -1244)"
+			"material" "TOOLS/TOOLSCLIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 159 172"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -59493,234 +59721,6 @@ world
 			"visgroupautoshown" "1"
 		}
 	}
-	solid
-	{
-		"id" "250023"
-		side
-		{
-			"id" "14277"
-			"plane" "(-6388 1119 -742.825) (-6388 1151 -742.825) (-6356 1151 -742.825)"
-			"material" "TOOLS/TOOLSBLOCKBULLETS"
-			"uaxis" "[1 0 0 -32] 0.25"
-			"vaxis" "[0 -1 0 -52] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "14276"
-			"plane" "(-6388 1151 -867.825) (-6388 1119 -867.825) (-6356 1119 -867.825)"
-			"material" "TOOLS/TOOLSBLOCKBULLETS"
-			"uaxis" "[1 0 0 -32] 0.25"
-			"vaxis" "[0 -1 0 -52] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "14275"
-			"plane" "(-6388 1119 -867.825) (-6388 1151 -867.825) (-6388 1151 -742.826)"
-			"material" "TOOLS/TOOLSBLOCKBULLETS"
-			"uaxis" "[0 1 0 52] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "14274"
-			"plane" "(-6356 1151 -867.825) (-6356 1119 -867.825) (-6356 1119 -742.826)"
-			"material" "TOOLS/TOOLSBLOCKBULLETS"
-			"uaxis" "[0 1 0 52] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "14273"
-			"plane" "(-6388 1151 -867.825) (-6356 1151 -867.825) (-6356 1151 -742.826)"
-			"material" "TOOLS/TOOLSBLOCKBULLETS"
-			"uaxis" "[1 0 0 -32] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "14272"
-			"plane" "(-6356 1119 -867.825) (-6388 1119 -867.825) (-6388 1119 -742.826)"
-			"material" "TOOLS/TOOLSBLOCKBULLETS"
-			"uaxis" "[1 0 0 -32] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "0 178 135"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	solid
-	{
-		"id" "250026"
-		side
-		{
-			"id" "14289"
-			"plane" "(-6432 1120 -774) (-6432 1152 -774) (-6400 1152 -774)"
-			"material" "TOOLS/TOOLSBLOCKBULLETS"
-			"uaxis" "[1 0 0 16] 0.25"
-			"vaxis" "[0 -1 0 -48] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "14288"
-			"plane" "(-6432 1152 -867.825) (-6432 1120 -867.825) (-6400 1120 -867.825)"
-			"material" "TOOLS/TOOLSBLOCKBULLETS"
-			"uaxis" "[1 0 0 16] 0.25"
-			"vaxis" "[0 -1 0 -48] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "14287"
-			"plane" "(-6432 1120 -867.825) (-6432 1152 -867.825) (-6432 1152 -774.001)"
-			"material" "TOOLS/TOOLSBLOCKBULLETS"
-			"uaxis" "[0 1 0 48] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "14286"
-			"plane" "(-6400 1152 -867.825) (-6400 1120 -867.825) (-6400 1120 -774.001)"
-			"material" "TOOLS/TOOLSBLOCKBULLETS"
-			"uaxis" "[0 1 0 48] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "14285"
-			"plane" "(-6432 1152 -867.825) (-6400 1152 -867.825) (-6400 1152 -774.001)"
-			"material" "TOOLS/TOOLSBLOCKBULLETS"
-			"uaxis" "[1 0 0 16] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "14284"
-			"plane" "(-6400 1120 -867.825) (-6432 1120 -867.825) (-6432 1120 -774.001)"
-			"material" "TOOLS/TOOLSBLOCKBULLETS"
-			"uaxis" "[1 0 0 16] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "0 178 135"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	solid
-	{
-		"id" "250224"
-		side
-		{
-			"id" "14290"
-			"plane" "(-5752 -2472 -1244) (-5560 -2472 -1244) (-5560 -2694 -1244)"
-			"material" "TOOLS/TOOLSCLIP"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "14291"
-			"plane" "(-5752 -2694 -1285) (-5560 -2694 -1285) (-5560 -2472 -1285)"
-			"material" "TOOLS/TOOLSCLIP"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "14292"
-			"plane" "(-5752 -2472 -1244) (-5752 -2694 -1244) (-5752 -2694 -1285)"
-			"material" "TOOLS/TOOLSCLIP"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "14293"
-			"plane" "(-5560 -2472 -1285) (-5560 -2694 -1285) (-5560 -2694 -1244)"
-			"material" "TOOLS/TOOLSCLIP"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "14294"
-			"plane" "(-5560 -2472 -1244) (-5752 -2472 -1244) (-5752 -2472 -1285)"
-			"material" "TOOLS/TOOLSCLIP"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "14295"
-			"plane" "(-5560 -2694 -1285) (-5752 -2694 -1285) (-5752 -2694 -1244)"
-			"material" "TOOLS/TOOLSCLIP"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "0 159 172"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
 	group
 	{
 		"id" "109272"
@@ -72942,6 +72942,7 @@ entity
 	"CustomMaxHealth" "1800"
 	"distance" "112"
 	"DoBreachedShout" "1"
+	"doortype" "2"
 	"forceclosed" "0"
 	"model" "models/props/ut2004/sigma/dynamic/dynamic_b5f66690b830.mdl"
 	"rendercolor" "255 255 255"
@@ -72983,6 +72984,7 @@ entity
 	"CustomMaxHealth" "1800"
 	"distance" "80"
 	"DoBreachedShout" "1"
+	"doortype" "2"
 	"forceclosed" "0"
 	"model" "models/props/ut2004/sigma/dynamic/dynamic_b5f66690b830.mdl"
 	"rendercolor" "255 255 255"
@@ -93688,6 +93690,7 @@ entity
 	"CustomMaxHealth" "1800"
 	"distance" "60"
 	"DoBreachedShout" "1"
+	"doortype" "2"
 	"forceclosed" "0"
 	"model" "models/props/ut2004/sigma/dynamic/dynamic_5e06316b5f6e.mdl"
 	"rendercolor" "255 255 255"
@@ -93729,6 +93732,7 @@ entity
 	"CustomMaxHealth" "1800"
 	"distance" "56"
 	"DoBreachedShout" "1"
+	"doortype" "2"
 	"forceclosed" "0"
 	"model" "models/props/ut2004/sigma/dynamic/dynamic_5e06316b5f6e.mdl"
 	"rendercolor" "255 255 255"
@@ -93954,6 +93958,7 @@ entity
 	"CustomMaxHealth" "1800"
 	"distance" "60"
 	"DoBreachedShout" "1"
+	"doortype" "2"
 	"forceclosed" "0"
 	"model" "models/props/ut2004/sigma/dynamic/dynamic_5e06316b5f6e.mdl"
 	"rendercolor" "255 255 255"
@@ -93996,6 +94001,7 @@ entity
 	"CustomMaxHealth" "1800"
 	"distance" "56"
 	"DoBreachedShout" "1"
+	"doortype" "2"
 	"forceclosed" "0"
 	"model" "models/props/ut2004/sigma/dynamic/dynamic_5e06316b5f6e.mdl"
 	"rendercolor" "255 255 255"
@@ -94122,6 +94128,7 @@ entity
 	"CustomMaxHealth" "1800"
 	"distance" "57"
 	"DoBreachedShout" "1"
+	"doortype" "2"
 	"forceclosed" "0"
 	"model" "models/props/ut2004/sigma/dynamic/dynamic_5e06316b5f6e.mdl"
 	"rendercolor" "255 255 255"
@@ -94163,6 +94170,7 @@ entity
 	"CustomMaxHealth" "1800"
 	"distance" "58"
 	"DoBreachedShout" "1"
+	"doortype" "2"
 	"forceclosed" "0"
 	"model" "models/props/ut2004/sigma/dynamic/dynamic_5e06316b5f6e.mdl"
 	"rendercolor" "255 255 255"
@@ -94288,6 +94296,7 @@ entity
 	"CustomMaxHealth" "1800"
 	"distance" "60"
 	"DoBreachedShout" "1"
+	"doortype" "2"
 	"forceclosed" "0"
 	"model" "models/props/ut2004/sigma/dynamic/dynamic_5e06316b5f6e.mdl"
 	"rendercolor" "255 255 255"
@@ -94329,6 +94338,7 @@ entity
 	"CustomMaxHealth" "1800"
 	"distance" "56"
 	"DoBreachedShout" "1"
+	"doortype" "2"
 	"forceclosed" "0"
 	"model" "models/props/ut2004/sigma/dynamic/dynamic_5e06316b5f6e.mdl"
 	"rendercolor" "255 255 255"
@@ -94552,6 +94562,7 @@ entity
 	"CustomMaxHealth" "1800"
 	"distance" "57"
 	"DoBreachedShout" "1"
+	"doortype" "2"
 	"forceclosed" "0"
 	"model" "models/props/ut2004/sigma/dynamic/dynamic_5e06316b5f6e.mdl"
 	"rendercolor" "255 255 255"
@@ -94594,6 +94605,7 @@ entity
 	"CustomMaxHealth" "1800"
 	"distance" "58"
 	"DoBreachedShout" "1"
+	"doortype" "2"
 	"forceclosed" "0"
 	"model" "models/props/ut2004/sigma/dynamic/dynamic_5e06316b5f6e.mdl"
 	"rendercolor" "255 255 255"
@@ -97882,6 +97894,7 @@ entity
 	"id" "101404"
 	"classname" "logic_relay"
 	"angles" "0 -90 0"
+	"spawnflags" "0"
 	"T3DClass" "AoDispatcher"
 	"T3DName" "AoDispatcher3"
 	"T3DOutChance0" "0.500000"
@@ -97893,7 +97906,6 @@ entity
 	connections
 	{
 		"OnTrigger" "__t3d_disp_AO_ReactorCore_AoDispatcher3_slot_0Trigger13-1"
-		"OnTrigger" "AoDoorArea1Enable0-1"
 	}
 	"origin" "-5611.51 -2885.22 -800"
 	editor
@@ -105578,7 +105590,7 @@ entity
 	"hordes" "0"
 	"T3DMappingStatus" "SUPPORTS_AO_END_EMERGENCY_TRIGGER"
 	"targetname" "@director"
-	"wanderers" "0"
+	"wanderers" "1"
 	"origin" "0 0 0"
 	editor
 	{
@@ -109599,9 +109611,9 @@ entity
 	"angles" "-0 0 0"
 	"file" "instances/spawners/rd-sigma_floor_spawn01.vmf"
 	"fixup_style" "2"
-	"replace01" "$max_alive 2"
+	"replace01" "$max_alive 1"
 	"replace02" "$num_aliens 3"
-	"replace03" "$spawn_interval 2"
+	"replace03" "$spawn_interval 3"
 	"replace04" "$spawer_name AoAlienSpawner44"
 	"origin" "-6791 -3096 -832"
 	editor
@@ -112853,9 +112865,9 @@ entity
 	"angles" "-0 90 0"
 	"file" "instances/spawners/rd-sigma_floor_spawn01.vmf"
 	"fixup_style" "2"
-	"replace01" "$max_alive 2"
+	"replace01" "$max_alive 1"
 	"replace02" "$num_aliens 3"
-	"replace03" "$spawn_interval 2"
+	"replace03" "$spawn_interval 3"
 	"replace04" "$spawer_name AoAlienSpawner48"
 	"origin" "-1942 763.387 -864"
 	editor
@@ -112874,9 +112886,9 @@ entity
 	"angles" "-0 90 0"
 	"file" "instances/spawners/rd-sigma_floor_spawn01.vmf"
 	"fixup_style" "2"
-	"replace01" "$max_alive 2"
+	"replace01" "$max_alive 1"
 	"replace02" "$num_aliens 3"
-	"replace03" "$spawn_interval 2"
+	"replace03" "$spawn_interval 3"
 	"replace04" "$spawer_name AoAlienSpawner5"
 	"origin" "-4115 1536 -865"
 	editor
@@ -112895,9 +112907,9 @@ entity
 	"angles" "-0 -90 0"
 	"file" "instances/spawners/rd-sigma_floor_spawn01.vmf"
 	"fixup_style" "2"
-	"replace01" "$max_alive 2"
+	"replace01" "$max_alive 1"
 	"replace02" "$num_aliens 3"
-	"replace03" "$spawn_interval 2"
+	"replace03" "$spawn_interval 3"
 	"replace04" "$spawer_name AoAlienSpawner25"
 	"origin" "-4472 2816 -865"
 	editor
@@ -112916,9 +112928,9 @@ entity
 	"angles" "-0 -90 0"
 	"file" "instances/spawners/rd-sigma_floor_spawn01.vmf"
 	"fixup_style" "2"
-	"replace01" "$max_alive 2"
+	"replace01" "$max_alive 1"
 	"replace02" "$num_aliens 3"
-	"replace03" "$spawn_interval 2"
+	"replace03" "$spawn_interval 3"
 	"replace04" "$spawer_name AoAlienSpawner17"
 	"origin" "-4971 2792 -865"
 	editor
@@ -112937,9 +112949,9 @@ entity
 	"angles" "-0 0 0"
 	"file" "instances/spawners/rd-sigma_floor_spawn01.vmf"
 	"fixup_style" "2"
-	"replace01" "$max_alive 2"
+	"replace01" "$max_alive 1"
 	"replace02" "$num_aliens 3"
-	"replace03" "$spawn_interval 2"
+	"replace03" "$spawn_interval 3"
 	"replace04" "$spawer_name AoAlienSpawner20"
 	"origin" "-5656 2808 -863"
 	editor
@@ -112958,9 +112970,9 @@ entity
 	"angles" "-0 0 0"
 	"file" "instances/spawners/rd-sigma_floor_spawn01.vmf"
 	"fixup_style" "2"
-	"replace01" "$max_alive 2"
+	"replace01" "$max_alive 1"
 	"replace02" "$num_aliens 3"
-	"replace03" "$spawn_interval 2"
+	"replace03" "$spawn_interval 3"
 	"replace04" "$spawer_name AoAlienSpawner21"
 	"origin" "-5527 2236.7 -865"
 	editor
@@ -112979,9 +112991,9 @@ entity
 	"angles" "-0 0 0"
 	"file" "instances/spawners/rd-sigma_floor_spawn01.vmf"
 	"fixup_style" "2"
-	"replace01" "$max_alive 2"
+	"replace01" "$max_alive 1"
 	"replace02" "$num_aliens 3"
-	"replace03" "$spawn_interval 2"
+	"replace03" "$spawn_interval 3"
 	"replace04" "$spawer_name AoAlienSpawner19"
 	"origin" "-5933 2236 -865"
 	editor
@@ -113000,9 +113012,9 @@ entity
 	"angles" "-0 -90 0"
 	"file" "instances/spawners/rd-sigma_floor_spawn01.vmf"
 	"fixup_style" "2"
-	"replace01" "$max_alive 2"
+	"replace01" "$max_alive 1"
 	"replace02" "$num_aliens 3"
-	"replace03" "$spawn_interval 2"
+	"replace03" "$spawn_interval 3"
 	"replace04" "$spawer_name AoAlienSpawner1"
 	"origin" "-6578 2224 -865"
 	editor
@@ -113021,9 +113033,9 @@ entity
 	"angles" "-0 0 0"
 	"file" "instances/spawners/rd-sigma_floor_spawn01.vmf"
 	"fixup_style" "2"
-	"replace01" "$max_alive 2"
+	"replace01" "$max_alive 1"
 	"replace02" "$num_aliens 3"
-	"replace03" "$spawn_interval 2"
+	"replace03" "$spawn_interval 3"
 	"replace04" "$spawer_name AoAlienSpawner26"
 	"origin" "-6688 2151 -865"
 	editor
@@ -113042,9 +113054,9 @@ entity
 	"angles" "-0 90 0"
 	"file" "instances/spawners/rd-sigma_floor_spawn01.vmf"
 	"fixup_style" "2"
-	"replace01" "$max_alive 2"
+	"replace01" "$max_alive 1"
 	"replace02" "$num_aliens 3"
-	"replace03" "$spawn_interval 2"
+	"replace03" "$spawn_interval 3"
 	"replace04" "$spawer_name AoAlienSpawner29"
 	"origin" "-6294 1712 -863"
 	editor
@@ -113063,9 +113075,9 @@ entity
 	"angles" "-0 90 0"
 	"file" "instances/spawners/rd-sigma_floor_spawn01.vmf"
 	"fixup_style" "2"
-	"replace01" "$max_alive 2"
+	"replace01" "$max_alive 1"
 	"replace02" "$num_aliens 3"
-	"replace03" "$spawn_interval 2"
+	"replace03" "$spawn_interval 3"
 	"replace04" "$spawer_name AoAlienSpawner31"
 	"origin" "-6214 1315 -863"
 	editor
@@ -113084,9 +113096,9 @@ entity
 	"angles" "-0 -90 0"
 	"file" "instances/spawners/rd-sigma_floor_spawn01.vmf"
 	"fixup_style" "2"
-	"replace01" "$max_alive 2"
+	"replace01" "$max_alive 1"
 	"replace02" "$num_aliens 3"
-	"replace03" "$spawn_interval 2"
+	"replace03" "$spawn_interval 3"
 	"replace04" "$spawer_name AoAlienSpawner30"
 	"origin" "-6967 1568 -863"
 	editor
@@ -113105,9 +113117,9 @@ entity
 	"angles" "-0 -90 0"
 	"file" "instances/spawners/rd-sigma_floor_spawn01.vmf"
 	"fixup_style" "2"
-	"replace01" "$max_alive 2"
+	"replace01" "$max_alive 1"
 	"replace02" "$num_aliens 3"
-	"replace03" "$spawn_interval 2"
+	"replace03" "$spawn_interval 3"
 	"replace04" "$spawer_name AoAlienSpawner61"
 	"origin" "-7227 1643 -863"
 	editor
@@ -113126,9 +113138,9 @@ entity
 	"angles" "-0 -90 0"
 	"file" "instances/spawners/rd-sigma_floor_spawn01.vmf"
 	"fixup_style" "2"
-	"replace01" "$max_alive 2"
+	"replace01" "$max_alive 1"
 	"replace02" "$num_aliens 3"
-	"replace03" "$spawn_interval 2"
+	"replace03" "$spawn_interval 3"
 	"replace04" "$spawer_name AoAlienSpawner33"
 	"origin" "-6483 405 -863"
 	editor
@@ -113147,9 +113159,9 @@ entity
 	"angles" "-0 90 0"
 	"file" "instances/spawners/rd-sigma_floor_spawn01.vmf"
 	"fixup_style" "2"
-	"replace01" "$max_alive 2"
+	"replace01" "$max_alive 1"
 	"replace02" "$num_aliens 3"
-	"replace03" "$spawn_interval 2"
+	"replace03" "$spawn_interval 3"
 	"replace04" "$spawer_name AoAlienSpawner28"
 	"origin" "-6367 338 -863"
 	editor
@@ -113168,9 +113180,9 @@ entity
 	"angles" "-0 90 0"
 	"file" "instances/spawners/rd-sigma_floor_spawn01.vmf"
 	"fixup_style" "2"
-	"replace01" "$max_alive 2"
+	"replace01" "$max_alive 1"
 	"replace02" "$num_aliens 3"
-	"replace03" "$spawn_interval 2"
+	"replace03" "$spawn_interval 3"
 	"replace04" "$spawer_name AoAlienSpawner54"
 	"origin" "-6283 263 -863"
 	editor
@@ -113189,9 +113201,9 @@ entity
 	"angles" "-0 90 0"
 	"file" "instances/spawners/rd-sigma_floor_spawn01.vmf"
 	"fixup_style" "2"
-	"replace01" "$max_alive 2"
+	"replace01" "$max_alive 1"
 	"replace02" "$num_aliens 3"
-	"replace03" "$spawn_interval 2"
+	"replace03" "$spawn_interval 3"
 	"replace04" "$spawer_name AoAlienSpawner52"
 	"origin" "-6359 -50 -863"
 	editor
@@ -113210,9 +113222,9 @@ entity
 	"angles" "-0 90 0"
 	"file" "instances/spawners/rd-sigma_floor_spawn01.vmf"
 	"fixup_style" "2"
-	"replace01" "$max_alive 2"
+	"replace01" "$max_alive 1"
 	"replace02" "$num_aliens 3"
-	"replace03" "$spawn_interval 2"
+	"replace03" "$spawn_interval 3"
 	"replace04" "$spawer_name AoAlienSpawner53"
 	"origin" "-6753 314 -863"
 	editor
@@ -113231,9 +113243,9 @@ entity
 	"angles" "-0 -90 0"
 	"file" "instances/spawners/rd-sigma_floor_spawn01.vmf"
 	"fixup_style" "2"
-	"replace01" "$max_alive 2"
+	"replace01" "$max_alive 1"
 	"replace02" "$num_aliens 3"
-	"replace03" "$spawn_interval 2"
+	"replace03" "$spawn_interval 3"
 	"replace04" "$spawer_name AoAlienSpawner27"
 	"origin" "-6947 333 -863"
 	editor
@@ -113252,9 +113264,9 @@ entity
 	"angles" "-0 0 0"
 	"file" "instances/spawners/rd-sigma_floor_spawn01.vmf"
 	"fixup_style" "2"
-	"replace01" "$max_alive 2"
+	"replace01" "$max_alive 1"
 	"replace02" "$num_aliens 3"
-	"replace03" "$spawn_interval 2"
+	"replace03" "$spawn_interval 3"
 	"replace04" "$spawer_name AoAlienSpawner32"
 	"origin" "-6800 -307 -863"
 	editor
@@ -113273,9 +113285,9 @@ entity
 	"angles" "-0 -90 0"
 	"file" "instances/spawners/rd-sigma_floor_spawn01.vmf"
 	"fixup_style" "2"
-	"replace01" "$max_alive 2"
+	"replace01" "$max_alive 1"
 	"replace02" "$num_aliens 3"
-	"replace03" "$spawn_interval 2"
+	"replace03" "$spawn_interval 3"
 	"replace04" "$spawer_name AoAlienSpawner24"
 	"origin" "-6808 -737 -845"
 	editor
@@ -113294,9 +113306,9 @@ entity
 	"angles" "-0 -180 0"
 	"file" "instances/spawners/rd-sigma_floor_spawn01.vmf"
 	"fixup_style" "2"
-	"replace01" "$max_alive 2"
+	"replace01" "$max_alive 1"
 	"replace02" "$num_aliens 3"
-	"replace03" "$spawn_interval 2"
+	"replace03" "$spawn_interval 3"
 	"replace04" "$spawer_name AoAlienSpawner41"
 	"origin" "-6470 -1202 -839"
 	editor
