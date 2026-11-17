@@ -1,0 +1,17 @@
+GAME
+{
+	"pos_x"	"-13606"
+	"pos_y"	"9044"
+	"scale"	"14"
+	"material" "vgui/swarm/overviews/ao-rescueoverview"
+	"briefingmaterial" "vgui/swarm/overviews/ao-rescueoverview"
+	"mapyoffset" "0"
+	"missiontitle"		"Rescue"
+	"description"	"We have received a distress signal from Lt Williams, a commanding officer attached to a forward scout unit.  It is imperative that Williams is recovered, he holds vital information regarding the campaign area and Swarm movements.  More than that, he's a marine and he needs our help."
+	"image"		""
+	"version"		"1"
+	"author"		"vq"
+	"builtin"		"0"
+	"regional_material"	"retrieved_documents"
+	"website"		""
+}
