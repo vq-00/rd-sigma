@@ -2,4 +2,5 @@
 {
     "$basetexture" "props/ut2004/sigma/brush/AbaddonArchitecture__Grates__grt01GO"
     "$surfaceprop" "concrete"
+    "$alphatest" "1"
 }

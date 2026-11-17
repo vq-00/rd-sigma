@@ -1,0 +1,8 @@
+GAME
+{
+"MailFrom1"	"Order 34/k"
+"MailDate1"	"Date: Dawson - Friday/00.17"
+"MailSubject1"	"Subject: Archive Wall Anomaly"
+"MailBody1A"	"Sublevels 2, 3, and 4 are contaminated with bugs - we're still awaiting further orders from Central Command."
+"MailBody1B"	"Lt. Williams and his men are missing, but we assume that at least some of them are still alive down there."
+}
