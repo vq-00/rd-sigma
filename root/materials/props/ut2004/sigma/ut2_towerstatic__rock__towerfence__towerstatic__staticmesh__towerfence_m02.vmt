@@ -3,4 +3,6 @@
     "$basetexture" "props/ut2004/sigma/ut2_TowerStatic__Rock__TowerFence__TowerStatic__StaticMesh__TowerFence_m02"
     "$surfaceprop" "metal"
     "$model" "1"
+    "$alphatest" "1"
+    "$nocull" "1"
 }

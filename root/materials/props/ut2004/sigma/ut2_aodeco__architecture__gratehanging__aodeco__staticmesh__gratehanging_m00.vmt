@@ -8,4 +8,5 @@
     // Shader dump references REDUCED.grt02goTILE for diffuse and opacity
     // Mesh material export references grt02GOred; texture identity needs verification
     // No Source alpha-test behavior added
+    $alphatest 1
 }

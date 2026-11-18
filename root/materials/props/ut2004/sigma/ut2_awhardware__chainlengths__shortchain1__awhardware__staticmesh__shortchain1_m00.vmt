@@ -3,4 +3,5 @@
     "$basetexture" "props/ut2004/sigma/ut2_AWHardware__ChainLengths__ShortChain1__AWHardware__StaticMesh__ShortChain1_m00"
     "$surfaceprop" "metal"
     "$model" "1"
+    "$alphatest" "1"
 }

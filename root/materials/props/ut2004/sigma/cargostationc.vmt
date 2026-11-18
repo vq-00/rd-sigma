@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "props/ut2004/sigma/cargostationc"
+	"$translucent" 1
+}

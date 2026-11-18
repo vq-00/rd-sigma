@@ -3,4 +3,6 @@
     "$basetexture" "props/ut2004/sigma/ut2_AlleriaHardware__Miscellaneous__jFencePanelBend01AL__AlleriaHardware__StaticMesh__jFencePanelBend01AL_m00"
     "$surfaceprop" "metal"
     "$model" "1"
+    "$alphatest" "1"
+    "$nocull" "1"
 }
