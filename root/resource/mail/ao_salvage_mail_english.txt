@@ -1,0 +1,8 @@
+GAME
+{
+"MailFrom1"	"Maintenance Team"
+"MailDate1"	"Date: ..."
+"MailSubject1"	"Subject: Restore power"
+"MailBody1A"	"Access to Cargo Bay C sealed.  Power failure due to ruptured power conduit between junctions 54 and 55."
+"MailBody1B"	"Station computer recommends maintenance team find and repair the broken conduit."
+}
