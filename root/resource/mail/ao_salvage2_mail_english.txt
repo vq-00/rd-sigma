@@ -1,0 +1,9 @@
+GAME
+{
+"MailFrom1"	"..."
+"MailDate1"	"..."
+"MailSubject1"	"Facility Report"
+"MailBody1A"	"Cargo inventory and status downloaded to mobile DSU."
+"MailBody1B"	"WARNING: Computer reports the warehouse is overrun.  Internal sensors are picking up large numbers of incoming Swarm.  Recommend immediate extraction.  New objective as follows:"
+"MailBody1C"	"Proceed east to the main landing bay, fire the distress flare and await evac.  Move it, marines!"
+}

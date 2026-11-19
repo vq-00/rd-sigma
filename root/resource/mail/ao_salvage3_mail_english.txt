@@ -1,0 +1,9 @@
+GAME
+{
+"MailFrom1"	"Alfred"
+"MailDate1"	"..."
+"MailSubject1"	"Message log - Lugger 5x/45"
+"MailBody1A"	"The bugs have damaged some of the machinery and the generator in Corridor A5 is firing loose charge all over the place.  Make sure you don't touch the electric beam when you move through."
+"MailBody1B"	"See you there, I hope."
+"MailBody1C"	"-Chief Cargo Hauler Alfred out."
+}
