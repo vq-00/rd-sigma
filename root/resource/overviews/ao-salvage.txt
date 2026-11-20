@@ -1,0 +1,17 @@
+GAME
+{
+	"pos_x"	"-19038"
+	"pos_y"	"13894"
+	"scale"	"29"
+	"material" "vgui/swarm/overviews/ao-salvageoverview"
+	"briefingmaterial" "vgui/swarm/overviews/ao-salvageoverview"
+	"mapyoffset" "0"
+	"missiontitle"		"Salvage"
+	"description"	"The main warehouses could allow us to establish an important forward base and re-supply point for the campaign. Proceed to the warehouse compound and assess the value of the facility."
+	"image"		""
+	"version"		"1"
+	"author"		"vq"
+	"builtin"		"0"
+	"regional_material"	"retrieved_documents"
+	"website"		""
+}

@@ -3,4 +3,5 @@
     "$basetexture" "props/ut2004/sigma/ut2_HumanoidHardware__Beams__jribbedtubecolumn01HA__HumanoidHardware__StaticMesh__jribbedtubecolumn01HA_m00"
     "$surfaceprop" "metal"
     "$model" "1"
+    "$nocull" "1"
 }
