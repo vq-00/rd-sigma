@@ -3,4 +3,5 @@
     "$basetexture" "props/ut2004/sigma/ut2_AODecoTwo__PlanetMesh__AODecoTwo__StaticMesh__PlanetMesh_m00"
     "$surfaceprop" "metal"
     "$model" "1"
+    "$alphatest" "1"
 }

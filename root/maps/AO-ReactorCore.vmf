@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7397"
-	"mapversion" "254"
+	"mapversion" "255"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "254"
+	"mapversion" "255"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -104020,6 +104020,7 @@ entity
 	connections
 	{
 		"OnObjectiveComplete" "count_escapeobjectiveAdd10-1"
+		"OnObjectiveComplete" "tech_requirementDisableTechMarineReq0-1"
 	}
 	"origin" "-7412.01 -834.143 0"
 	editor
