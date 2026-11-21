@@ -1,0 +1,7 @@
+GAME
+{
+"MailFrom1"	"Archer, J."
+"MailDate1"	"Date: ..."
+"MailSubject1"	"Subject: Colony Report #243-b"
+"MailBody1A"	"This place is crawling with bugs. I'm on my own. I'll try to find a safe place and wait for help."
+}

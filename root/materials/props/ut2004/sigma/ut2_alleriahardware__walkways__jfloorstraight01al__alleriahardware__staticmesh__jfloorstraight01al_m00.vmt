@@ -1,6 +1,7 @@
 "VertexLitGeneric"
 {
-    "$basetexture" "props/ut2004/sigma/ut2_AlleriaHardware__Walkways__jFloorStraight01AL__AlleriaHardware__StaticMesh__jFloorStraight01AL_m00"
+    "$basetexture" "props/ut2004/sigma/brush/shiptech__floors__flr07bcs"
     "$surfaceprop" "metal"
     "$model" "1"
+    "$nocull" "1"
 }

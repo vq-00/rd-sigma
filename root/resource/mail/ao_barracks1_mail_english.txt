@@ -1,0 +1,9 @@
+GAME
+{
+"MailFrom1"	"Lt. Levinson"
+"MailDate1"	"Date: ..."
+"MailSubject1"	"Subject: Order 23/k"
+"MailBody1A"	"There will be an inspection of the crew quarters at 8.15 am tomorrow. We remind you again that there are no weapons or other military items allowed in the common rooms."
+"MailBody1B"	"Violation of these orders will result in severe penalties."
+"MailBody1C"	"Thank you for your cooperation - Lt. Levinson"
+}

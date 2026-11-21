@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "props/ut2004/sigma/myLevel__pipepanel__AO-Barracks__StaticMesh__pipepanel"
+	"$surfaceprop" "metal"
+    "$model" "1"
+}

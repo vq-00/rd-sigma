@@ -3,4 +3,5 @@
     "$basetexture" "props/ut2004/sigma/ut2_ShiptechHardware__Miscellaneous__Trim02aCS__ShiptechHardware__StaticMesh__Trim02aCS_m00"
     "$surfaceprop" "metal"
     "$model" "1"
+    "$nocull" "1"
 }

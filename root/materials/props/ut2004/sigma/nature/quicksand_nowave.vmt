@@ -1,0 +1,18 @@
+// envmaptint_fix
+"LightmappedGeneric"
+{
+	"$basetexture" "props/ut2004/sigma/nature/quicksand"
+	"$bumpmap" "props/ut2004/sigma/nature/quicksand_normal"
+	"$ssbump" "1"
+	"$surfaceprop" "sand"
+	"%keywords" "wasteland,quicksand"
+
+	// Darkens and shifts the pale sand toward warm dark brown
+	"$color2" "[ .38 .32 .26 ]"
+
+	"$normalmapalphaenvmapmask" 1
+	"$envmapcontrast" 1
+	"$envmapsaturation" 1
+	"$envmaptint" "[ .08 .07 .06 ]"
+	"$envmap" "env_cubemap"
+}
