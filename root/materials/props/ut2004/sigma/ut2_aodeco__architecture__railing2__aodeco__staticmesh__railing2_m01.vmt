@@ -4,6 +4,7 @@
     "$nocull" "1"
     "$surfaceprop" "metal"
     "$model" "1"
+    "$alphatest" "1"
     // UModel reports OB_Normal and AlphaTest=false
     // Opacity texture is present but its Unreal blending behavior is not reproduced
 }

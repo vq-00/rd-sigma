@@ -2,4 +2,5 @@
 {
     "$basetexture" "props/ut2004/sigma/brush/Shiptech__Floors__flr01CS"
     "$surfaceprop" "concrete"
+    "$alphatest" "1"
 }
