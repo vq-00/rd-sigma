@@ -1,0 +1,17 @@
+GAME
+{
+	"pos_x"	"-4980"
+	"pos_y"	"1937"
+	"scale"	"10"
+	"material" "vgui/swarm/overviews/ao-researchoverview"
+	"briefingmaterial" "vgui/swarm/overviews/ao-researchoverview"
+	"mapyoffset" "0"
+	"missiontitle"		"Research"
+	"description"	"Command has interest in the nature of SynTek's research on Sigma 612.  Using the information supplied by Lt Williams, we have located the corporation's main medical facilities."
+	"image"		""
+	"version"		"1"
+	"author"		"vq"
+	"builtin"		"0"
+	"regional_material"	"retrieved_documents"
+	"website"		""
+}
