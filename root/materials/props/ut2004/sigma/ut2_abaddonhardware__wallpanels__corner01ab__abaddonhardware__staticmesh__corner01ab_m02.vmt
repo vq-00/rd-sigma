@@ -4,6 +4,7 @@
     "$nocull" "1"
     "$surfaceprop" "metal"
     "$model" "1"
+    "$basetexturetransform" "center 0.5 0.5 scale 8 8 rotate 0 translate 0 0"
     // UModel reports OB_Normal and AlphaTest=false
     // Shader dump references REDUCED.grt02goTILE for diffuse and opacity
     // Mesh material export references grt02GOred; texture identity needs verification

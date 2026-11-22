@@ -3,4 +3,5 @@
     "$basetexture" "props/ut2004/sigma/ut2_AOSci__MedSciStuff__StastisCylinder__AOSci__StaticMesh__StastisCylinder_m00"
     "$surfaceprop" "metal"
     "$model" "1"
+    "$nocull" "1"
 }

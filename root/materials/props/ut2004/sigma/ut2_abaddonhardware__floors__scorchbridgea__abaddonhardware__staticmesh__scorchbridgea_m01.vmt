@@ -3,4 +3,5 @@
     "$basetexture" "props/ut2004/sigma/ut2_AbaddonHardware__Floors__ScorchBridgeA__AbaddonHardware__StaticMesh__ScorchBridgeA_m01"
     "$surfaceprop" "metal"
     "$model" "1"
+    "$alphatest" "1"
 }

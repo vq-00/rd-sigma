@@ -3,4 +3,5 @@
     "$basetexture" "props/ut2004/sigma/ut2_TowerStatic__Rock__TowerDecoGrassA__TowerStatic__StaticMesh__TowerDecoGrassA_m00"
     "$surfaceprop" "metal"
     "$model" "1"
+    "$alphatest" "1"
 }

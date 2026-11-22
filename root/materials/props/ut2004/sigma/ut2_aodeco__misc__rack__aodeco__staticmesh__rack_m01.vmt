@@ -1,9 +1,11 @@
 "VertexLitGeneric"
 {
     "$basetexture" "props/ut2004/sigma/ut2_AODeco__Misc__Rack__AODeco__StaticMesh__Rack_m01"
-    "$nocull" "1"
+    //"$nocull" "1"
     "$surfaceprop" "metal"
     "$model" "1"
     // UModel reports OB_Normal and AlphaTest=false
     // Opacity texture is present but its Unreal blending behavior is not reproduced
+    "$alphatest" "1"
+    "$basetexturetransform" "center 0.5 0.5 scale 2 2 rotate 0 translate 0 0"
 }
