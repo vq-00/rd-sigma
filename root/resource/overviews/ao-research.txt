@@ -1,8 +1,8 @@
 GAME
 {
-	"pos_x"	"-4980"
-	"pos_y"	"1937"
-	"scale"	"10"
+	"pos_x"	"-10024"
+	"pos_y"	"6085"
+	"scale"	"9"
 	"material" "vgui/swarm/overviews/ao-researchoverview"
 	"briefingmaterial" "vgui/swarm/overviews/ao-researchoverview"
 	"mapyoffset" "0"

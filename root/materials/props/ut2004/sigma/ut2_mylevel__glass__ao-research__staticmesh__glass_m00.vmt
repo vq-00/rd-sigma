@@ -4,6 +4,7 @@
     "$translucent" "1"
     "$surfaceprop" "glass"
     "$model" "1"
+    "$nocull" "1"
     // Unreal OB_Translucent approximated with Source $translucent
     // Unreal TexEnvMap reflection omitted
     // Unreal shader is one-sided

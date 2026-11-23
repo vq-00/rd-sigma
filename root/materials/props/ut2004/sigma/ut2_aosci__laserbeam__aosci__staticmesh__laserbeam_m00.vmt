@@ -5,7 +5,17 @@
     "$nocull" "1"
     "$surfaceprop" "metal"
     "$model" "1"
+    "$selfillum" "1"
     // Unreal OB_Brighten approximated with Source $additive
     // Unreal TexPanner animation not reproduced
     // Laser texture is static
+    "Proxies"
+    {
+        "TextureScroll"
+        {
+            "textureScrollVar" "$basetexturetransform"
+            "textureScrollRate" "0.5"
+            "textureScrollAngle" "180"
+        }
+    }
 }
