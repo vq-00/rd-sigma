@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7397"
-	"mapversion" "463"
+	"mapversion" "472"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "463"
+	"mapversion" "472"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -94546,141 +94546,22 @@ entity
 }
 entity
 {
-	"id" "100272"
-	"classname" "trigger_asw_button_area"
-	"changepanelskin" "1"
-	"disableafteruse" "1"
-	"HoldTime" "-1"
-	"locked" "0"
-	"needstech" "1"
-	"numwires" "2"
-	"origin" "-613.1 2000.59 -70.58"
-	"playersrequired" "1"
-	"spawnflags" "16"
-	"StartDisabled" "0"
-	"T3DBAutoUseAfterUnlock" "False"
-	"T3DBUseOnceOnly" "True"
-	"T3DButtonConnectionsWritten" "1"
-	"T3DButtonDeferredRecipients" "AoMoverSmallDoor7:AoMoverSmallDoor"
-	"T3DButtonMatchedRecipients" "2"
-	"T3DButtonOutputStatus" "PARTIALLY_WIRED"
-	"T3DClass" "AoObjectButtonPanel"
-	"T3DEvent" "l1"
-	"T3DName" "AoObjectButtonPanel3"
-	"T3DPanelModelMappingStatus" "SOURCE_MODEL_UNAVAILABLE_PANEL_PROP_NOT_GUESSED"
-	"T3DTag" "AoObjectButtonPanel"
-	"T3DUseRadius" "6.000000"
-	"targetname" "AoObjectButtonPanel3"
-	"useafterhack" "0"
-	"wait" "1"
-	"wirecolumns" "5"
-	"wirerows" "2"
-	connections
-	{
-		"OnButtonActivated" "AoDispatcher2Trigger0-1"
-	}
-	solid
-	{
-		"id" "253"
-		side
-		{
-			"id" "1576"
-			"plane" "(-619.1 1994.59 -20.58) (-619.1 2006.59 -20.58) (-607.098 2006.59 -20.58)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "1577"
-			"plane" "(-619.1 2006.59 -120.578) (-619.1 1994.59 -120.578) (-607.098 1994.59 -120.578)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "1578"
-			"plane" "(-619.098 1994.59 -120.578) (-619.098 2006.59 -120.578) (-619.098 2006.59 -20.5801)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "1579"
-			"plane" "(-607.098 2006.59 -120.578) (-607.098 1994.59 -120.578) (-607.098 1994.59 -20.58)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "1580"
-			"plane" "(-619.098 2006.59 -120.578) (-607.098 2006.59 -120.578) (-607.098 2006.59 -20.5801)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "1581"
-			"plane" "(-607.098 1994.59 -120.578) (-619.102 1994.59 -120.578) (-619.098 1994.59 -20.5801)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "220 30 220"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[2000 6000]"
-	}
-}
-entity
-{
 	"id" "100273"
-	"classname" "prop_dynamic"
+	"classname" "prop_door_rotating"
+	"ajarangles" "0 0 0"
 	"angles" "0 -180 0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"MaxAnimTime" "10"
-	"MinAnimTime" "5"
+	"axis" "-622 1933 -68, -622 1933 -68"
+	"distance" "90"
+	"dmg" "0"
+	"forceclosed" "0"
+	"hardware" "1"
+	"health" "0"
 	"model" "models/props/ut2004/sigma/dynamic/dynamic_5e8c1f5c6098.mdl"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"solid" "6"
-	"T3DClass" "AoMoverSmallDoor"
-	"T3DDrawScale" "0.800000"
-	"T3DName" "AoMoverSmallDoor6"
-	"T3DStaticMesh" "AOSci.Misc.CabinetDoor"
-	"T3DTag" "l2"
+	"opendir" "1"
+	"returndelay" "-1"
+	"spawnflags" "8192"
+	"spawnpos" "0"
+	"speed" "100"
 	"targetname" "AoMoverSmallDoor6"
 	"origin" "-622 1933 -68"
 	editor
@@ -94694,21 +94575,21 @@ entity
 entity
 {
 	"id" "100274"
-	"classname" "prop_dynamic"
+	"classname" "prop_door_rotating"
+	"ajarangles" "0 0 0"
 	"angles" "0 -180 -180"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"MaxAnimTime" "10"
-	"MinAnimTime" "5"
+	"axis" "-622 2024 -68, -622 2024 -68"
+	"distance" "90"
+	"dmg" "0"
+	"forceclosed" "0"
+	"hardware" "1"
+	"health" "0"
 	"model" "models/props/ut2004/sigma/dynamic/dynamic_5e8c1f5c6098.mdl"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"solid" "6"
-	"T3DClass" "AoMoverSmallDoor"
-	"T3DDrawScale" "0.800000"
-	"T3DName" "AoMoverSmallDoor7"
-	"T3DStaticMesh" "AOSci.Misc.CabinetDoor"
-	"T3DTag" "l1"
+	"opendir" "1"
+	"returndelay" "-1"
+	"spawnflags" "8192"
+	"spawnpos" "0"
+	"speed" "100"
 	"targetname" "AoMoverSmallDoor7"
 	"origin" "-622 2024 -68"
 	editor
@@ -94721,252 +94602,22 @@ entity
 }
 entity
 {
-	"id" "100275"
-	"classname" "trigger_asw_button_area"
-	"changepanelskin" "1"
-	"disableafteruse" "1"
-	"HoldTime" "-1"
-	"locked" "0"
-	"needstech" "1"
-	"numwires" "2"
-	"origin" "-612.1 1955.78 -70.58"
-	"playersrequired" "1"
-	"spawnflags" "16"
-	"StartDisabled" "0"
-	"T3DBAutoUseAfterUnlock" "False"
-	"T3DBUseOnceOnly" "True"
-	"T3DButtonConnectionsWritten" "0"
-	"T3DButtonDeferredRecipients" "AoMoverSmallDoor6:AoMoverSmallDoor"
-	"T3DButtonMatchedRecipients" "1"
-	"T3DButtonOutputStatus" "DEFERRED_UNSUPPORTED_RECIPIENTS"
-	"T3DClass" "AoObjectButtonPanel"
-	"T3DEvent" "l2"
-	"T3DName" "AoObjectButtonPanel7"
-	"T3DPanelModelMappingStatus" "SOURCE_MODEL_UNAVAILABLE_PANEL_PROP_NOT_GUESSED"
-	"T3DTag" "AoObjectButtonPanel"
-	"T3DUseRadius" "6.000000"
-	"targetname" "AoObjectButtonPanel7"
-	"useafterhack" "0"
-	"wait" "1"
-	"wirecolumns" "5"
-	"wirerows" "2"
-	solid
-	{
-		"id" "254"
-		side
-		{
-			"id" "1582"
-			"plane" "(-618.098 1949.78 -20.58) (-618.098 1961.79 -20.58) (-606.098 1961.78 -20.58)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "1583"
-			"plane" "(-618.098 1961.78 -120.578) (-618.098 1949.78 -120.578) (-606.098 1949.78 -120.578)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "1584"
-			"plane" "(-618.098 1949.78 -120.578) (-618.098 1961.79 -120.578) (-618.098 1961.78 -20.5801)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "1585"
-			"plane" "(-606.098 1961.78 -120.578) (-606.098 1949.78 -120.578) (-606.098 1949.78 -20.58)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "1586"
-			"plane" "(-618.098 1961.78 -120.578) (-606.098 1961.78 -120.578) (-606.098 1961.78 -20.5801)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "1587"
-			"plane" "(-606.098 1949.78 -120.578) (-618.098 1949.78 -120.578) (-618.098 1949.78 -20.5801)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "220 30 220"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[2000 7500]"
-	}
-}
-entity
-{
-	"id" "100276"
-	"classname" "trigger_asw_button_area"
-	"changepanelskin" "1"
-	"disableafteruse" "1"
-	"HoldTime" "-1"
-	"locked" "0"
-	"needstech" "1"
-	"numwires" "2"
-	"origin" "-612.78 1905.97 -70.58"
-	"playersrequired" "1"
-	"spawnflags" "16"
-	"StartDisabled" "0"
-	"T3DBAutoUseAfterUnlock" "False"
-	"T3DBUseOnceOnly" "True"
-	"T3DButtonConnectionsWritten" "0"
-	"T3DButtonDeferredRecipients" "AoMoverSmallDoor9:AoMoverSmallDoor"
-	"T3DButtonMatchedRecipients" "1"
-	"T3DButtonOutputStatus" "DEFERRED_UNSUPPORTED_RECIPIENTS"
-	"T3DClass" "AoObjectButtonPanel"
-	"T3DEvent" "L3"
-	"T3DName" "AoObjectButtonPanel5"
-	"T3DPanelModelMappingStatus" "SOURCE_MODEL_UNAVAILABLE_PANEL_PROP_NOT_GUESSED"
-	"T3DTag" "AoObjectButtonPanel"
-	"T3DUseRadius" "6.000000"
-	"targetname" "AoObjectButtonPanel5"
-	"useafterhack" "0"
-	"wait" "1"
-	"wirecolumns" "5"
-	"wirerows" "2"
-	solid
-	{
-		"id" "255"
-		side
-		{
-			"id" "1588"
-			"plane" "(-618.775 1899.97 -20.58) (-618.775 1911.97 -20.58) (-606.777 1911.97 -20.58)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "1589"
-			"plane" "(-618.775 1911.97 -120.578) (-618.775 1899.97 -120.578) (-606.777 1899.97 -120.578)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "1590"
-			"plane" "(-618.777 1899.97 -120.578) (-618.777 1911.97 -120.578) (-618.777 1911.97 -20.5801)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "1591"
-			"plane" "(-606.777 1911.97 -120.578) (-606.777 1899.97 -120.578) (-606.777 1899.97 -20.58)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "1592"
-			"plane" "(-618.777 1911.97 -120.578) (-606.777 1911.97 -120.578) (-606.777 1911.97 -20.5801)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "1593"
-			"plane" "(-606.777 1899.97 -120.578) (-618.773 1899.97 -120.578) (-618.777 1899.97 -20.5801)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "220 30 220"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[2000 8000]"
-	}
-}
-entity
-{
 	"id" "100277"
-	"classname" "prop_dynamic"
+	"classname" "prop_door_rotating"
+	"ajarangles" "0 0 0"
 	"angles" "0 -180 0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"MaxAnimTime" "10"
-	"MinAnimTime" "5"
+	"axis" "-622 1837 -68, -622 1837 -68"
+	"distance" "90"
+	"dmg" "0"
+	"forceclosed" "0"
+	"hardware" "1"
+	"health" "0"
 	"model" "models/props/ut2004/sigma/dynamic/dynamic_5e8c1f5c6098.mdl"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"solid" "6"
-	"T3DClass" "AoMoverSmallDoor"
-	"T3DDrawScale" "0.800000"
-	"T3DName" "AoMoverSmallDoor8"
-	"T3DStaticMesh" "AOSci.Misc.CabinetDoor"
-	"T3DTag" "L4"
+	"opendir" "1"
+	"returndelay" "-1"
+	"spawnflags" "8192"
+	"spawnpos" "0"
+	"speed" "100"
 	"targetname" "AoMoverSmallDoor8"
 	"origin" "-622 1837 -68"
 	editor
@@ -94980,21 +94631,21 @@ entity
 entity
 {
 	"id" "100278"
-	"classname" "prop_dynamic"
+	"classname" "prop_door_rotating"
+	"ajarangles" "0 0 0"
 	"angles" "0 -180 -180"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"MaxAnimTime" "10"
-	"MinAnimTime" "5"
+	"axis" "-622 1928 -68, -622 1928 -68"
+	"distance" "90"
+	"dmg" "0"
+	"forceclosed" "0"
+	"hardware" "1"
+	"health" "0"
 	"model" "models/props/ut2004/sigma/dynamic/dynamic_5e8c1f5c6098.mdl"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"solid" "6"
-	"T3DClass" "AoMoverSmallDoor"
-	"T3DDrawScale" "0.800000"
-	"T3DName" "AoMoverSmallDoor9"
-	"T3DStaticMesh" "AOSci.Misc.CabinetDoor"
-	"T3DTag" "L3"
+	"opendir" "1"
+	"returndelay" "-1"
+	"spawnflags" "8192"
+	"spawnpos" "0"
+	"speed" "100"
 	"targetname" "AoMoverSmallDoor9"
 	"origin" "-622 1928 -68"
 	editor
@@ -95003,121 +94654,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[2000 9000]"
-	}
-}
-entity
-{
-	"id" "100279"
-	"classname" "trigger_asw_button_area"
-	"changepanelskin" "1"
-	"disableafteruse" "1"
-	"HoldTime" "-1"
-	"locked" "0"
-	"needstech" "1"
-	"numwires" "2"
-	"origin" "-612.23 1856.77 -70.58"
-	"playersrequired" "1"
-	"spawnflags" "16"
-	"StartDisabled" "0"
-	"T3DBAutoUseAfterUnlock" "False"
-	"T3DBUseOnceOnly" "True"
-	"T3DButtonConnectionsWritten" "0"
-	"T3DButtonDeferredRecipients" "AoMoverSmallDoor8:AoMoverSmallDoor"
-	"T3DButtonMatchedRecipients" "1"
-	"T3DButtonOutputStatus" "DEFERRED_UNSUPPORTED_RECIPIENTS"
-	"T3DClass" "AoObjectButtonPanel"
-	"T3DEvent" "L4"
-	"T3DName" "AoObjectButtonPanel6"
-	"T3DPanelModelMappingStatus" "SOURCE_MODEL_UNAVAILABLE_PANEL_PROP_NOT_GUESSED"
-	"T3DTag" "AoObjectButtonPanel"
-	"T3DUseRadius" "6.000000"
-	"targetname" "AoObjectButtonPanel6"
-	"useafterhack" "0"
-	"wait" "1"
-	"wirecolumns" "5"
-	"wirerows" "2"
-	solid
-	{
-		"id" "256"
-		side
-		{
-			"id" "1594"
-			"plane" "(-618.234 1850.77 -20.58) (-618.234 1862.77 -20.58) (-606.234 1862.77 -20.58)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "1595"
-			"plane" "(-618.234 1862.77 -120.578) (-618.234 1850.77 -120.578) (-606.234 1850.77 -120.578)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "1596"
-			"plane" "(-618.233 1850.77 -120.578) (-618.233 1862.77 -120.578) (-618.233 1862.77 -20.5801)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "1597"
-			"plane" "(-606.233 1862.77 -120.578) (-606.233 1850.77 -120.578) (-606.233 1850.77 -20.58)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "1598"
-			"plane" "(-618.234 1862.77 -120.578) (-606.233 1862.77 -120.578) (-606.234 1862.77 -20.5801)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "1599"
-			"plane" "(-606.234 1850.77 -120.578) (-618.234 1850.77 -120.578) (-618.234 1850.77 -20.5801)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "220 30 220"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[2000 9500]"
 	}
 }
 entity
@@ -97486,137 +97022,22 @@ entity
 }
 entity
 {
-	"id" "100372"
-	"classname" "trigger_asw_button_area"
-	"changepanelskin" "1"
-	"disableafteruse" "1"
-	"HoldTime" "-1"
-	"locked" "0"
-	"needstech" "1"
-	"numwires" "2"
-	"origin" "-1731.38 1981.21 -70.58"
-	"playersrequired" "1"
-	"spawnflags" "16"
-	"StartDisabled" "0"
-	"T3DBAutoUseAfterUnlock" "False"
-	"T3DBUseOnceOnly" "True"
-	"T3DButtonConnectionsWritten" "0"
-	"T3DButtonDeferredRecipients" "AoMoverSmallDoor13:AoMoverSmallDoor"
-	"T3DButtonMatchedRecipients" "1"
-	"T3DButtonOutputStatus" "DEFERRED_UNSUPPORTED_RECIPIENTS"
-	"T3DClass" "AoObjectButtonPanel"
-	"T3DEvent" "L5"
-	"T3DName" "AoObjectButtonPanel10"
-	"T3DPanelModelMappingStatus" "SOURCE_MODEL_UNAVAILABLE_PANEL_PROP_NOT_GUESSED"
-	"T3DTag" "AoObjectButtonPanel"
-	"T3DUseRadius" "6.000000"
-	"targetname" "AoObjectButtonPanel10"
-	"useafterhack" "0"
-	"wait" "1"
-	"wirecolumns" "5"
-	"wirerows" "2"
-	solid
-	{
-		"id" "257"
-		side
-		{
-			"id" "1600"
-			"plane" "(-1737.38 1975.21 -20.58) (-1737.38 1987.21 -20.58) (-1725.38 1987.21 -20.58)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "1601"
-			"plane" "(-1737.38 1987.21 -120.578) (-1737.38 1975.21 -120.578) (-1725.38 1975.21 -120.578)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "1602"
-			"plane" "(-1737.38 1975.21 -120.578) (-1737.38 1987.21 -120.578) (-1737.38 1987.21 -20.5801)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "1603"
-			"plane" "(-1725.38 1987.21 -120.578) (-1725.38 1975.21 -120.578) (-1725.38 1975.21 -20.58)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "1604"
-			"plane" "(-1737.38 1987.21 -120.578) (-1725.38 1987.21 -120.578) (-1725.38 1987.21 -20.58)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "1605"
-			"plane" "(-1725.38 1975.21 -120.578) (-1737.38 1975.21 -120.578) (-1737.38 1975.21 -20.5801)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "220 30 220"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[2500 -9268]"
-	}
-}
-entity
-{
 	"id" "100373"
-	"classname" "prop_dynamic"
+	"classname" "prop_door_rotating"
+	"ajarangles" "0 0 0"
 	"angles" "0 -45 0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"MaxAnimTime" "10"
-	"MinAnimTime" "5"
+	"axis" "-1677.29 2022.71 -68, -1677.29 2022.71 -68"
+	"distance" "90"
+	"dmg" "0"
+	"forceclosed" "0"
+	"hardware" "1"
+	"health" "0"
 	"model" "models/props/ut2004/sigma/dynamic/dynamic_5e8c1f5c6098.mdl"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"solid" "6"
-	"T3DClass" "AoMoverSmallDoor"
-	"T3DDrawScale" "0.800000"
-	"T3DName" "AoMoverSmallDoor12"
-	"T3DStaticMesh" "AOSci.Misc.CabinetDoor"
-	"T3DTag" "L6"
+	"opendir" "1"
+	"returndelay" "-1"
+	"spawnflags" "8192"
+	"spawnpos" "0"
+	"speed" "100"
 	"targetname" "AoMoverSmallDoor12"
 	"origin" "-1677.29 2022.71 -68"
 	editor
@@ -97630,21 +97051,21 @@ entity
 entity
 {
 	"id" "100374"
-	"classname" "prop_dynamic"
+	"classname" "prop_door_rotating"
+	"ajarangles" "0 0 0"
 	"angles" "0 -45 -180"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"MaxAnimTime" "10"
-	"MinAnimTime" "5"
+	"axis" "-1741.64 1958.36 -68, -1741.64 1958.36 -68"
+	"distance" "90"
+	"dmg" "0"
+	"forceclosed" "0"
+	"hardware" "1"
+	"health" "0"
 	"model" "models/props/ut2004/sigma/dynamic/dynamic_5e8c1f5c6098.mdl"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"solid" "6"
-	"T3DClass" "AoMoverSmallDoor"
-	"T3DDrawScale" "0.800000"
-	"T3DName" "AoMoverSmallDoor13"
-	"T3DStaticMesh" "AOSci.Misc.CabinetDoor"
-	"T3DTag" "L5"
+	"opendir" "1"
+	"returndelay" "-1"
+	"spawnflags" "8192"
+	"spawnpos" "0"
+	"speed" "100"
 	"targetname" "AoMoverSmallDoor13"
 	"origin" "-1741.64 1958.36 -68"
 	editor
@@ -97657,252 +97078,22 @@ entity
 }
 entity
 {
-	"id" "100375"
-	"classname" "trigger_asw_button_area"
-	"changepanelskin" "1"
-	"disableafteruse" "1"
-	"HoldTime" "-1"
-	"locked" "0"
-	"needstech" "1"
-	"numwires" "2"
-	"origin" "-1700.4 2013.6 -70.58"
-	"playersrequired" "1"
-	"spawnflags" "16"
-	"StartDisabled" "0"
-	"T3DBAutoUseAfterUnlock" "False"
-	"T3DBUseOnceOnly" "True"
-	"T3DButtonConnectionsWritten" "0"
-	"T3DButtonDeferredRecipients" "AoMoverSmallDoor12:AoMoverSmallDoor"
-	"T3DButtonMatchedRecipients" "1"
-	"T3DButtonOutputStatus" "DEFERRED_UNSUPPORTED_RECIPIENTS"
-	"T3DClass" "AoObjectButtonPanel"
-	"T3DEvent" "L6"
-	"T3DName" "AoObjectButtonPanel9"
-	"T3DPanelModelMappingStatus" "SOURCE_MODEL_UNAVAILABLE_PANEL_PROP_NOT_GUESSED"
-	"T3DTag" "AoObjectButtonPanel"
-	"T3DUseRadius" "6.000000"
-	"targetname" "AoObjectButtonPanel9"
-	"useafterhack" "0"
-	"wait" "1"
-	"wirecolumns" "5"
-	"wirerows" "2"
-	solid
-	{
-		"id" "258"
-		side
-		{
-			"id" "1606"
-			"plane" "(-1706.4 2007.6 -20.58) (-1706.4 2019.61 -20.58) (-1694.4 2019.6 -20.58)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "1607"
-			"plane" "(-1706.4 2019.6 -120.578) (-1706.4 2007.6 -120.578) (-1694.4 2007.6 -120.578)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "1608"
-			"plane" "(-1706.4 2007.6 -120.578) (-1706.4 2019.61 -120.578) (-1706.4 2019.6 -20.5801)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "1609"
-			"plane" "(-1694.4 2019.6 -120.578) (-1694.4 2007.6 -120.578) (-1694.4 2007.6 -20.58)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "1610"
-			"plane" "(-1706.4 2019.6 -120.578) (-1694.4 2019.6 -120.578) (-1694.4 2019.6 -20.58)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "1611"
-			"plane" "(-1694.4 2007.6 -120.578) (-1706.4 2007.6 -120.578) (-1706.4 2007.6 -20.5801)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "220 30 220"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[2500 -7768]"
-	}
-}
-entity
-{
-	"id" "100376"
-	"classname" "trigger_asw_button_area"
-	"changepanelskin" "1"
-	"disableafteruse" "1"
-	"HoldTime" "-1"
-	"locked" "0"
-	"needstech" "1"
-	"numwires" "2"
-	"origin" "-1664.7 2048.34 -70.58"
-	"playersrequired" "1"
-	"spawnflags" "16"
-	"StartDisabled" "0"
-	"T3DBAutoUseAfterUnlock" "False"
-	"T3DBUseOnceOnly" "True"
-	"T3DButtonConnectionsWritten" "0"
-	"T3DButtonDeferredRecipients" "AoMoverSmallDoor2:AoMoverSmallDoor"
-	"T3DButtonMatchedRecipients" "1"
-	"T3DButtonOutputStatus" "DEFERRED_UNSUPPORTED_RECIPIENTS"
-	"T3DClass" "AoObjectButtonPanel"
-	"T3DEvent" "L7"
-	"T3DName" "AoObjectButtonPanel0"
-	"T3DPanelModelMappingStatus" "SOURCE_MODEL_UNAVAILABLE_PANEL_PROP_NOT_GUESSED"
-	"T3DTag" "AoObjectButtonPanel"
-	"T3DUseRadius" "6.000000"
-	"targetname" "AoObjectButtonPanel0"
-	"useafterhack" "0"
-	"wait" "1"
-	"wirecolumns" "5"
-	"wirerows" "2"
-	solid
-	{
-		"id" "259"
-		side
-		{
-			"id" "1612"
-			"plane" "(-1670.7 2042.34 -20.58) (-1670.7 2054.34 -20.58) (-1658.7 2054.34 -20.58)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "1613"
-			"plane" "(-1670.7 2054.34 -120.578) (-1670.7 2042.34 -120.578) (-1658.7 2042.34 -120.578)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "1614"
-			"plane" "(-1670.7 2042.34 -120.578) (-1670.7 2054.34 -120.578) (-1670.7 2054.34 -20.5801)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "1615"
-			"plane" "(-1658.7 2054.34 -120.578) (-1658.7 2042.34 -120.578) (-1658.7 2042.34 -20.58)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "1616"
-			"plane" "(-1670.7 2054.34 -120.578) (-1658.7 2054.34 -120.578) (-1658.7 2054.34 -20.58)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "1617"
-			"plane" "(-1658.7 2042.34 -120.578) (-1670.7 2042.34 -120.578) (-1670.7 2042.34 -20.5801)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "220 30 220"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[2500 -7268]"
-	}
-}
-entity
-{
 	"id" "100377"
-	"classname" "prop_dynamic"
+	"classname" "prop_door_rotating"
+	"ajarangles" "0 0 0"
 	"angles" "0 -45 0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"MaxAnimTime" "10"
-	"MinAnimTime" "5"
+	"axis" "-1609.41 2090.59 -68, -1609.41 2090.59 -68"
+	"distance" "90"
+	"dmg" "0"
+	"forceclosed" "0"
+	"hardware" "1"
+	"health" "0"
 	"model" "models/props/ut2004/sigma/dynamic/dynamic_5e8c1f5c6098.mdl"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"solid" "6"
-	"T3DClass" "AoMoverSmallDoor"
-	"T3DDrawScale" "0.800000"
-	"T3DName" "AoMoverSmallDoor3"
-	"T3DStaticMesh" "AOSci.Misc.CabinetDoor"
-	"T3DTag" "L8"
+	"opendir" "1"
+	"returndelay" "-1"
+	"spawnflags" "8192"
+	"spawnpos" "0"
+	"speed" "100"
 	"targetname" "AoMoverSmallDoor3"
 	"origin" "-1609.41 2090.59 -68"
 	editor
@@ -97916,21 +97107,21 @@ entity
 entity
 {
 	"id" "100378"
-	"classname" "prop_dynamic"
+	"classname" "prop_door_rotating"
+	"ajarangles" "0 0 0"
 	"angles" "0 -45 -180"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"MaxAnimTime" "10"
-	"MinAnimTime" "5"
+	"axis" "-1673.76 2026.24 -68, -1673.76 2026.24 -68"
+	"distance" "90"
+	"dmg" "0"
+	"forceclosed" "0"
+	"hardware" "1"
+	"health" "0"
 	"model" "models/props/ut2004/sigma/dynamic/dynamic_5e8c1f5c6098.mdl"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"solid" "6"
-	"T3DClass" "AoMoverSmallDoor"
-	"T3DDrawScale" "0.800000"
-	"T3DName" "AoMoverSmallDoor2"
-	"T3DStaticMesh" "AOSci.Misc.CabinetDoor"
-	"T3DTag" "L7"
+	"opendir" "1"
+	"returndelay" "-1"
+	"spawnflags" "8192"
+	"spawnpos" "0"
+	"speed" "100"
 	"targetname" "AoMoverSmallDoor2"
 	"origin" "-1673.76 2026.24 -68"
 	editor
@@ -97939,121 +97130,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[2500 -6268]"
-	}
-}
-entity
-{
-	"id" "100379"
-	"classname" "trigger_asw_button_area"
-	"changepanelskin" "1"
-	"disableafteruse" "1"
-	"HoldTime" "-1"
-	"locked" "0"
-	"needstech" "1"
-	"numwires" "2"
-	"origin" "-1630.29 2083.52 -70.58"
-	"playersrequired" "1"
-	"spawnflags" "16"
-	"StartDisabled" "0"
-	"T3DBAutoUseAfterUnlock" "False"
-	"T3DBUseOnceOnly" "True"
-	"T3DButtonConnectionsWritten" "0"
-	"T3DButtonDeferredRecipients" "AoMoverSmallDoor3:AoMoverSmallDoor"
-	"T3DButtonMatchedRecipients" "1"
-	"T3DButtonOutputStatus" "DEFERRED_UNSUPPORTED_RECIPIENTS"
-	"T3DClass" "AoObjectButtonPanel"
-	"T3DEvent" "L8"
-	"T3DName" "AoObjectButtonPanel12"
-	"T3DPanelModelMappingStatus" "SOURCE_MODEL_UNAVAILABLE_PANEL_PROP_NOT_GUESSED"
-	"T3DTag" "AoObjectButtonPanel"
-	"T3DUseRadius" "6.000000"
-	"targetname" "AoObjectButtonPanel12"
-	"useafterhack" "0"
-	"wait" "1"
-	"wirecolumns" "5"
-	"wirerows" "2"
-	solid
-	{
-		"id" "260"
-		side
-		{
-			"id" "1618"
-			"plane" "(-1636.29 2077.52 -20.58) (-1636.29 2089.52 -20.58) (-1624.29 2089.52 -20.58)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "1619"
-			"plane" "(-1636.29 2089.52 -120.578) (-1636.29 2077.52 -120.578) (-1624.29 2077.52 -120.578)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "1620"
-			"plane" "(-1636.29 2077.52 -120.578) (-1636.29 2089.52 -120.578) (-1636.29 2089.52 -20.5801)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "1621"
-			"plane" "(-1624.29 2089.52 -120.578) (-1624.29 2077.52 -120.578) (-1624.29 2077.52 -20.58)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "1622"
-			"plane" "(-1636.29 2089.52 -120.578) (-1624.29 2089.52 -120.578) (-1624.29 2089.52 -20.58)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "1623"
-			"plane" "(-1624.29 2077.52 -120.578) (-1636.29 2077.52 -120.578) (-1636.29 2077.52 -20.5801)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "220 30 220"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[2500 -5768]"
 	}
 }
 entity
@@ -102489,122 +101565,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[4000 -9768]"
-	}
-}
-entity
-{
-	"id" "100569"
-	"classname" "trigger_asw_button_area"
-	"changepanelskin" "1"
-	"disableafteruse" "1"
-	"HoldTime" "-1"
-	"locked" "0"
-	"needstech" "1"
-	"numwires" "2"
-	"origin" "-3616.58 2445.65 -82.57"
-	"playersrequired" "1"
-	"spawnflags" "16"
-	"StartDisabled" "0"
-	"T3DBUseOnceOnly" "True"
-	"T3DButtonConnectionsWritten" "1"
-	"T3DButtonMatchedRecipients" "1"
-	"T3DButtonOutputStatus" "WIRED"
-	"T3DClass" "AoObjectButtonPanel"
-	"T3DEvent" "GrateExit"
-	"T3DName" "AoObjectButtonPanel1"
-	"T3DPanelModelMappingStatus" "SOURCE_MODEL_UNAVAILABLE_PANEL_PROP_NOT_GUESSED"
-	"T3DTag" "AoObjectButtonPanel"
-	"targetname" "AoObjectButtonPanel1"
-	"useafterhack" "0"
-	"wait" "1"
-	"wirecolumns" "5"
-	"wirerows" "2"
-	connections
-	{
-		"OnButtonActivated" "__t3d_rotator_AO_Research_Mover20Open01"
-	}
-	solid
-	{
-		"id" "262"
-		side
-		{
-			"id" "1630"
-			"plane" "(-3666.58 2395.65 -32.565) (-3666.58 2495.65 -32.565) (-3566.58 2495.65 -32.565)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "1631"
-			"plane" "(-3666.58 2495.65 -132.565) (-3666.58 2395.65 -132.565) (-3566.58 2395.65 -132.565)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "1632"
-			"plane" "(-3666.58 2395.65 -132.566) (-3666.58 2495.65 -132.566) (-3666.58 2495.65 -32.5644)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "1633"
-			"plane" "(-3566.58 2495.65 -132.566) (-3566.58 2395.65 -132.566) (-3566.58 2395.65 -32.5645)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "1634"
-			"plane" "(-3666.58 2495.65 -132.566) (-3566.58 2495.65 -132.566) (-3566.58 2495.65 -32.5646)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "1635"
-			"plane" "(-3566.58 2395.65 -132.566) (-3666.58 2395.65 -132.566) (-3666.58 2395.65 -32.5643)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "220 30 220"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[4000 -8268]"
 	}
 }
 entity
@@ -146001,6 +144961,10 @@ entity
 	"T3DTag" "FoundMedFiles"
 	"targetname" "FindMeddeckFiles0"
 	"Visible" "1"
+	connections
+	{
+		"OnObjectiveComplete" "tech_reqDisableTechMarineReq0-1"
+	}
 	"origin" "-4840.53 3522.65 128"
 	editor
 	{
@@ -152829,6 +151793,997 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[2000 -3768]"
+	}
+}
+entity
+{
+	"id" "287075"
+	"classname" "asw_tech_marine_req"
+	"StatsMusicFailure" "asw_song.StatsFailTech"
+	"targetname" "tech_req"
+	"origin" "-4782 3523 128"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[-15768 1500]"
+	}
+}
+entity
+{
+	"id" "294983"
+	"classname" "trigger_asw_button_area"
+	"changepanelskin" "1"
+	"DestroyHeldObject" "0"
+	"disableafteruse" "1"
+	"HoldTime" "-1"
+	"locked" "0"
+	"needstech" "1"
+	"nopower" "0"
+	"numwires" "2"
+	"origin" "-1631.64 2083.38 -78.01"
+	"playersrequired" "1"
+	"spawnflags" "16"
+	"StartDisabled" "0"
+	"T3DBAutoUseAfterUnlock" "False"
+	"T3DBUseOnceOnly" "True"
+	"T3DButtonConnectionsWritten" "0"
+	"T3DButtonDeferredRecipients" "AoMoverSmallDoor3:AoMoverSmallDoor"
+	"T3DButtonMatchedRecipients" "1"
+	"T3DButtonOutputStatus" "DEFERRED_UNSUPPORTED_RECIPIENTS"
+	"T3DClass" "AoObjectButtonPanel"
+	"T3DEvent" "L8"
+	"T3DName" "AoObjectButtonPanel12"
+	"T3DPanelModelMappingStatus" "SOURCE_MODEL_UNAVAILABLE_PANEL_PROP_NOT_GUESSED"
+	"T3DTag" "AoObjectButtonPanel"
+	"T3DUseRadius" "6.000000"
+	"targetname" "AoObjectButtonPanel12"
+	"useafterhack" "0"
+	"wait" "1"
+	"wirecolumns" "5"
+	"wirerows" "2"
+	connections
+	{
+		"OnButtonActivated" "AoMoverSmallDoor3RunScriptCodeNetProps.SetPropInt(self, `m_CollisionGroup`, 2);0-1"
+		"OnButtonActivated" "AoMoverSmallDoor3Open0.1-1"
+	}
+	solid
+	{
+		"id" "294984"
+		side
+		{
+			"id" "12385"
+			"plane" "(-1654.25 2074.89 -28) (-1623.14 2106 -28) (-1609 2091.86 -28)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[-0.707107 0.707107 0 9.95802] 0.25"
+			"vaxis" "[0.707107 0.707107 0 5.5513] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "12384"
+			"plane" "(-1623.14 2106 -128) (-1654.25 2074.89 -128) (-1640.11 2060.75 -128)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[-0.707107 0.707107 0 9.95802] 0.25"
+			"vaxis" "[0.707107 0.707107 0 5.5513] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "12383"
+			"plane" "(-1609 2091.86 -128) (-1640.11 2060.75 -128) (-1640.11 2060.75 -28)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[-0.707107 -0.707107 0 -5.5513] 0.25"
+			"vaxis" "[0 0 -1 -49.6957] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "12382"
+			"plane" "(-1654.25 2074.89 -128) (-1623.14 2106 -128) (-1623.14 2106 -28)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[-0.707107 -0.707107 0 -5.5513] 0.25"
+			"vaxis" "[0 0 -1 -49.6957] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "12381"
+			"plane" "(-1640.11 2060.75 -128) (-1654.25 2074.89 -128) (-1654.25 2074.89 -28)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[-0.707107 0.707107 0 9.95779] 0.25"
+			"vaxis" "[0 0 -1 -49.6957] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "12380"
+			"plane" "(-1623.14 2106 -128) (-1609 2091.86 -128) (-1609 2091.86 -28)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[-0.707107 0.707107 0 9.95779] 0.25"
+			"vaxis" "[0 0 -1 -49.6957] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 9000]"
+	}
+}
+entity
+{
+	"id" "295076"
+	"classname" "trigger_asw_button_area"
+	"changepanelskin" "1"
+	"DestroyHeldObject" "0"
+	"disableafteruse" "1"
+	"HoldTime" "-1"
+	"locked" "0"
+	"needstech" "1"
+	"nopower" "0"
+	"numwires" "2"
+	"origin" "-1664.64 2049.63 -78.01"
+	"playersrequired" "1"
+	"spawnflags" "16"
+	"StartDisabled" "0"
+	"T3DBAutoUseAfterUnlock" "False"
+	"T3DBUseOnceOnly" "True"
+	"T3DButtonConnectionsWritten" "0"
+	"T3DButtonDeferredRecipients" "AoMoverSmallDoor2:AoMoverSmallDoor"
+	"T3DButtonMatchedRecipients" "1"
+	"T3DButtonOutputStatus" "DEFERRED_UNSUPPORTED_RECIPIENTS"
+	"T3DClass" "AoObjectButtonPanel"
+	"T3DEvent" "L7"
+	"T3DName" "AoObjectButtonPanel0"
+	"T3DPanelModelMappingStatus" "SOURCE_MODEL_UNAVAILABLE_PANEL_PROP_NOT_GUESSED"
+	"T3DTag" "AoObjectButtonPanel"
+	"T3DUseRadius" "6.000000"
+	"targetname" "AoObjectButtonPanel0"
+	"useafterhack" "0"
+	"wait" "1"
+	"wirecolumns" "5"
+	"wirerows" "2"
+	connections
+	{
+		"OnButtonActivated" "AoMoverSmallDoor2RunScriptCodeNetProps.SetPropInt(self, `m_CollisionGroup`, 2);0-1"
+		"OnButtonActivated" "AoMoverSmallDoor2Open0.1-1"
+	}
+	solid
+	{
+		"id" "295077"
+		side
+		{
+			"id" "12397"
+			"plane" "(-1687.25 2041.14 -28) (-1656.14 2072.25 -28) (-1642 2058.11 -28)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[-0.707107 0.707107 0 12.0655] 0.25"
+			"vaxis" "[0.707107 0.707107 0 2.33502] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "12396"
+			"plane" "(-1656.14 2072.25 -128) (-1687.25 2041.14 -128) (-1673.11 2027 -128)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[-0.707107 0.707107 0 12.0655] 0.25"
+			"vaxis" "[0.707107 0.707107 0 2.33502] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "12395"
+			"plane" "(-1642 2058.11 -128) (-1673.11 2027 -128) (-1673.11 2027 -28)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[-0.707107 -0.707107 0 -2.33502] 0.25"
+			"vaxis" "[0 0 -1 -49.6957] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "12394"
+			"plane" "(-1687.25 2041.14 -128) (-1656.14 2072.25 -128) (-1656.14 2072.25 -28)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[-0.707107 -0.707107 0 -2.33502] 0.25"
+			"vaxis" "[0 0 -1 -49.6957] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "12393"
+			"plane" "(-1673.11 2027 -128) (-1687.25 2041.14 -128) (-1687.25 2041.14 -28)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[-0.707107 0.707107 0 12.0653] 0.25"
+			"vaxis" "[0 0 -1 -49.6957] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "12392"
+			"plane" "(-1656.14 2072.25 -128) (-1642 2058.11 -128) (-1642 2058.11 -28)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[-0.707107 0.707107 0 12.0653] 0.25"
+			"vaxis" "[0 0 -1 -49.6957] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 9000]"
+	}
+}
+entity
+{
+	"id" "295079"
+	"classname" "trigger_asw_button_area"
+	"changepanelskin" "1"
+	"DestroyHeldObject" "0"
+	"disableafteruse" "1"
+	"HoldTime" "-1"
+	"locked" "0"
+	"needstech" "1"
+	"nopower" "0"
+	"numwires" "2"
+	"origin" "-1699.64 2013.63 -78.01"
+	"playersrequired" "1"
+	"spawnflags" "16"
+	"StartDisabled" "0"
+	"T3DBAutoUseAfterUnlock" "False"
+	"T3DBUseOnceOnly" "True"
+	"T3DButtonConnectionsWritten" "0"
+	"T3DButtonDeferredRecipients" "AoMoverSmallDoor12:AoMoverSmallDoor"
+	"T3DButtonMatchedRecipients" "1"
+	"T3DButtonOutputStatus" "DEFERRED_UNSUPPORTED_RECIPIENTS"
+	"T3DClass" "AoObjectButtonPanel"
+	"T3DEvent" "L6"
+	"T3DName" "AoObjectButtonPanel9"
+	"T3DPanelModelMappingStatus" "SOURCE_MODEL_UNAVAILABLE_PANEL_PROP_NOT_GUESSED"
+	"T3DTag" "AoObjectButtonPanel"
+	"T3DUseRadius" "6.000000"
+	"targetname" "AoObjectButtonPanel9"
+	"useafterhack" "0"
+	"wait" "1"
+	"wirecolumns" "5"
+	"wirerows" "2"
+	connections
+	{
+		"OnButtonActivated" "AoMoverSmallDoor12RunScriptCodeNetProps.SetPropInt(self, `m_CollisionGroup`, 2);0-1"
+		"OnButtonActivated" "AoMoverSmallDoor12Open0.1-1"
+	}
+	solid
+	{
+		"id" "295080"
+		side
+		{
+			"id" "12409"
+			"plane" "(-1722.25 2005.14 -28) (-1691.14 2036.25 -28) (-1677 2022.11 -28)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[-0.707107 0.707107 0 14.894] 0.25"
+			"vaxis" "[0.707107 0.707107 0 11.1534] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "12408"
+			"plane" "(-1691.14 2036.25 -128) (-1722.25 2005.14 -128) (-1708.11 1991 -128)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[-0.707107 0.707107 0 14.894] 0.25"
+			"vaxis" "[0.707107 0.707107 0 11.1534] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "12407"
+			"plane" "(-1677 2022.11 -128) (-1708.11 1991 -128) (-1708.11 1991 -28)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[-0.707107 -0.707107 0 -11.1534] 0.25"
+			"vaxis" "[0 0 -1 -49.6957] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "12406"
+			"plane" "(-1722.25 2005.14 -128) (-1691.14 2036.25 -128) (-1691.14 2036.25 -28)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[-0.707107 -0.707107 0 -11.1534] 0.25"
+			"vaxis" "[0 0 -1 -49.6957] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "12405"
+			"plane" "(-1708.11 1991 -128) (-1722.25 2005.14 -128) (-1722.25 2005.14 -28)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[-0.707107 0.707107 0 14.8937] 0.25"
+			"vaxis" "[0 0 -1 -49.6957] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "12404"
+			"plane" "(-1691.14 2036.25 -128) (-1677 2022.11 -128) (-1677 2022.11 -28)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[-0.707107 0.707107 0 14.8937] 0.25"
+			"vaxis" "[0 0 -1 -49.6957] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 9000]"
+	}
+}
+entity
+{
+	"id" "295082"
+	"classname" "trigger_asw_button_area"
+	"changepanelskin" "1"
+	"DestroyHeldObject" "0"
+	"disableafteruse" "1"
+	"HoldTime" "-1"
+	"locked" "0"
+	"needstech" "1"
+	"nopower" "0"
+	"numwires" "2"
+	"origin" "-1732.64 1981.63 -78.01"
+	"playersrequired" "1"
+	"spawnflags" "16"
+	"StartDisabled" "0"
+	"T3DBAutoUseAfterUnlock" "False"
+	"T3DBUseOnceOnly" "True"
+	"T3DButtonConnectionsWritten" "0"
+	"T3DButtonDeferredRecipients" "AoMoverSmallDoor13:AoMoverSmallDoor"
+	"T3DButtonMatchedRecipients" "1"
+	"T3DButtonOutputStatus" "DEFERRED_UNSUPPORTED_RECIPIENTS"
+	"T3DClass" "AoObjectButtonPanel"
+	"T3DEvent" "L5"
+	"T3DName" "AoObjectButtonPanel10"
+	"T3DPanelModelMappingStatus" "SOURCE_MODEL_UNAVAILABLE_PANEL_PROP_NOT_GUESSED"
+	"T3DTag" "AoObjectButtonPanel"
+	"T3DUseRadius" "6.000000"
+	"targetname" "AoObjectButtonPanel10"
+	"useafterhack" "0"
+	"wait" "1"
+	"wirecolumns" "5"
+	"wirerows" "2"
+	connections
+	{
+		"OnButtonActivated" "AoMoverSmallDoor13Open0.1-1"
+		"OnButtonActivated" "AoMoverSmallDoor13RunScriptCodeNetProps.SetPropInt(self, `m_CollisionGroup`, 2);0-1"
+	}
+	solid
+	{
+		"id" "295083"
+		side
+		{
+			"id" "12421"
+			"plane" "(-1755.25 1973.14 -28) (-1724.14 2004.25 -28) (-1710 1990.11 -28)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[-0.707107 0.707107 0 12.0655] 0.25"
+			"vaxis" "[0.707107 0.707107 0 3.00113] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "12420"
+			"plane" "(-1724.14 2004.25 -128) (-1755.25 1973.14 -128) (-1741.11 1959 -128)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[-0.707107 0.707107 0 12.0655] 0.25"
+			"vaxis" "[0.707107 0.707107 0 3.00113] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "12419"
+			"plane" "(-1710 1990.11 -128) (-1741.11 1959 -128) (-1741.11 1959 -28)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[-0.707107 -0.707107 0 -3.00113] 0.25"
+			"vaxis" "[0 0 -1 -49.6957] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "12418"
+			"plane" "(-1755.25 1973.14 -128) (-1724.14 2004.25 -128) (-1724.14 2004.25 -28)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[-0.707107 -0.707107 0 -3.00113] 0.25"
+			"vaxis" "[0 0 -1 -49.6957] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "12417"
+			"plane" "(-1741.11 1959 -128) (-1755.25 1973.14 -128) (-1755.25 1973.14 -28)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[-0.707107 0.707107 0 12.0653] 0.25"
+			"vaxis" "[0 0 -1 -49.6957] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "12416"
+			"plane" "(-1724.14 2004.25 -128) (-1710 1990.11 -128) (-1710 1990.11 -28)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[-0.707107 0.707107 0 12.0653] 0.25"
+			"vaxis" "[0 0 -1 -49.6957] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 9000]"
+	}
+}
+entity
+{
+	"id" "303117"
+	"classname" "trigger_asw_button_area"
+	"changepanelskin" "1"
+	"DestroyHeldObject" "0"
+	"disableafteruse" "1"
+	"HoldTime" "-1"
+	"locked" "0"
+	"needstech" "1"
+	"nopower" "0"
+	"numwires" "2"
+	"origin" "-612.01 1858.99 -78.01"
+	"playersrequired" "1"
+	"spawnflags" "16"
+	"StartDisabled" "0"
+	"T3DBAutoUseAfterUnlock" "False"
+	"T3DBUseOnceOnly" "True"
+	"T3DButtonConnectionsWritten" "0"
+	"T3DButtonDeferredRecipients" "AoMoverSmallDoor8:AoMoverSmallDoor"
+	"T3DButtonMatchedRecipients" "1"
+	"T3DButtonOutputStatus" "DEFERRED_UNSUPPORTED_RECIPIENTS"
+	"T3DClass" "AoObjectButtonPanel"
+	"T3DEvent" "L4"
+	"T3DName" "AoObjectButtonPanel6"
+	"T3DPanelModelMappingStatus" "SOURCE_MODEL_UNAVAILABLE_PANEL_PROP_NOT_GUESSED"
+	"T3DTag" "AoObjectButtonPanel"
+	"T3DUseRadius" "6.000000"
+	"targetname" "AoObjectButtonPanel6"
+	"useafterhack" "0"
+	"wait" "1"
+	"wirecolumns" "5"
+	"wirerows" "2"
+	connections
+	{
+		"OnButtonActivated" "AoMoverSmallDoor8RunScriptCodeNetProps.SetPropInt(self, `m_CollisionGroup`, 2);0-1"
+		"OnButtonActivated" "AoMoverSmallDoor8Open0.1-1"
+	}
+	solid
+	{
+		"id" "303118"
+		side
+		{
+			"id" "12433"
+			"plane" "(-622 1837 -28) (-621.998 1881 -28) (-601.999 1881 -28)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[-1 0 0 -58.4263] 0.25"
+			"vaxis" "[0 1 0 -8.71069] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "12432"
+			"plane" "(-622 1881 -128) (-621.997 1837 -128) (-601.999 1837 -128)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[-1 0 0 -58.4263] 0.25"
+			"vaxis" "[0 1 0 -8.71069] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "12431"
+			"plane" "(-602.002 1881 -128) (-602.002 1837.01 -128) (-602.002 1837.01 -28)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 -1 0 8.71069] 0.25"
+			"vaxis" "[0 0 -1 -49.6957] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "12430"
+			"plane" "(-622 1837.01 -128) (-621.998 1881 -128) (-621.997 1881 -28)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 -1 0 8.71069] 0.25"
+			"vaxis" "[0 0 -1 -49.6957] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "12429"
+			"plane" "(-601.999 1837 -128) (-621.996 1837 -128) (-621.997 1837 -28)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[-1 0 0 -58.4263] 0.25"
+			"vaxis" "[0 0 -1 -49.6957] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "12428"
+			"plane" "(-621.997 1881 -128) (-601.999 1881 -128) (-601.999 1881 -28)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[-1 0 0 -58.4263] 0.25"
+			"vaxis" "[0 0 -1 -49.6957] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 9000]"
+	}
+}
+entity
+{
+	"id" "303129"
+	"classname" "trigger_asw_button_area"
+	"changepanelskin" "1"
+	"DestroyHeldObject" "0"
+	"disableafteruse" "1"
+	"HoldTime" "-1"
+	"locked" "0"
+	"needstech" "1"
+	"nopower" "0"
+	"numwires" "2"
+	"origin" "-613.01 1901.99 -78.01"
+	"playersrequired" "1"
+	"spawnflags" "16"
+	"StartDisabled" "0"
+	"T3DBAutoUseAfterUnlock" "False"
+	"T3DBUseOnceOnly" "True"
+	"T3DButtonConnectionsWritten" "0"
+	"T3DButtonDeferredRecipients" "AoMoverSmallDoor9:AoMoverSmallDoor"
+	"T3DButtonMatchedRecipients" "1"
+	"T3DButtonOutputStatus" "DEFERRED_UNSUPPORTED_RECIPIENTS"
+	"T3DClass" "AoObjectButtonPanel"
+	"T3DEvent" "L3"
+	"T3DName" "AoObjectButtonPanel5"
+	"T3DPanelModelMappingStatus" "SOURCE_MODEL_UNAVAILABLE_PANEL_PROP_NOT_GUESSED"
+	"T3DTag" "AoObjectButtonPanel"
+	"T3DUseRadius" "6.000000"
+	"targetname" "AoObjectButtonPanel5"
+	"useafterhack" "0"
+	"wait" "1"
+	"wirecolumns" "5"
+	"wirerows" "2"
+	connections
+	{
+		"OnButtonActivated" "AoMoverSmallDoor9RunScriptCodeNetProps.SetPropInt(self, `m_CollisionGroup`, 2);0-1"
+		"OnButtonActivated" "AoMoverSmallDoor9Open0.1-1"
+	}
+	solid
+	{
+		"id" "303130"
+		side
+		{
+			"id" "12445"
+			"plane" "(-623.001 1880 -28) (-622.999 1924 -28) (-603 1924 -28)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[-1 0 0 -62.4292] 0.25"
+			"vaxis" "[0 1 0 -52.7107] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "12444"
+			"plane" "(-623.001 1924 -128) (-622.998 1880 -128) (-603 1880 -128)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[-1 0 0 -62.4292] 0.25"
+			"vaxis" "[0 1 0 -52.7107] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "12443"
+			"plane" "(-603.003 1924 -128) (-603.003 1880.01 -128) (-603.003 1880.01 -28)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 -1 0 52.7107] 0.25"
+			"vaxis" "[0 0 -1 -49.6957] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "12442"
+			"plane" "(-623.001 1880.01 -128) (-622.999 1924 -128) (-622.998 1924 -28)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 -1 0 52.7107] 0.25"
+			"vaxis" "[0 0 -1 -49.6957] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "12441"
+			"plane" "(-603 1880 -128) (-622.997 1880 -128) (-622.998 1880 -28)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[-1 0 0 -62.4292] 0.25"
+			"vaxis" "[0 0 -1 -49.6957] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "12440"
+			"plane" "(-622.998 1924 -128) (-603 1924 -128) (-603 1924 -28)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[-1 0 0 -62.4292] 0.25"
+			"vaxis" "[0 0 -1 -49.6957] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 9000]"
+	}
+}
+entity
+{
+	"id" "303132"
+	"classname" "trigger_asw_button_area"
+	"changepanelskin" "1"
+	"DestroyHeldObject" "0"
+	"disableafteruse" "1"
+	"HoldTime" "-1"
+	"locked" "0"
+	"needstech" "1"
+	"nopower" "0"
+	"numwires" "2"
+	"origin" "-611.01 1997.99 -78.01"
+	"playersrequired" "1"
+	"spawnflags" "16"
+	"StartDisabled" "0"
+	"T3DBAutoUseAfterUnlock" "False"
+	"T3DBUseOnceOnly" "True"
+	"T3DButtonConnectionsWritten" "1"
+	"T3DButtonDeferredRecipients" "AoMoverSmallDoor7:AoMoverSmallDoor"
+	"T3DButtonMatchedRecipients" "2"
+	"T3DButtonOutputStatus" "PARTIALLY_WIRED"
+	"T3DClass" "AoObjectButtonPanel"
+	"T3DEvent" "l1"
+	"T3DName" "AoObjectButtonPanel3"
+	"T3DPanelModelMappingStatus" "SOURCE_MODEL_UNAVAILABLE_PANEL_PROP_NOT_GUESSED"
+	"T3DTag" "AoObjectButtonPanel"
+	"T3DUseRadius" "6.000000"
+	"targetname" "AoObjectButtonPanel3"
+	"useafterhack" "0"
+	"wait" "1"
+	"wirecolumns" "5"
+	"wirerows" "2"
+	connections
+	{
+		"OnButtonActivated" "AoMoverSmallDoor7RunScriptCodeNetProps.SetPropInt(self, `m_CollisionGroup`, 2);0-1"
+		"OnButtonActivated" "AoMoverSmallDoor7Open0.1-1"
+	}
+	solid
+	{
+		"id" "303133"
+		side
+		{
+			"id" "12463"
+			"plane" "(-621.001 1976 -28) (-621 2020 -28) (-601.001 2020 -28)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[-1 0 0 -54.4321] 0.25"
+			"vaxis" "[0 1 0 -52.7068] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "12462"
+			"plane" "(-621.001 2019.99 -128) (-620.999 1976 -128) (-601.001 1976 -128)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[-1 0 0 -54.4321] 0.25"
+			"vaxis" "[0 1 0 -52.7068] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "12461"
+			"plane" "(-601.004 2020 -128) (-601.004 1976 -128) (-601.004 1976 -28)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 -1 0 52.7068] 0.25"
+			"vaxis" "[0 0 -1 -49.6957] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "12460"
+			"plane" "(-621.001 1976 -128) (-621 2020 -128) (-620.999 2020 -28)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 -1 0 52.7068] 0.25"
+			"vaxis" "[0 0 -1 -49.6957] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "12459"
+			"plane" "(-601.001 1976 -128) (-620.998 1976 -128) (-620.999 1976 -28)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[-1 0 0 -54.4321] 0.25"
+			"vaxis" "[0 0 -1 -49.6957] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "12458"
+			"plane" "(-620.999 2020 -128) (-601.001 2020 -128) (-601.001 2020 -28)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[-1 0 0 -54.4321] 0.25"
+			"vaxis" "[0 0 -1 -49.6957] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 9000]"
+	}
+}
+entity
+{
+	"id" "303135"
+	"classname" "trigger_asw_button_area"
+	"changepanelskin" "1"
+	"DestroyHeldObject" "0"
+	"disableafteruse" "1"
+	"HoldTime" "-1"
+	"locked" "0"
+	"needstech" "1"
+	"nopower" "0"
+	"numwires" "2"
+	"origin" "-610.01 1954.99 -78.01"
+	"playersrequired" "1"
+	"spawnflags" "16"
+	"StartDisabled" "0"
+	"T3DBAutoUseAfterUnlock" "False"
+	"T3DBUseOnceOnly" "True"
+	"T3DButtonConnectionsWritten" "0"
+	"T3DButtonDeferredRecipients" "AoMoverSmallDoor6:AoMoverSmallDoor"
+	"T3DButtonMatchedRecipients" "1"
+	"T3DButtonOutputStatus" "DEFERRED_UNSUPPORTED_RECIPIENTS"
+	"T3DClass" "AoObjectButtonPanel"
+	"T3DEvent" "l2"
+	"T3DName" "AoObjectButtonPanel7"
+	"T3DPanelModelMappingStatus" "SOURCE_MODEL_UNAVAILABLE_PANEL_PROP_NOT_GUESSED"
+	"T3DTag" "AoObjectButtonPanel"
+	"T3DUseRadius" "6.000000"
+	"targetname" "AoObjectButtonPanel7"
+	"useafterhack" "0"
+	"wait" "1"
+	"wirecolumns" "5"
+	"wirerows" "2"
+	connections
+	{
+		"OnButtonActivated" "AoMoverSmallDoor6RunScriptCodeNetProps.SetPropInt(self, `m_CollisionGroup`, 2);0-1"
+		"OnButtonActivated" "AoMoverSmallDoor6Open0.1-1"
+	}
+	solid
+	{
+		"id" "303136"
+		side
+		{
+			"id" "12469"
+			"plane" "(-620.001 1933 -28) (-619.999 1977 -28) (-600 1977 -28)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[-1 0 0 -50.4292] 0.25"
+			"vaxis" "[0 1 0 -8.70679] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "12468"
+			"plane" "(-620.001 1976.99 -128) (-619.998 1933 -128) (-600 1933 -128)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[-1 0 0 -50.4292] 0.25"
+			"vaxis" "[0 1 0 -8.70679] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "12467"
+			"plane" "(-600.003 1977 -128) (-600.003 1933 -128) (-600.003 1933 -28)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 -1 0 8.70679] 0.25"
+			"vaxis" "[0 0 -1 -49.6957] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "12466"
+			"plane" "(-620.001 1933 -128) (-619.999 1977 -128) (-619.998 1977 -28)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 -1 0 8.70679] 0.25"
+			"vaxis" "[0 0 -1 -49.6957] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "12465"
+			"plane" "(-600 1933 -128) (-619.997 1933 -128) (-619.998 1933 -28)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[-1 0 0 -50.4292] 0.25"
+			"vaxis" "[0 0 -1 -49.6957] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "12464"
+			"plane" "(-619.998 1977 -128) (-600 1977 -128) (-600 1977 -28)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[-1 0 0 -50.4292] 0.25"
+			"vaxis" "[0 0 -1 -49.6957] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 9000]"
 	}
 }
 cameras

@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "overlays/ut2004/sigma/subprocessing"
+	"$translucent" 1
+}
