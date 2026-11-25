@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7397"
-	"mapversion" "472"
+	"mapversion" "473"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "472"
+	"mapversion" "473"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -150630,8 +150630,8 @@ entity
 	"id" "268151"
 	"classname" "asw_marker"
 	"angles" "0 0 0"
-	"mapheight" "100"
-	"mapwidth" "100"
+	"mapheight" "256"
+	"mapwidth" "256"
 	"objectivename" "FindMeddeckFiles0"
 	"StartDisabled" "0"
 	"targetname" "marker_download"
