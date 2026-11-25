@@ -1,0 +1,14 @@
+GAME
+{
+	// The headline of the news article.
+	"Headline"		"Colony Status Report"
+
+	// The date of the news article is in MM/DD/YY format for English.
+	// Check existing translations for other languages for their format.
+	"HeadlineDate"		"05/29/82"
+
+	// There can be up to 4 paragraphs in a news article.
+	"Paragraph1"		"Cargo bay - condition orange, power failure detected.  Recommend repair team.  South airlock - functioning within acceptable limits.  Main access corridors - unknown lifeforms detected, recommend security and hazmat team.  Central command - warning, absence of command staff detected, violation of colony command protocol 15363.  Forward observation - atmospheric intrustion detected, recommend sealing of facility until repairs can be made."
+	"Paragraph2"		"Subprocessing access way - condition orange, venting high temperature gases due to failure in parent system.  Subprocessing access vents - condition red, major infestation of unknown biological material.  Recommend security team seal off area and contact IAF immediately.  Databank area 1 - condition red, massive infestation of alien lifeforms causing ruptured cooling systems, data lines and power conduits.  Colony condition critical."
+	"Paragraph3"		"Automated distress signal active, the Interstellar Armed Forces have been notified of present conditions."
+}

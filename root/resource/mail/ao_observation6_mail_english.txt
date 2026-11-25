@@ -1,0 +1,8 @@
+GAME
+{
+"MailFrom1"	"Reports - Abrahams, Colony Human Resources."
+"MailDate1"	"Date: ..."
+"MailSubject1"	"Subject: Colony Report #8263"
+"MailBody1A"	"Power's out in subprocessing again.  I'll have to send Jones down there to fix it up."
+"MailBody1B"	"I just know he's going to bitch at me again, he hates the heat down there.  Still, we all have a job to do, right?"
+}

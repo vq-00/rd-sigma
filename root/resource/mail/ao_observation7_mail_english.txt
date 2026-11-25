@@ -1,0 +1,9 @@
+GAME
+{
+"MailFrom1"	"Central Process Node Alpha/B2"
+"MailDate1"	"Date: ..."
+"MailSubject1"	"Subject: Database malfunction.  Please proceed to sub-processing level 2 for direct memory bank access."
+"MailBody1A"	"Diagnostics reports malfunctions in transfer conduits 76 through 84 for reasons unknown."
+"MailBody1B"	"Have a nice day."
+"MailBody1C"	"Colony Central Processing Unit provided by SynTek Megacorporation."
+}

@@ -1,0 +1,9 @@
+GAME
+{
+"MailFrom1"	"Pete"
+"MailDate1"	"Date: 29th May 2182"
+"MailSubject1"	"Subject: Solar phenomena"
+"MailBody1A"	"Hey James, did you notice how dark it was yesterday afternoon?  Our long range telescopes picked up something interesting.  We thought at first it might be a partial solar eclipse from one of the orbiting moons."
+"MailBody1B"	"After a closer look, it seems like something big was moving past the line of sight to our star.  We're not sure what.  We sent a message back to the company, maybe they'll send a survey ship to check it out."
+"MailBody1C"	"I know, I know, they won't lift a finger, but it doesn't hurt to try.  -Pete"
+}

@@ -1,0 +1,7 @@
+GAME
+{
+"MailFrom1"	"Personal Log - James Henson, Surface Exploration Team."
+"MailDate1"	"Date: 14th June 2182"
+"MailSubject1"	"Subject: ..."
+"MailBody1A"	"What the hell is going on here?  I get back from a routine sector survey and this place has gone to shit!?  Where is everyone?"
+}

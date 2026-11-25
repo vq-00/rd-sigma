@@ -1,0 +1,9 @@
+GAME
+{
+"MailFrom1"	"Survey drone 38 log"
+"MailDate1"	"Date: ..."
+"MailSubject1"	"Subject: Incoming survey drone report"
+"MailBody1A"	"X654: Reached destination, performing surface deposits collection"
+"MailBody1B"	"X726: Critical damage to external components"
+"MailBody1C"	"X983: Case breach detected #*Kj4239(****"
+}

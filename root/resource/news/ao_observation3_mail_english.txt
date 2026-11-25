@@ -1,0 +1,12 @@
+GAME
+{
+	// The headline of the news article.
+	"Headline"		"Atmospheric data"
+
+	// The date of the news article is in MM/DD/YY format for English.
+	// Check existing translations for other languages for their format.
+	"HeadlineDate"		"05/29/82"
+
+	// There can be up to 4 paragraphs in a news article.
+	"Paragraph1"		"Exterior atmosphere reports normal.  Major elements all within acceptable limits for human breathable air."
+}
