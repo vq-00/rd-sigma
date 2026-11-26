@@ -8,7 +8,7 @@ GAME
 	"mapyoffset" "0"
 	"missiontitle"		"Research"
 	"description"	"Command has interest in the nature of SynTek's research on Sigma 612.  Using the information supplied by Lt Williams, we have located the corporation's main medical facilities."
-	"image"		""
+	"image"		"swarm/MissionPics/ao-research"
 	"version"		"1"
 	"author"		"vq"
 	"builtin"		"0"

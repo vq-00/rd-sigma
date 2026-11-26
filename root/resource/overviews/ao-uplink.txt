@@ -1,0 +1,17 @@
+GAME
+{
+	"pos_x"	"-7832"
+	"pos_y"	"6307"
+	"scale"	"12"
+	"material" "vgui/swarm/overviews/ao-uplinkoverview"
+	"briefingmaterial" "vgui/swarm/overviews/ao-uplinkoverview"
+	"mapyoffset" "0"
+	"missiontitle"		"Uplink"
+	"description"	"Command must be made aware of the information recovered from SynTek's medical facilities. Sweep north and east towards the uplink.  A Tech marine will be required to align the dish."
+	"image"		"swarm/MissionPics/ao-uplink"
+	"version"		"1"
+	"author"		"vq"
+	"builtin"		"0"
+	"regional_material"	"retrieved_documents"
+	"website"		""
+}

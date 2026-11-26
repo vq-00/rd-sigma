@@ -8,7 +8,7 @@ GAME
 	"mapyoffset" "0"
 	"missiontitle"		"Salvage"
 	"description"	"The main warehouses could allow us to establish an important forward base and re-supply point for the campaign. Proceed to the warehouse compound and assess the value of the facility."
-	"image"		""
+	"image"		"swarm/MissionPics/ao-salvage"
 	"version"		"1"
 	"author"		"vq"
 	"builtin"		"0"

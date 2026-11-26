@@ -8,7 +8,7 @@ GAME
 	"mapyoffset" "0"
 	"missiontitle"		"Barracks"
 	"description"	"The first of our primary targets, the Planetary Defence Force (PDF) barracks.  Command needs a full copy of the data stored in their tactical systems.  This data chronicles the Swarm attacks and PDF defence procedures, in full. The main entrance to the barracks has been overrun.  Blueprints show another entrance, but due to extensive damage sustained during Swarm attacks, several connecting corridors and facilities have become inaccessible.  Your squad will be deployed in two teams, south of the main building.  You are to sweep north and locate this alternative entrance."
-	"image"		""
+	"image"		"swarm/MissionPics/ao-barracks"
 	"version"		"1"
 	"author"		"vq"
 	"builtin"		"0"

@@ -8,7 +8,7 @@ GAME
 	"mapyoffset" "0"
 	"missiontitle"		"Reactor Core"
 	"description"	"The primary reactor that supplies both the main compound and surrounding facilities has been severely damaged.  Local sensors indicate an 85% chance of critical failure, leading to meltdown, occurring within the hour."
-	"image"		""
+	"image"		"swarm/MissionPics/ao-reactorcore"
 	"version"		"1"
 	"author"		"vq"
 	"builtin"		"0"

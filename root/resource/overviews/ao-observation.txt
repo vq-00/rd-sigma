@@ -8,7 +8,7 @@ GAME
 	"mapyoffset" "0"
 	"missiontitle"		"Observation"
 	"description"	"Sigma 612's Deep Space Observatory is our final target.  Command requires a complete copy of the facility's data archives.  Security lockdowns have disabled all remote access; your team must enter the archives and download the files manually.  The data has been classified Top Secret, you don't need to know what it contains, just bring it back here."
-	"image"		""
+	"image"		"swarm/MissionPics/ao-observation"
 	"version"		"1"
 	"author"		"vq"
 	"builtin"		"0"
