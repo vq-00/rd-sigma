@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7397"
-	"mapversion" "533"
+	"mapversion" "535"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "533"
+	"mapversion" "535"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -128788,7 +128788,7 @@ entity
 	"angles" "0 0 0"
 	"autoopen" "0"
 	"CanCloseToWeld" "1"
-	"CanPlayerWeld" "1"
+	"CanPlayerWeld" "0"
 	"CustomMaxHealth" "1800"
 	"distance" "64"
 	"DoBreachedShout" "1"
@@ -128831,7 +128831,7 @@ entity
 	"angles" "0 180 0"
 	"autoopen" "0"
 	"CanCloseToWeld" "1"
-	"CanPlayerWeld" "1"
+	"CanPlayerWeld" "0"
 	"CustomMaxHealth" "1800"
 	"distance" "60"
 	"DoBreachedShout" "1"
@@ -129066,7 +129066,7 @@ entity
 	"angles" "0 0 0"
 	"autoopen" "0"
 	"CanCloseToWeld" "1"
-	"CanPlayerWeld" "1"
+	"CanPlayerWeld" "0"
 	"CustomMaxHealth" "1800"
 	"distance" "68"
 	"DoBreachedShout" "1"
@@ -129109,7 +129109,7 @@ entity
 	"angles" "0 180 0"
 	"autoopen" "0"
 	"CanCloseToWeld" "1"
-	"CanPlayerWeld" "1"
+	"CanPlayerWeld" "0"
 	"CustomMaxHealth" "1800"
 	"distance" "64"
 	"DoBreachedShout" "1"
@@ -129344,7 +129344,7 @@ entity
 	"angles" "0 -90 0"
 	"autoopen" "0"
 	"CanCloseToWeld" "1"
-	"CanPlayerWeld" "1"
+	"CanPlayerWeld" "0"
 	"CustomMaxHealth" "1800"
 	"distance" "64"
 	"DoBreachedShout" "1"
@@ -129388,7 +129388,7 @@ entity
 	"angles" "0 90 0"
 	"autoopen" "0"
 	"CanCloseToWeld" "1"
-	"CanPlayerWeld" "1"
+	"CanPlayerWeld" "0"
 	"CustomMaxHealth" "1800"
 	"distance" "64"
 	"DoBreachedShout" "1"
@@ -129710,7 +129710,7 @@ entity
 	"angles" "0 0 0"
 	"autoopen" "0"
 	"CanCloseToWeld" "1"
-	"CanPlayerWeld" "1"
+	"CanPlayerWeld" "0"
 	"CustomMaxHealth" "1800"
 	"distance" "68"
 	"DoBreachedShout" "1"
@@ -129753,7 +129753,7 @@ entity
 	"angles" "0 180 0"
 	"autoopen" "0"
 	"CanCloseToWeld" "1"
-	"CanPlayerWeld" "1"
+	"CanPlayerWeld" "0"
 	"CustomMaxHealth" "1800"
 	"distance" "64"
 	"DoBreachedShout" "1"
@@ -129915,7 +129915,7 @@ entity
 	"angles" "0 -180 0"
 	"autoopen" "0"
 	"CanCloseToWeld" "1"
-	"CanPlayerWeld" "1"
+	"CanPlayerWeld" "0"
 	"CustomMaxHealth" "1800"
 	"distance" "64"
 	"DoBreachedShout" "1"
@@ -129955,7 +129955,7 @@ entity
 	"angles" "0 0 0"
 	"autoopen" "0"
 	"CanCloseToWeld" "1"
-	"CanPlayerWeld" "1"
+	"CanPlayerWeld" "0"
 	"CustomMaxHealth" "1800"
 	"distance" "64"
 	"DoBreachedShout" "1"
@@ -131405,7 +131405,7 @@ entity
 	"angles" "0 90 0"
 	"autoopen" "0"
 	"CanCloseToWeld" "1"
-	"CanPlayerWeld" "1"
+	"CanPlayerWeld" "0"
 	"currentsealtime" "0"
 	"CustomDentPercentage" "0"
 	"CustomMaxHealth" "1800"
@@ -135977,7 +135977,7 @@ entity
 	"angles" "0 -90 0"
 	"autoopen" "0"
 	"CanCloseToWeld" "1"
-	"CanPlayerWeld" "1"
+	"CanPlayerWeld" "0"
 	"CustomMaxHealth" "1800"
 	"distance" "64"
 	"DoBreachedShout" "1"
@@ -136020,7 +136020,7 @@ entity
 	"angles" "0 90 0"
 	"autoopen" "0"
 	"CanCloseToWeld" "1"
-	"CanPlayerWeld" "1"
+	"CanPlayerWeld" "0"
 	"CustomMaxHealth" "1800"
 	"distance" "64"
 	"DoBreachedShout" "1"
@@ -147108,6 +147108,10 @@ entity
 	"T3DTag" "FoundWilliams"
 	"targetname" "ExploreLocationObjective0"
 	"Visible" "1"
+	connections
+	{
+		"OnObjectiveComplete" "tech_reqDisableTechMarineReq0-1"
+	}
 	"origin" "-5253.9 -1877.37 908"
 	editor
 	{
@@ -155645,7 +155649,7 @@ entity
 	"angles" "0 0 0"
 	"autoopen" "0"
 	"CanCloseToWeld" "1"
-	"CanPlayerWeld" "1"
+	"CanPlayerWeld" "0"
 	"CustomMaxHealth" "1800"
 	"distance" "64"
 	"DoBreachedShout" "1"
@@ -155687,7 +155691,7 @@ entity
 	"angles" "0 180 0"
 	"autoopen" "0"
 	"CanCloseToWeld" "1"
-	"CanPlayerWeld" "1"
+	"CanPlayerWeld" "0"
 	"CustomMaxHealth" "1800"
 	"distance" "64"
 	"DoBreachedShout" "1"
@@ -164889,6 +164893,21 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[-15768 14500]"
+	}
+}
+entity
+{
+	"id" "418871"
+	"classname" "asw_tech_marine_req"
+	"StatsMusicFailure" "asw_song.StatsFailTech"
+	"targetname" "tech_req"
+	"origin" "-5255 -1846 908"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[-15768 7500]"
 	}
 }
 cameras

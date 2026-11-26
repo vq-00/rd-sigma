@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7397"
-	"mapversion" "651"
+	"mapversion" "652"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "651"
+	"mapversion" "652"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -165872,7 +165872,8 @@ entity
 	"id" "101771"
 	"classname" "asw_objective_triggered"
 	"angles" "0 -90 0"
-	"objectivedescription1" "Williams' information regarding the main warehouses could allow us to establish an important forward base and re-supply point for the campaign.  Proceed to the warehouse compound and assess the value of the facility.   Williams reports that the facility's laser mine defences have been activated, so be careful."
+	"objectivedescription1" "Williams' information regarding the main warehouses could allow us to establish an important forward base and re-supply point for the campaign.  Proceed to the warehouse compound and assess the value of the facility."
+	"objectivedescription2" "Williams reports that the facility's laser mine defences have been activated, so be careful."
 	"objectiveimage" "ao-salvage-1"
 	"objectivetitle" "Open connecting door to Cargo Bay C."
 	"T3DClass" "AoTriggeredObjective"
